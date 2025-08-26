@@ -1,0 +1,33 @@
+body {
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    background-color:black;
+}
+
+h2 {
+    color:coral;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color:black;
+}
+
+p {
+    color:black;
+    border-left: 3px solid orange;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 150px;
+    border: 2px solid gold;
+    padding: 5px;
+    margin-bottom: 20px;
+}
