@@ -81,3 +81,10 @@ body {
 .caja a:hover {
     background-color: #f06292;
 }
+.pie {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
