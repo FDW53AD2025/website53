@@ -25,3 +25,14 @@ img {
     border: 2px solid gold;
     margin-bottom: 20px;
 }
+
+table {
+    border: 2px solid gold;
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+strong{
+    color:white;
+    background-color: black;
+}
