@@ -1,0 +1,39 @@
+body {
+    background-color:whitesmoke;
+}
+
+h1 {
+    color:white;
+    border-bottom: 2px solid orange;
+    background-color:black;
+}
+
+h2 {
+    color:coral;
+    border: 1px solid gray;
+    background-color:black;
+}
+
+p {
+    color:black;
+    border-left: 3px solid orange;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 150px;
+    border: 2px solid gold;
+    margin-bottom: 20px;
+}
+
+table {
+    border: 3px solid gold;
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+
+strong{
+    color:white;
+    background-color: black;
+}
