@@ -5,3 +5,36 @@ body {
     background: linear-gradient(135deg, #f9d6f7, #e4b1f7);
     color: #4a006d;
 }
+.encabezado {
+    background-color: #a23dc5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f48fb1;
+}
+
+.titulo-principal {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Menú de navegación */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffb6e9;
+}
