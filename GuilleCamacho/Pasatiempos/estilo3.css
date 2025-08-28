@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+
+header h1 {
+    color: orange;
+}
+
+nav a {
+    color: white;
+}
