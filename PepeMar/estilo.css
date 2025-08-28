@@ -12,12 +12,12 @@ body {
     color: #2f3640;
     display: grid;
     grid-template-areas:
-        "header header"
-        "aside main"
-        "footer footer";
-    grid-template-columns: 250px 1fr;
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    min-height: 30vh;
 }
 
 /* Header */
@@ -27,7 +27,6 @@ header {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1.5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 header h1 {
@@ -37,16 +36,46 @@ header h1 {
 
 /* Main */
 main {
-    grid-area: main;
-    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: #6d7bb6;
+    min-height: 100%; /* ocupa todo el espacio asignado */
 }
 
-/* Footer */
-footer {
-    grid-area: footer;
-    background: #353b48;
-    color: white;
+.practica {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;    
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    gap: 8px;
+    width: 200px;            
+}
+
+.link-commit {
+    display: block;          
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.boton-practica {
+    display: block;
+    width: 100%;          
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-practica:hover {
+    background-color: #0056b3; 
 }
