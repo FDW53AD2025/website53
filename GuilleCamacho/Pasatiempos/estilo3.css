@@ -32,3 +32,10 @@ article, aside, section {
     background-color:white;
     border: 1px double gold;
 }
+
+
+video{
+    width: 500px;
+    border: 2px solid gold;
+    margin-bottom: 20px; 
+}
