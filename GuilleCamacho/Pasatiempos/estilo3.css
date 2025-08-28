@@ -1,14 +1,13 @@
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: black;
+    color: orange;
     text-align: center;
 }
 
 header h1 {
-    color: #f39c12;
+    color: orange;
 }
 
 nav a {
     color: white;
-    font-weight: bold;
 }
