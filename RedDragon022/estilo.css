@@ -1,0 +1,35 @@
+.titulo-centrado {
+    text-align: center;
+    background-color: rgb(64, 5, 119);
+    color: rgb(9, 255, 0);
+    border: 1px solid black;
+    margin: 10px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ccc;
+    font-family: "EB Garamond", serif;
+}
+.banner-superior {
+    background-color: #9400d3; /* Color morado */
+    color: white; /* Color de la letra */
+    padding: 15px; /* Espacio interno para que el texto no se pegue a los bordes */
+    width: 80%; /* Acorta el ancho al 80% de la pantalla */
+    margin: 0 auto; /* Centra la caja horizontalmente */
+    text-align: center; /* Centra el texto dentro de la caja */
+    border: ;
+}
+/*uso del border
+.banner-superior {
+    background-color: #9400d3;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    AQUI es donde agregamos el borde
+    border: 3px solid #ffcc00; Un borde amarillo-naranja 
+    border: [ancho] [estilo] [color];
+    */
+ 
