@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="estilos.css">
     <header>
     <nav>
-        <img src="https://www.fightersgeneration.com/characters3/spidersense.gif" alt="Encabezado">
-            <a href="comics.html"><mark><b>Comic favorito</b></mark></a>
-            <a href="videojuegos.html"><mark><b>Videojuegos favorito</b></mark></a>
-            <a href="series.html"><mark><b>Series favoritas</b></mark></a>
-            <a href="musica.html"><mark><b>Cancion favorita</b></mark></a>
-        <img src="https://www.fightersgeneration.com/characters/m-venom.gif" alt="Venom encabezado">
-         <br>
+        <table>
+            <tr>
+                <th><img src="https://www.fightersgeneration.com/characters3/spidersense.gif" alt="Encabezado"></th>
+                <th><a href="comics.html"><mark><b>Comic favorito</b></mark></a></th>
+                <th><a href="series.html"><mark><b>Series favoritas</b></mark></a></th>
+            </tr>
+            <tr>
+                <td rowspan="3"><img src="https://www.fightersgeneration.com/characters/m-venom.gif" alt="Venom encabezado"></td>
+                <th><a href="musica.html"><mark><b>Cancion favorita</b></mark></a></th>
+                <th><a href="videojuegos.html"><mark><b>Videojuegos favorito</b></mark></a></th>
+            </tr>
+        </table>
     </nav>   
     </header>
 </head>
@@ -36,7 +41,41 @@
         <p>Discord: frixar118</p>
     </aside>
     <footer>
-        <p>© 2025 - Frixar118🕷️</p>
+
+        <table>
+            <colgroup>
+            <col class="primera" />
+            <col class="segunda" />
+            <col class="tercera" />
+        </colgroup>
+
+        <thead>
+        <tr>
+            <th><p>Marvel Comics</p></th>
+            <th><p>DC</p></th>
+            <th><p>Epic Games</p></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td><p>Fortnite</p></td>
+            <td><p>TOP</p></td>
+            <td><p>MF DOOM</p></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+            <td colspan="3"><img src="https://www.fightersgeneration.com/characters3/spidey-dashing.gif" alt="SP"></td>
+        </tr>
+        <tr>
+            <td><p>©</p></td>
+            <td><p>2025 - Frixar118🕷️</p></td>
+            <td></td>
+            </tr>
+            </tfoot>
+        </table>
     </footer>
 </body>
 </html>

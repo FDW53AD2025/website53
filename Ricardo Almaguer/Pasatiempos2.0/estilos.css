@@ -4,7 +4,7 @@ body{
 
 h1 {
   color: white;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px rgb(255, 0, 0);
 }
 
 h2{
@@ -32,3 +32,15 @@ img{
     padding: 2px 4px;
     border-radius: 3px;
   }
+
+.primera {
+   background: rgba(45, 177, 221, 0.432); 
+  }
+.segunda { 
+  background: rgba(6, 93, 255, 0.37); 
+}
+.tercera { 
+  background: rgba(50, 15, 207, 0.384); 
+}
+
+
