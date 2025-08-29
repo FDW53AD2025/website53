@@ -43,4 +43,11 @@ img{
   background: rgba(50, 15, 207, 0.384); 
 }
 
+form {
+  background-color: rgb(28, 100, 255);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 350px;
+}
 
