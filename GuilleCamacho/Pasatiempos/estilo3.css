@@ -5,7 +5,7 @@ header {
 }
 
 header h1 {
-    color: orange;
+    color: coral;
 }
 
 nav a {
@@ -46,4 +46,21 @@ embed{
     width: 600px;
     border: 2px solid tomato;
     margin-bottom: 20px; 
+}
+
+h2, h3{
+    color:coral;
+    border: 1px solid gray;
+    background-color:black;
+}
+
+p {
+    color:black;
+    border-left: 3px solid orange;
+    margin-bottom: 10px;
+}
+
+strong{
+    color:white;
+    background-color: black;
 }
