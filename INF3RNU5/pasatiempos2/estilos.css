@@ -1,0 +1,19 @@
+body{
+    background-color: mediumorchid;
+}
+
+h1 {
+    color: lightpink;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+p{
+    color: darkslategray;
+}
+
+img{
+    border: 20px solid lightcoral;
+}

@@ -1,0 +1,49 @@
+.headersone {
+    color: #FAE8EB;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
+    color: #f9f9f9;
+}
+
+.imagenesBuenas{
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.imagenesBuenas img {
+    width: 300px;
+}
+
+
+body {
+    background-color: #272727;
+}
+
+nav {
+    background-color: #F6CACA;
+    padding: 10px;
+}
+
+.listas {
+
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #E4C2C6;
+    margin-left: 20px;
+}

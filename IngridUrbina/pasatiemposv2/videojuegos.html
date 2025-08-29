@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #e8e8e8; 
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3b3b6d; 
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #dcdcdc;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #5a5a8d;
+            color: #fff;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        img {
+            max-width: 300px;
+            display: block;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 2px solid #aaa; /* gris */
+        }
+
+        h2, h3 {
+            color: #3b3b6d; /* azul oscuro */
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: #3b3b6d;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5a5a8d;
+        }
+
+        aside {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-left: 5px solid #3b3b6d;
+            border-radius: 8px;
+        }
+
+        mark {
+            background-color: #c0c0ff;
+            font-weight: bold;
+        }
+
+        span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        sub {
+            color: #555;
+        }
+
+        sup {
+            color: #555;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #888;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #dcdcdc;
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi pasatiempo: Videojuegos</h1>
+        <nav>
+            <a href="index.html">Página principal</a>
+            <a href="../index.html">Mi página de Evidencias</a>
+            <a href="maquillaje.html">Maquillaje</a>
+            <a href="series.html">Series</a>
+            <a href="videojuegos.html">Videojuegos</a>
+            <a href="musica.html">Música</a>
+            <a href="cocina.html">Cocinar</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Por qué me gustan los videojuegos</h2>
+        <p>Me encantan los videojuegos porque me permiten <em>desconectarme</em> del mundo real y explorar <span>mundos fantásticos</span>.  
+        Algunos de mis favoritos son <strong>The Legend of Zelda</strong> y <b>Minecraft</b>.</p>
+
+        <img src="https://www.pluggedin.com/wp-content/uploads/2020/01/the-sims-4-review-image-1024x587.jpg" alt="Imagen de videojuegos">
+
+        <p>Mi puntuación más alta en mi juego favorito es 120<sub>pts</sub>, y en torneos alcancé hasta 2<sup>do</sup> lugar.</p>
+
+        <p>Es importante equilibrar el tiempo de juego con otras actividades y descansar la vista.</p>
+
+        <h3>Tabla de mis juegos</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Juego</th>
+                <th colspan="2">Plataforma</th>
+                <th rowspan="2">Horas jugadas</th>
+            </tr>
+            <tr>
+                <th>Consola</th>
+                <th>PC/Mac</th>
+            </tr>
+            <tr>
+                <td>The Legend of Zelda</td>
+                <td>Switch</td>
+                <td>-</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Minecraft</td>
+                <td>-</td>
+                <td>PC</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td rowspan="2">The Sims 4</td>
+                <td>-</td>
+                <td>PC</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>Mac</td>
+                <td>50</td>
+            </tr>
+        </table>
+
+        <h3>¿Te gustan los videojuegos?</h3>
+        <form>
+            <label><input type="radio" name="gustovideojuegos" value="sí"> Sí</label>
+            <label><input type="radio" name="gustovideojuegos" value="no"> No</label>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <aside>
+        <h3>Dato curioso</h3>
+        <p>Jugar videojuegos puede mejorar la coordinación ojo-mano, la concentración y la memoria estratégica.</p>
+    </aside>
+
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por Ingrid Urbina</p>
+            <p>Al 28 de agosto del 2025</p>
+        </address>
+    </footer>
+</body>
+</html>
