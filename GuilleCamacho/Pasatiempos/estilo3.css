@@ -1,0 +1,49 @@
+header {
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+
+header h1 {
+    color: orange;
+}
+
+nav a {
+    color: white;
+}
+
+img {
+    width: 500px;
+    border: 2px solid gold;
+    margin-bottom: 20px;
+}
+
+table{
+    background-color: blue;
+    margin:auto;
+}
+
+th, td{
+    border: 5px solid white;
+    background-color:black;
+    color:aqua;
+}
+
+article, aside, section {
+    background-color:white;
+    border: 1px double orange;
+    text-align: center;
+}
+
+
+video{
+    width: 500px;
+    border: 2px solid violet;
+    margin-bottom: 20px; 
+}
+
+embed{
+    width: 600px;
+    border: 2px solid tomato;
+    margin-bottom: 20px; 
+}
