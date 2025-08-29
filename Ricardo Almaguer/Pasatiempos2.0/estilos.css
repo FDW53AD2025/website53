@@ -19,3 +19,9 @@ p{
 img{
     border: 20px solid rgb(14, 30, 173);
 }
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
