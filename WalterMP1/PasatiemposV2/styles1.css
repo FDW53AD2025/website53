@@ -32,7 +32,6 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/* Contenido principal */
 main {
     padding: 1.5rem;
     background: white;
@@ -42,7 +41,6 @@ main {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Imágenes y videos */
 img, video, iframe {
     display: block;
     margin: 1rem auto;
@@ -50,7 +48,6 @@ img, video, iframe {
     max-width: 100%;
 }
 
-/* Tablas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -68,7 +65,6 @@ table th {
     color: white;
 }
 
-/* Formulario */
 form {
     max-width: 500px;
     margin: auto;
@@ -109,7 +105,7 @@ button:hover {
 footer {
     background: #000000;
     color: white;
-    text-align: center;
+    
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -121,4 +117,8 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+p{
+    text-align: center;
 }
