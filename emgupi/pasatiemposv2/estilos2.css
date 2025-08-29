@@ -1,0 +1,270 @@
+
+/* estilos2.css */
+.pasatiempos1 {color: white;}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* negro de fondo */
+    color: #f5f5f5; /* texto claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #ff4fa3, #b30086);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Navegación */
+nav {
+    background-color: #111;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff4fa3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #ff4fa3, 0 0 20px #ff4fa3;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Sección principal */
+section {
+    flex: 3;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 79, 163, 0.3);
+}
+
+section h2 {
+    color: #ff4fa3;
+    margin-top: 0;
+}
+
+/* Artículo */
+article {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 79, 163, 0.2);
+}
+
+aside h3 {
+    color: #ff4fa3;
+    margin-bottom: 10px;
+}
+
+/* ==== FORMULARIO ==== */
+#contacto {
+    background-color: #222;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 79, 163, 0.4);
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #ff4fa3;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #ff4fa3;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 2px solid #ff4fa3;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #fff;
+    box-shadow: 0 0 10px #ff4fa3;
+}
+
+button {
+    background: linear-gradient(135deg, #ff4fa3, #b30086);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #b30086, #ff4fa3);
+    box-shadow: 0 0 15px #ff4fa3;
+}
+
+/* Footer */
+/* ==== FOOTER ==== */
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 2px solid #ff4fa3;
+}
+
+footer a {
+    color: #ff4fa3;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #ff4fa3, 0 0 15px #ff4fa3;
+}
+
+/* Estilo Musica */
+
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff4fa3, #b30086);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Sección Música */
+section {
+    flex: 3;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 79, 163, 0.3);
+}
+
+section h3 {
+    color: #ff4fa3;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 79, 163, 0.2);
+}
+
+aside h3 {
+    color: #ff4fa3;
+}
+
+/* Audio player */
+audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #111;
+}
+
+/* Links */
+a {
+    color: #ff4fa3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #ff4fa3, 0 0 15px #ff4fa3;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 2px solid #ff4fa3;
+}
+
+
+
+/* Dibujos */
