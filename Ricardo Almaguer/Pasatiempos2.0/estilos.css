@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/venom-from-marvel-eyes-x7laveq2a3a9sn6j.jpg);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2{
+  color: white;
+  text-shadow: 2px 2px 5px rgb(77, 139, 255); 
+}
+p{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px black;
+}
+
+img{
+    border: 20px solid rgb(14, 30, 173);
+}
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+  mark {
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+
+.primera {
+   background: rgba(45, 177, 221, 0.432); 
+  }
+.segunda { 
+  background: rgba(6, 93, 255, 0.37); 
+}
+.tercera { 
+  background: rgba(50, 15, 207, 0.384); 
+}
+
+
