@@ -10,15 +10,7 @@ body {
     color: #ccc;
     font-family: "EB Garamond", serif;
 }
-.banner-superior {
-    background-color: #9400d3; /* Color morado */
-    color: white; /* Color de la letra */
-    padding: 15px; /* Espacio interno para que el texto no se pegue a los bordes */
-    width: 80%; /* Acorta el ancho al 80% de la pantalla */
-    margin: 0 auto; /* Centra la caja horizontalmente */
-    text-align: center; /* Centra el texto dentro de la caja */
-    border: ;
-}
+
 /*uso del border
 .banner-superior {
     background-color: #9400d3;
@@ -32,4 +24,3 @@ body {
     border: 3px solid #ffcc00; Un borde amarillo-naranja 
     border: [ancho] [estilo] [color];
     */
- 
