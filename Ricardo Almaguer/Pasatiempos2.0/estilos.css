@@ -1,21 +1,21 @@
 body{
-    background-image: url(https://uswalldecor.com/cdn/shop/products/DI0944.jpg?v=1581094935);
+    background-image: url(https://wallpapers.com/images/hd/venom-from-marvel-eyes-x7laveq2a3a9sn6j.jpg);
 }
 
 h1 {
   color: white;
-  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+  text-shadow: 2px 2px 5px black;
 }
 
 h2{
   color: white;
-  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+  text-shadow: 2px 2px 5px rgb(77, 139, 255); 
 }
 p{
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+  text-shadow: 2px 2px 5px black;
 }
 
 img{
-    border: 20px solid blue;
+    border: 20px solid rgb(14, 30, 173);
 }
