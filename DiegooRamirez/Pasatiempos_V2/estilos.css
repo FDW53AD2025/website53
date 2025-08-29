@@ -1,0 +1,18 @@
+.titulos {
+    color: rgb(2, 2, 36);
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(188, 190, 185);
+    text-align: center;
+}
+
+.imagenes{
+    border: 2px solid black;
+    align-items: center;
+}
+
+.starwars{
+    color: rgb(212, 212, 4);
+    background-color: black;
+    font-weight: bold;
+}
