@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0b46a5;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #f8f8f8;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #697214;
+}
+
+main section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+aside {
+    background-color: #fff7ed;
+    padding: 15px;
+    border-left: 6px solid #0a9dca;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+img, video, audio, iframe, embed {
+    display: block;
+    margin: 10px auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+
+ul, ol, dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+dd {
+    margin-left: 20px;
+    color: #444;
+}
+
+mark {
+    background-color: #f1dc1b;
+}
+
+span {
+    font-weight: bold;
+    color: #3fb6a6;
+}
+
+cite {
+    color: #3b82f6;
+    font-style: italic;
+}
+
+abbr {
+    border-bottom: 1px dotted #444;
+    cursor: help;
+}
+
+small {
+    font-size: 0.85em;
+    color: gray;
+}
+
+div p {
+    margin: 10px 0;
+}
+
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6a00;
+}
+
+address {
+    margin-top: 20px;
+    background-color: #e0f2fe;
+    padding: 15px;
+    font-style: normal;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
