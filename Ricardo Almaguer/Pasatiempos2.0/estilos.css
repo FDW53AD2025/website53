@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://uswalldecor.com/cdn/shop/products/DI0944.jpg?v=1581094935);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+}
+
+h2{
+  color: white;
+  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+}
+p{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px black; /* sombra para destacar */
+}
+
+img{
+    border: 20px solid blue;
+}
