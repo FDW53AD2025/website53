@@ -1,0 +1,75 @@
+:root{
+  --bg:#fff0f6;
+  --accent:#ff4da6;
+  --accent-light:#ff99cc;
+  --text:#33001a;
+  --card:#ffffff;
+}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif
+    ;margin:0;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.4}
+
+.encabezado{background:linear-gradient(90deg,var(--accent),var(--accent-light));
+    padding:20px 16px;
+    color:white;
+    text-align:center}
+
+.site-header h1{margin:0;
+    font-size:clamp(20px,4vw,36px)}
+
+.subtitulo{opacity:0.95;
+    margin-top:6px}
+
+.main-nav{display:flex;gap:8px;
+    padding:12px;
+    justify-content:center}
+
+.nav-link{background:var(--accent-light);border:2px solid var(--accent);
+    padding:8px 12px;
+    border-radius:8px;
+    text-decoration:none;
+    color:var(--text);
+    font-weight:bold}
+
+.nav-link:hover{background:var(--accent);
+    color:white}
+
+.contenido{max-width:940px;
+    margin:18px auto;
+    padding:12px}
+
+.practica{background:var(--card);
+    padding:16px;border-radius:12px;
+    box-shadow:0 3px 8px rgba(255,77,166,0.2);
+    border:1px solid var(--accent-light);
+    margin-bottom:16px}
+
+.practica h2{margin-top:0;color:var(--accent)}
+code{background:#ffe6f2;
+    padding:2px 6px;
+    border-radius:4px}
+
+.footer{text-align:center;
+    padding:14px 8px;
+    color:#660033;
+    font-size:14px;
+    background:#ffe6f2;
+    border-top:2px solid var(--accent-light)}
+
+@media (min-width:700px){
+  .main-navegacion{justify-content:flex-start;
+    padding:16px 80px}
+  .contenido{padding:24px}
+}
+
+a {
+  color: black; 
+  text-decoration: none;      
+}
+
+a:hover {
+  color: var(--accent);  
+}
