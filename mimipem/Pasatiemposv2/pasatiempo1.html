@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pasatiempo 1 - Escuchar Música</title>
+  <title>Mis Pasatiempos - Gossip Girl Style</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
-    /* Fuentes elegantes */
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400&display=swap');
-
     body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
       margin: 0;
       padding: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #111; /* fondo oscuro elegante */
-      color: #eaeaea;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
+    /* Header */
     header {
-      background: #000;
-      padding: 2rem 1rem;
+      background-color: #000;
+      padding: 2.5rem 1rem;
       text-align: center;
       border-bottom: 2px solid #d4af37; /* dorado */
     }
@@ -27,32 +27,35 @@
     header h1 {
       margin: 0;
       font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      letter-spacing: 2px;
+      font-size: 2.8rem;
+      font-weight: 700;
       color: #d4af37;
+      letter-spacing: 3px;
       text-transform: uppercase;
     }
 
+    /* Nav */
     nav {
-      background: #1a1a1a;
+      background-color: #1a1a1a;
       padding: 1rem;
-      text-align: center;
-      border-bottom: 1px solid #444;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #333;
     }
 
     nav ul {
       list-style: none;
+      display: flex;
+      gap: 1.2rem;
       padding: 0;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
+      flex-wrap: wrap;
     }
 
     nav a {
       text-decoration: none;
-      color: #eaeaea;
-      font-weight: bold;
+      color: #f5f5f5;
+      font-weight: 500;
       padding: 0.5rem 1rem;
       border: 1px solid transparent;
       transition: all 0.3s ease;
@@ -64,87 +67,107 @@
       color: #d4af37;
     }
 
+    /* Main */
     main {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 6px;
+      max-width: 750px;
+      margin: 3rem auto;
+      padding: 0 1rem;
       text-align: center;
     }
 
     main h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.5rem;
+      font-size: 2.2rem;
       margin-bottom: 1rem;
       color: #d4af37;
+      text-transform: uppercase;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      display: inline-block;
     }
 
     main p {
       font-size: 1rem;
-      color: #ccc;
+      color: #e0e0e0;
+      background: #111;
+      display: inline-block;
+      padding: 1.2rem 2rem;
+      border: 1px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
     }
 
+    /* Aside */
     aside {
+      background: #1a1a1a;
       max-width: 400px;
       margin: 2rem auto;
-      padding: 1.5rem;
-      background: #000;
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
       border: 1px solid #333;
-      border-radius: 6px;
       text-align: center;
+      transition: transform 0.3s;
+    }
+
+    aside:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
     }
 
     aside h3 {
       margin-top: 0;
+      font-size: 1.4rem;
       font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
       color: #d4af37;
+      text-transform: uppercase;
     }
 
     aside p {
-      color: #bbb;
-      font-style: italic;
+      font-size: 0.95rem;
+      color: #ccc;
     }
 
+    /* Footer */
     footer {
       text-align: center;
-      padding: 1rem;
-      font-size: 0.8rem;
-      color: #999;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #888;
       border-top: 1px solid #333;
-      background: #111;
+      background-color: #000;
+      font-family: 'Playfair Display', serif;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>PASATIEMPO 1</h1>
+    <h1>Mis Pasatiempos</h1>
   </header>
 
   <nav>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pasatiempo1.html">Escuchar Música</a></li>
       <li><a href="pasatiempo2.html">Salir</a></li>
-      <li><a href="pasatiempo3.html">Ver series</a></li>
-      <li><a href="pasatiempo4.html">Caminar</a></li>
+      <li><a href="pasatiempo3.html">Ver Series o Películas</a></li>
+      <li><a href="pasatiempo4.html">Caminar o Correr</a></li>
       <li><a href="pasatiempo5.html">Dibujar</a></li>
     </ul>
   </nav>
 
   <main>
-    <h2>Esuchar música</h2>
-    <p>La mayor parte del tiempo me la paso escuchando musica, me gusta descubrir nuevas canciones.</p>
+    <h2>Holaa, soy Mimi</h2>
+    <p>Bienvenid@ a mi espacio digital.  
+       Aquí comparto un poquito de lo que me gusta hacer en mi tiempo libre.  
+       ¡Explora cada sección y descubre más de mí!</p>
   </main>
 
   <aside>
-    <h3>🔔</h3>
-    <p>Una playlist bien elegida puede ser la mejor carta de presentación.</p>
+    <h3>Dato Curioso 💡</h3>
+    <p>En Gossip Girl, el dorado y negro se usaban mucho en la moda y diseño, transmitiendo lujo, misterio y glamour.</p>
   </aside>
 
   <footer>
-    <p>Sitio web • Creado por Mimi </p>
+    <p>XOXO • Mimi</p>
   </footer>
 </body>
 </html>
