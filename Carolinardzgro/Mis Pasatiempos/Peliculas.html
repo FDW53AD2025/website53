@@ -1,17 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PELICULAS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎬 Películas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      color: #e0e0e0;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 20px;
+      width: 220px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      font-size: 1.4rem;
+      color: #fff;
+    }
+
+    .card button {
+      background: #ff4b5c;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .card button:hover {
+      background: #ff1e38;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
 
-     <h1>🎬 Películas</h1>
-    <p>En mis tiempos libres me gusta ver películas, mis favoritas son la de <b>YO ANTES DE TI</b> y la saga de <b>CREPÚSCULO</b></p>
-    <img width="200px" src="crepusculo.jpg" alt="Saga de Crepusculo">
-    <img width="200px" src="pelicula.jpg" alt="Yo Antes de Ti">
+  <h1>🎬 Mis Películas Favoritas</h1>
+  <p>En mis tiempos libres me gusta ver películas. Estas son mis favoritas:</p>
 
-    
+  <div class="galeria">
+    <div class="card">
+      <img src="pelicula.jpg" alt="Yo Antes de Ti">
+      <h3>Yo Antes de Ti</h3>
+    </div>
+
+    <div class="card">
+      <img src="crepusculo.jpg" alt="Saga Crepúsculo">
+      <h3>Saga Crepúsculo</h3>
+    </div>
+  </div>
+
+  <footer>
+    ✨ Página hecha con mucho estilo ✨
+  </footer>
+
 </body>
 </html>
