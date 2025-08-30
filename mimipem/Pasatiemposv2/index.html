@@ -5,45 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mis Pasatiempos</title>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background: linear-gradient(135deg, #0f0f17, #1c1c2b);
-      color: #eee;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #f0e6f6;
       margin: 0;
       padding: 0;
       line-height: 1.7;
     }
 
-    
     header {
-      background: linear-gradient(135deg, #3c005a, #101020);
-      padding: 2.5rem 1rem;
+      background: #000;
+      padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 2px solid #ff33cc;
-      box-shadow: 0 0 20px #8b5cf6;
+      border-bottom: 3px solid #d4af37; /* dorado */
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
     }
 
     header h1 {
       margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.4rem;
-      font-weight: 600;
-      color: #ff66ff;
-      text-shadow: 0 0 8px #ff33cc, 0 0 12px #8b5cf6;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #fff;
       letter-spacing: 2px;
+      text-transform: uppercase;
     }
 
-    
     nav {
-      background-color: #181827;
+      background-color: #111;
       padding: 1rem;
       display: flex;
       justify-content: center;
-      box-shadow: 0 0 10px rgba(255, 51, 204, 0.6);
-      border-radius: 12px;
-      margin: 1.5rem;
+      border-top: 1px solid #d4af37;
+      border-bottom: 1px solid #d4af37;
     }
 
     nav ul {
@@ -58,86 +55,82 @@
 
     nav a {
       text-decoration: none;
-      color: #dcdcff;
+      color: #f0e6f6;
       font-weight: 500;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
+      font-size: 1rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
       transition: all 0.3s ease;
-      background: #2a2a40;
-      box-shadow: 0 0 6px rgba(255, 51, 204, 0.4);
+      background: #1a1a1a;
+      border: 1px solid #d4af37;
     }
 
     nav a:hover {
-      background-color: #5a008f;
-      color: #fff;
-      transform: scale(1.05);
-      box-shadow: 0 0 12px #ff33cc, 0 0 16px #8b5cf6;
+      background-color: #d4af37;
+      color: #000;
+      transform: scale(1.08);
+      font-weight: bold;
     }
 
-    
     main {
       max-width: 750px;
-      margin: 2rem auto;
+      margin: 3rem auto;
       padding: 0 1rem;
       text-align: center;
     }
 
     main h2 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.9rem;
-      margin-bottom: 1rem;
-      color: #ff66ff;
-      text-shadow: 0 0 6px #ff33cc;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1.2rem;
+      color: #d4af37;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
 
     main p {
       font-size: 1rem;
       color: #ddd;
-      background: #2a2a3d;
+      background: #1e1e1e;
       display: inline-block;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+      padding: 1.2rem 1.8rem;
+      border-radius: 15px;
+      border: 1px solid #d4af37;
     }
 
-    
     aside {
-      background: #3a004f;
+      background: #111;
       max-width: 360px;
-      margin: 2rem auto;
+      margin: 2.5rem auto;
       padding: 1.5rem 2rem;
       border-radius: 18px;
-      box-shadow: 0 0 15px #ff33cc;
+      border: 1px solid #d4af37;
       text-align: center;
-      transition: transform 0.3s;
-    }
-
-    aside:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 25px #ff33cc, 0 0 30px #8b5cf6;
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
     }
 
     aside h3 {
       margin-top: 0;
-      font-size: 1.4rem;
-      font-family: 'Orbitron', sans-serif;
-      color: #ff66ff;
+      font-size: 1.3rem;
+      font-family: 'Playfair Display', serif;
+      color: #d4af37;
     }
 
     aside p {
       font-size: 0.95rem;
-      color: #e0e0ff;
+      color: #eee;
     }
 
-    
     footer {
       text-align: center;
       padding: 1.5rem;
-      font-size: 0.85rem;
-      color: #aaa;
-      border-top: 2px solid #5a008f;
-      background-color: #0f0f17;
-      box-shadow: 0 -2px 10px rgba(255, 51, 204, 0.3);
+      font-size: 0.9rem;
+      color: #bbb;
+      border-top: 2px solid #d4af37;
+      background-color: #000;
+      font-family: 'Playfair Display', serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
   </style>
 </head>
@@ -157,21 +150,20 @@
   </nav>
 
   <main>
-    <h2>Holaa, soy Mimi 👋</h2>
-    <p>Bienvenid@ a mi espacio digital.  
-        
-        Aquí comparto un poquito de lo que me gusta hacer en mi tiempo libre.  
-       
-        ¡Explora cada sección y descubre más de mí!</p>
+    <h2>Holaa, soy Mimi </h2>
+    <p>Bienvenid@ a mi espacio digital   
+       Aquí comparto un poquito de lo que me gusta hacer en mi tiempo libre. 
+       ¡Explora cada sección y descubre más de mí!</p>
   </main>
 
   <aside>
-    <h3>Dato Curioso 💡</h3>
-    <p>Muchisimos usuarios de MySpace pasaban horas editando el HTML de su perfil para hacerlo unico, desde cambiar colores hasta añadir gifs brillantes o fondos animados.</p>
+    <h3>Dato</h3>
+    <p>...</p>
   </aside>
 
   <footer>
-    <p>Creado por Mimi | MySpace </p>
+    <p>XOXO • Mimi</p>
   </footer>
 </body>
 </html>
+
