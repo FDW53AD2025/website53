@@ -111,7 +111,6 @@ blockquote {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  text-align: right 10px;
 }
 
 #galeria img, #galeria iframe {
