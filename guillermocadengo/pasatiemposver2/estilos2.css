@@ -387,9 +387,325 @@ body.peliculas ul li em {
   color: #d4af37;
 }
 
+/* 
+   Dato curioso 
+ */
+body.peliculas #dato-curioso {
+  background-color: #fff8dc; /* Fondo amarillo claro */
+  border-left: 5px solid #bfa600; /* Línea decorativa amarilla oscura */
+  padding: 20px;
+  margin: 40px auto;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center; /* Centramos el texto */
+}
+
+body.peliculas #dato-curioso h3 {
+  color: #bfa600; /* Amarillo oscuro */
+  margin-bottom: 10px;
+}
+
+body.peliculas #dato-curioso p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+
 /* Slider Películas */
 body.peliculas #gustocine input[type="range"] {
   width: 50%;
   background-color: #f0c419; /* Amarillo */
 }
 
+
+
+
+/*
+   Página Series
+*/
+body.series {
+  background-color: white; /* fondo blanco */
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header y Footer Series */
+header.series-header, 
+body.series footer.series-footer {
+  background-color: #8B0000; /* rojo oscuro */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  padding: 12px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #FF4500; /* rojo anaranjado al pasar */
+  color: white;
+}
+
+/* Footer enlaces Instagram */
+body.series footer.series-footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0px;
+}
+
+body.series footer.series-footer a img {
+  width: 50px;
+  height: 50px;
+}
+
+body.series footer.series-footer a:hover {
+  color: #FF6347; /* rojo claro al pasar */
+  text-decoration: underline;
+}
+
+/* Main contenido */
+main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+main article {
+  margin-bottom: 30px;
+}
+
+/* Galería de series */
+body.series .galeria-figures {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+body.series .galeria-figures figure {
+  margin: 0;
+  text-align: center;
+}
+
+body.series .galeria-figures figure img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+body.series .galeria-figures figure img:hover {
+  transform: scale(1.05);
+}
+
+body.series .galeria-figures figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #330000;
+}
+
+/* Cita destacada */
+body.series blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 5px solid #8B0000;
+  padding-left: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Lista de géneros */
+body.series ul li em {
+  font-weight: bold;
+  color: #8B0000;
+}
+
+/* Slider Series */
+body.series #gustoseries input[type="range"] {
+  width: 50%;
+  background-color: #FF6347; /* rojo anaranjado */
+}
+
+body.series #descripcion-series {
+  margin-top: 30px;
+  text-align: center;
+}
+
+body.series #descripcion-series h3 {
+  color: #8B0000; /* mismo rojo oscuro del header/footer */
+  margin-bottom: 15px;
+}
+
+body.series #descripcion-series p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto 10px auto;
+}
+
+
+
+
+/* ======== Estilos para la página Comics ======== */
+body.comics {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header y Footer Comics */
+header.comics-header, 
+body.comics footer.comics-footer {
+  background-color: purple; /* morado oscuro */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  padding: 12px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #FF4500; /* rojo anaranjado al pasar */
+  color: white;
+}
+
+/* Footer enlaces Instagram */
+body.comics footer.comics-footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+body.comics footer.comics-footer a img {
+  width: 50px;
+  height: 50px;
+}
+
+body.comics footer.comics-footer a:hover {
+  color: #FF4500;
+  text-decoration: underline;
+}
+
+/* ==== Bloques tipo tarjeta ==== */
+body.comics .comics-card {
+  background-color: #F8F5FF; /* morado clarito */
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-bottom: 2px solid #E0D8F5; /* línea sutil de separación */
+}
+
+body.comics .comics-card h2,
+body.comics .comics-card h3 {
+  color: #4B0082; /* morado oscuro */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+body.comics .comics-card p {
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+}
+
+body.comics .comics-card blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 5px solid #D1C4E9;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+
+
+/* Galería */
+body.comics .galeria-figures {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+body.comics .galeria-figures figure {
+  text-align: center;
+}
+
+body.comics .galeria-figures img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+body.comics .galeria-figures img:hover {
+  transform: scale(1.05);
+}
+
+body.comics .galeria-figures figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #4B0082;
+}
+
+/* Listas */
+body.comics ul li strong {
+  font-weight: bold;
+  color: #4B0082;
+}
