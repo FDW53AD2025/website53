@@ -25,6 +25,15 @@
     font-weight: bold;
 }
 
+.headersfour{
+    color: #177E89;
+    font-family: 'Arial', sans-serif;
+    margin-top: 15px;
+    font-size: 60px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
 p {
     line-height: 1.6;
     margin-bottom: 20px;
@@ -75,6 +84,11 @@ body {
 
 .nav3 {
     background-color: #C44536;
+    padding: 10px;
+}
+
+.nav4 {
+    background-color: #177E89;
     padding: 10px;
 }
 
