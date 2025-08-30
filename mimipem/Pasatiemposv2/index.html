@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mis Pasatiempos</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     /* Tipografía y colores generales */
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f4f8;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fef9f9;
       color: #333;
       margin: 0;
       padding: 0;
@@ -17,35 +19,38 @@
 
     /* Header */
     header {
-      background-color: #dfe7fd;
-      padding: 2rem 1rem;
+      background: linear-gradient(135deg, #c8e6ff, #fcd6f6);
+      padding: 2.5rem 1rem;
       text-align: center;
       border-bottom: 3px solid #a3bffa;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 0 0 25px 25px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.12);
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
-      color: #3b3f5c;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #5b4b8a;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     }
 
     /* Navegación */
     nav {
-      background-color: #ffffff;
+      background-color: #ffffffcc;
       padding: 1rem;
       display: flex;
       justify-content: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      border-radius: 10px;
-      margin: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      border-radius: 15px;
+      margin: 1.5rem;
+      backdrop-filter: blur(5px);
     }
 
     nav ul {
       list-style: none;
       display: flex;
-      gap: 1.5rem;
+      gap: 1.2rem;
       padding: 0;
       margin: 0;
       flex-wrap: wrap;
@@ -54,17 +59,19 @@
 
     nav a {
       text-decoration: none;
-      color: #5a5a8f;
+      color: #5b4b8a;
       font-weight: 500;
-      padding: 0.3rem 0.6rem;
-      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
       transition: all 0.3s;
+      background: #f0eaff;
     }
 
     nav a:hover {
       background-color: #c8d6ff;
-      color: #1a1a3f;
-      transform: translateY(-2px);
+      color: #2a2a4f;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     /* Main */
@@ -76,31 +83,49 @@
     }
 
     main h2 {
-      font-size: 1.8rem;
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
       margin-bottom: 1rem;
-      color: #4a4e7c;
+      color: #5b4b8a;
     }
 
     main p {
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: #555;
+      background: #e0f7fa;
+      display: inline-block;
+      padding: 1rem 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
-    /* Aside */
+    /* Aside / Dato Curioso */
     aside {
-      background: #e0e7ff;
-      max-width: 320px;
+      background: #fff0f5;
+      max-width: 350px;
       margin: 2rem auto;
-      padding: 1.5rem 2rem;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.8rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
       text-align: center;
+      transition: transform 0.3s;
+    }
+
+    aside:hover {
+      transform: translateY(-5px);
     }
 
     aside h3 {
       margin-top: 0;
-      font-size: 1.3rem;
-      color: #3b3f5c;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.5rem;
+      color: #5b4b8a;
+    }
+
+    aside p {
+      font-size: 1rem;
+      color: #444;
+      margin-top: 0.5rem;
     }
 
     /* Footer */
@@ -110,16 +135,16 @@
       font-size: 0.9rem;
       color: #888;
       border-top: 2px solid #a3bffa;
-      background-color: #f0f4f8;
+      background-color: #fef9f9;
     }
 
-    /* Efecto general para bordes y sombras en secciones */
+    /* Efecto general para secciones */
     section {
       background: #ffffff;
       padding: 1.5rem;
       margin: 1.5rem auto;
-      border-radius: 12px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
   </style>
@@ -141,17 +166,17 @@
 
   <main>
     <h2>Holaa, soy Mimi 👋</h2>
-    <p>En esta página comparto algunas cosas que disfruto hacer en mi tiempo libre.
-        ¡Haz clic en cada sección para conocerme un poco más!</p>
+    <p>En esta página comparto algunas cosas que disfruto hacer en mi tiempo libre.  
+       ¡Haz clic en cada sección para conocerme un poco más!</p>
   </main>
 
   <aside>
-    <h3>Dato Curioso</h3>
+    <h3>Dato Curioso ✨</h3>
     <p>Los pasatiempos son una excelente manera de relajarse y mantenerse feliz.</p>
   </aside>
 
   <footer>
-    <p>Creado por Mimi | Versión 2</p>
+    <p>Creado por Mimi</p>
   </footer>
 </body>
 </html>
