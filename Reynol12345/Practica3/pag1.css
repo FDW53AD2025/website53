@@ -1,0 +1,169 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body y fondo oscuro */
+body {
+  background-color: #1b1b2f;
+  color: #f0f0f0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #0f3460;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Navegación */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #53354a;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+}
+
+/* Main y secciones */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section, aside, div {
+  background-color: #2e2e3e;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+}
+
+/* Titulos */
+h2, h3, h1 {
+  color: #e94560;
+  margin-bottom: 1rem;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+/* Listas */
+ul, ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Definiciones */
+dl dt {
+  font-weight: bold;
+  color: #f0f0f0;
+  margin-top: 1rem;
+}
+
+dl dd {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+blockquote {
+  border-left: 4px solid #e94560;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  text-align: right 10px;
+}
+
+#galeria img, #galeria iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+abbr {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #0f3460;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.3);
+}
+
+mark {
+  background-color: #e94560;
+  color: #fff;
+  padding: 0 0.2rem;
+  border-radius: 3px;
+}
+
+sub, sup {
+  color: #f0f0f0;
+}
+
+span {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  #galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 0.5rem;
+  }
+}
