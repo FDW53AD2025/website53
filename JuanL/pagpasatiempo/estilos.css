@@ -67,3 +67,87 @@ main ul li {
     margin: 15px;
     vertical-align: middle;
 }
+
+.contenedor-aside {
+    display: flex;
+    align-items: flex-start;
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #726d6d;
+    border-left: 2px solid #523333;
+    min-width: 220px;
+}
+
+
+.layout-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.aside-izquierda {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #726d6d;
+    border-right: 2px solid #523333;
+}
+
+.main-derecha {
+    flex: 3;
+    padding: 20px;
+}
+.tabla-perfumes {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tabla-perfumes th,
+
+.tabla-perfumes td {
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #222;
+}
+
+.tabla-perfumes th {
+    background-color: #444;
+    font-size: 20px;
+}
+
+.tabla-perfumes .fila-info {
+    background-color: #555;
+}
+
+.video-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.video-container {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-derecha {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 2px solid #ccc;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
