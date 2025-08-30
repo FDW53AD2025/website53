@@ -1,0 +1,17 @@
+.Mispasatiempos {
+        text-align: center;
+        background-color: rgb(222, 227, 179);
+    }
+    
+    hr{
+        height: 3px; 
+        background-color: cadetblue;
+        text-align: center;
+        border:none;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    h3{
+        text-align: center;
+    }
