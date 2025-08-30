@@ -5,111 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Escuchar Música</title>
   <style>
-    /* Estilos generales */
+    
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #cfa3ff, #8e44ad);
-      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      background: linear-gradient(to right, #000000, #2c003e, #4b0082);
+      color: #e6e6fa;
       margin: 0;
       padding: 0;
       line-height: 1.6;
     }
 
+    
     header {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(0, 0, 0, 0.6);
       padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 3px solid rgba(255, 255, 255, 0.3);
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border-bottom: 3px solid #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #8e44ad;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
-      color: #f3e5ff;
+      font-size: 2.5rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #ff66ff;
     }
 
+    
     nav {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 1rem;
-      display: flex;
-      justify-content: center;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      border-radius: 10px;
-      margin: 1rem;
+      text-align: center;
+      border-bottom: 2px dashed #ff00ff;
     }
 
     nav ul {
       list-style: none;
       display: flex;
       gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
       padding: 0;
       margin: 0;
-      flex-wrap: wrap;
-      justify-content: center;
     }
 
     nav a {
       text-decoration: none;
-      color: #f3e5ff;
-      font-weight: 500;
-      padding: 0.3rem 0.6rem;
-      border-radius: 8px;
-      transition: all 0.3s;
+      color: #fff;
+      font-weight: bold;
+      background: #660066;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      box-shadow: 0 0 5px #ff00ff;
+      transition: all 0.3s ease;
     }
 
     nav a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      transform: translateY(-2px);
+      background: #ff00ff;
+      color: #000;
+      transform: scale(1.1);
     }
 
+    
     main {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 1rem;
       text-align: center;
     }
 
     main h2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
-      color: #f3e5ff;
+      color: #ff66ff;
+      text-shadow: 0 0 8px #ff00ff;
     }
 
     main p {
-      font-size: 1rem;
-      color: #e0caff;
+      font-size: 1.1rem;
+      color: #d8bff9;
     }
 
+   
     aside {
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.05);
       max-width: 320px;
       margin: 2rem auto;
       padding: 1.5rem 2rem;
+      border: 2px solid #ff00ff;
       border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      box-shadow: 0 0 12px #ff00ff;
       text-align: center;
     }
 
     aside h3 {
       margin-top: 0;
-      font-size: 1.3rem;
-      color: #f3e5ff;
+      font-size: 1.5rem;
+      color: #ff66ff;
     }
 
     aside p {
-      color: #e0caff;
+      color: #e6e6fa;
+      font-size: 1rem;
     }
 
+    
     footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: #f3e5ff;
-      border-top: 2px solid rgba(255,255,255,0.3);
-      background-color: rgba(0,0,0,0.05);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #ff99ff;
+      border-top: 2px dashed #ff00ff;
     }
   </style>
 </head>
@@ -122,20 +129,20 @@
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="pasatiempo2.html">Salir</a></li>
-      <li><a href="pasatiempo3.html">Ver Series o Películas</a></li>
-      <li><a href="pasatiempo4.html">Caminar o Correr</a></li>
+      <li><a href="pasatiempo3.html">Ver Series</a></li>
+      <li><a href="pasatiempo4.html">Caminar</a></li>
       <li><a href="pasatiempo5.html">Dibujar</a></li>
     </ul>
   </nav>
 
   <main>
-    <h2>Me gusta escuchar música</h2>
-    <p>La mayor parte del tiempo me la paso escuchando música y descubriendo nuevas canciones que me inspiran.</p>
+    <h2>Principal pasatiempo favorito</h2>
+    <p>La mayor parte del tiempo me la paso escuchando musica, me gusta descubrir nuevas canciones 🎧</p>
   </main>
 
   <aside>
-    <h3>Tip</h3>
-    <p>La música instrumental ayuda mucho a concentrarse y relajarse.</p>
+    <h3>Tip 💡</h3>
+    <p>La música instrumental ayuda mucho a concentrarse.</p>
   </aside>
 
   <footer>
@@ -143,3 +150,4 @@
   </footer>
 </body>
 </html>
+
