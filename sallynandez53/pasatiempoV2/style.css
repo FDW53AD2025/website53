@@ -2,19 +2,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f6fb; /* Fondo pastel */
+  background-color: #f8f6fb; 
   color: #333;
 }
 
 header {
-  background-color: #d5b8f7; /* Morado pastel */
+  background-color: #d5b8f7; 
   color: white;
   text-align: center;
   padding: 20px;
 }
 
 nav {
-  background-color: #e6d7fa; /* Un tono más suave */
+  background-color: #e6d7fa; 
   padding: 10px 0;
 }
 
@@ -32,12 +32,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #5a2d82; /* Morado más fuerte */
+  color: #5a2d82; 
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #9d6ef7; /* Morado pastel más claro */
+  color: #9d6ef7; 
 }
 
 main {
