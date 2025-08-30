@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-color: blue; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+aside {
+  background-color: cornflowerblue; 
+  color: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+aside h2 {
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+aside a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: blue; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+

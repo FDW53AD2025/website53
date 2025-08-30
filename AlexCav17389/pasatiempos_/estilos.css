@@ -1,0 +1,53 @@
+.videojuegos {
+    background-color: rgb(253, 217, 176);
+}
+
+.musica {
+    background-color: rgb(179, 212, 204);
+}
+
+.peliculas {
+    background-color: rgb(221, 191, 255);
+}
+
+.deportes {
+    background-color: rgb(197, 161, 161);
+}
+
+.categoria {
+    color: rgb(0, 0, 0);  
+    font-weight: bold;
+}
+
+.boton_retro {
+      font-family: "Press Start 2P", monospace;
+      font-size: 12px;
+      color: rgb(29, 29, 29);
+      background: #ffffffe1;
+      border: 3px solid #888888;
+      padding: 10px 15px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 
+        0 0 0 4px #3d3d3d,
+        4px 4px 0 #2b2b2b;
+      transition: all 0.1s ease-in;
+}
+
+body {
+    text-align: center; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    border: 10px solid rgb(229, 228, 226);
+}
+
+.mas {
+    background-color: rgb(182, 167, 136);
+}
+
+.fecha {
+    position: absolute;
+    right: 1050px; 
+    bottom: 550px; 
+    margin: 0;
+}

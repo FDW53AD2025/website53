@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Pasatiempos - Videojuegos</title>
+  <link rel="stylesheet" href="estilo_1.css">
+</head>
+<body>
+
+  <header>
+    <h1><abbr title="Pasatiempos">Mis Pasatiempos</abbr></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="pasatiempo_1.html">Series</a></li>
+      <li><a href="pasatiempo_2.html">Comics</a></li>
+      <li><a href="pasatiempo_3.html">Deportes</a></li>
+      <li><a href="pasatiempo_4.html">Videojuegos</a></li>
+      <li><a href="pasatiempo_5.html">Formulario y tablas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2><strong>Videojuegos</strong></h2>
+      <p>Me gusta el videojuego TFM.</p>
+      <p>Mi juego favorito es <cite>Transformice.</cite>.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B4LvDiIi128?si=IAHiLL7lnfxBGl7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h3>Lista de mis juegos favoritos.</h3>
+      <ol>
+        <li><strong>Juegos 1</strong></li>
+        <li><em>1984</em> de George Orwell</li>
+        <li><abbr title="Harry Potter and the Philosopher's Stone">HP1</abbr> de J.K. Rowling</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>Glosario:</h3>
+      <dl>
+        <dt><strong>Deportes</strong></dt>
+        <dd>Actividad física.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h3>Tabla sobre Lenguajes de Programación</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Lenguaje</th>
+            <th>Uso Principal</th>
+            <th>Facilidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Python</td>
+            <td>Desarrollo web, análisis de datos</td>
+            <td>Fácil</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Desarrollo web (frontend)</td>
+            <td>Intermedio</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td>Desarrollo de sistemas operativos, software embebido</td>
+            <td>Difícil</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Desarrollo de aplicaciones empresariales</td>
+            <td>Intermedio</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>Formulario sobre Programación</h3>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="lenguaje">Lenguaje de Programación Preferido:</label>
+        <select id="lenguaje" name="lenguaje" required>
+          <option value="python">Python</option>
+          <option value="javascript">JavaScript</option>
+          <option value="c">C</option>
+          <option value="java">Java</option>
+        </select><br><br>
+
+        <label for="experiencia">¿Cuántos años de experiencia tienes programando?</label><br>
+        <input type="radio" id="menos_de_un_ano" name="experiencia" value="menos_de_un_ano" required>
+        <label for="menos_de_un_ano">Menos de 1 año</label><br>
+        <input type="radio" id="uno_a_tres" name="experiencia" value="uno_a_tres">
+        <label for="uno_a_tres">1 a 3 años</label><br>
+        <input type="radio" id="mas_de_tres" name="experiencia" value="mas_de_tres">
+        <label for="mas_de_tres">Más de 3 años</label><br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h3>Dato Curioso</h3>
+    <p><mark>Correr una hora al día</mark> puede reducir la panza según estudios.</p>
+  </aside>
+
+  <footer>
+    <p><small>© 2025 Mis Pasatiempos. Creado por Abigail</small></p>
+    <p>Última actualización: <time datetime="2025-08-28">28 de agosto de 2025</time></p>
+  </footer>
+
+</body>
+</html>

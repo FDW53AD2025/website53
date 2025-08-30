@@ -1,0 +1,27 @@
+  table {
+    width: 100%; /* La tabla ocupará todo el ancho disponible */
+    border-collapse: collapse; /* Para que los bordes de las celdas se fusionen */
+    margin-bottom: 20px; /* Un poco de espacio debajo de la tabla */
+  }
+
+  th, td {
+    border: 1px solid #ccc; /* Borde de 1px sólido y color gris claro */
+    padding: 8px; /* Espacio interno dentro de cada celda */
+    text-align: left; /* Alineación del texto a la izquierda */
+  }
+
+  th {
+    background-color: #f2f2f2; /* Color de fondo para los encabezados */
+  }
+
+  /* Si quieres estilos específicos para tus colgroup, puedes añadirlos aquí */
+  .saga {
+    /* Por ejemplo, un ancho diferente o un color de fondo si lo deseas */
+    /* width: 30%; */
+  }
+  .libro {
+    /* width: 50%; */
+  }
+  .orden {
+    /* width: 20%; */
+  }
