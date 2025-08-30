@@ -30,6 +30,7 @@ h1 {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .imagen {
@@ -49,13 +50,18 @@ h1 {
   text-align: center;
   text-decoration: none;   /* Quita el subrayado típico de los links */
   color: #333;             /* Color del texto */
-  transition: background 0.2s;
+  transition:  0.2s;
+}
+.audios{
+  text-align: center;
+  display: block;
 }
 
 /* Efecto al pasar el mouse */
 .recuadro:hover {
   background-color: #424c5e;
 }
+
 
 /* Estilo para el párrafo centrado y justificado */
 .texto {
