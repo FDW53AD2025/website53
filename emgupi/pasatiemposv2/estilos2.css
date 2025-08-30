@@ -1,5 +1,5 @@
 
-/* estilos2.css */
+
 .pasatiempos1 {color: white;}
 body {
     font-family: 'Arial', sans-serif;
@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-/* Encabezado */
+
 header {
     background: linear-gradient(135deg, #ff4fa3, #b30086);
     color: white;
@@ -21,7 +21,6 @@ header {
     text-shadow: 2px 2px 5px #000;
 }
 
-/* Navegación */
 nav {
     background-color: #111;
     padding: 10px;
@@ -52,7 +51,7 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #ff4fa3, 0 0 20px #ff4fa3;
 }
 
-/* Contenido principal */
+
 main {
     display: flex;
     justify-content: space-between;
@@ -60,7 +59,7 @@ main {
     gap: 20px;
 }
 
-/* Sección principal */
+
 section {
     flex: 3;
     background-color: #222;
@@ -74,13 +73,13 @@ section h2 {
     margin-top: 0;
 }
 
-/* Artículo */
+
 article {
     font-size: 1.1em;
     line-height: 1.6;
 }
 
-/* Aside */
+
 aside {
     flex: 1;
     background-color: #2a2a2a;
@@ -94,7 +93,7 @@ aside h3 {
     margin-bottom: 10px;
 }
 
-/* ==== FORMULARIO ==== */
+
 #contacto {
     background-color: #222;
     margin: 30px auto;
@@ -154,8 +153,7 @@ button:hover {
     box-shadow: 0 0 15px #ff4fa3;
 }
 
-/* Footer */
-/* ==== FOOTER ==== */
+
 footer {
     background: #111;
     color: #aaa;
@@ -177,10 +175,10 @@ footer a:hover {
     text-shadow: 0 0 8px #ff4fa3, 0 0 15px #ff4fa3;
 }
 
-/* Estilo Musica */
 
 
-/* General */
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #1a1a1a;
@@ -189,7 +187,7 @@ body {
     padding: 0;
 }
 
-/* Header */
+
 header {
     background: linear-gradient(135deg, #ff4fa3, #b30086);
     color: white;
@@ -201,7 +199,7 @@ header {
     text-shadow: 2px 2px 5px #000;
 }
 
-/* Main */
+
 main {
     display: flex;
     justify-content: space-between;
@@ -209,7 +207,7 @@ main {
     gap: 20px;
 }
 
-/* Sección Música */
+
 section {
     flex: 3;
     background-color: #222;
@@ -222,7 +220,7 @@ section h3 {
     color: #ff4fa3;
 }
 
-/* Aside */
+
 aside {
     flex: 1;
     background-color: #2a2a2a;
@@ -235,7 +233,7 @@ aside h3 {
     color: #ff4fa3;
 }
 
-/* Audio player */
+
 audio {
     width: 100%;
     margin-top: 10px;
@@ -243,7 +241,7 @@ audio {
     background-color: #111;
 }
 
-/* Links */
+
 a {
     color: #ff4fa3;
     font-weight: bold;
@@ -255,7 +253,7 @@ a:hover {
     text-shadow: 0 0 8px #ff4fa3, 0 0 15px #ff4fa3;
 }
 
-/* Footer */
+
 footer {
     background: #111;
     color: #aaa;
@@ -265,6 +263,30 @@ footer {
     border-top: 2px solid #ff4fa3;
 }
 
+.pdf-intro {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #d81b60;
+}
+
+.pdf-container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    border: 2px solid #ec407a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.pdf-container embed {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 
-/* Dibujos */
+
+
