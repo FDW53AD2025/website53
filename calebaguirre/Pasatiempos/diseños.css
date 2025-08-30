@@ -1,0 +1,90 @@
+/* Estilo general de la página */
+body {
+  font-family: 'Times New Roman', sans-serif;
+  margin: 60;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Título principal */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+h1 {
+  background-color: #333;   /* Fondo oscuro */
+  color: #fff;           
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  font-size: 70px;
+  font-weight: normal;
+  margin-top: 0px;  
+}
+
+/* Contenedor de los recuadros */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.imagen {
+  max-width: 300px;  /* Tamaño máximo (ajústalo a tu gusto) */
+  width: 100%;       /* Escala según el contenedor */
+  height: auto;      /* Mantiene proporciones */
+  border-radius: 10px; /* Opcional: esquinas redondeadas */
+}
+/* Recuadros que ahora son enlaces */
+.recuadro {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;   /* Quita el subrayado típico de los links */
+  color: #333;             /* Color del texto */
+  transition: background 0.2s;
+}
+
+/* Efecto al pasar el mouse */
+.recuadro:hover {
+  background-color: #424c5e;
+}
+
+/* Estilo para el párrafo centrado y justificado */
+.texto {
+  max-width: 600px;       /* Controla el ancho máximo del bloque */
+  margin: 30px auto;         /* Centra el bloque en la página */
+  text-align: justify;    /* Justifica el texto dentro del bloque */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;       /* Espaciado entre líneas */
+  font-size: 16px;        /* Tamaño de letra */
+  color: #333;            /* Color del texto */
+}
+
+footer {
+  background-color: #333;   /* Fondo oscuro */
+  color: #fff;              /* Texto blanco */
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;         /* Espacio antes del footer */
+}
+
+footer a {
+  text-align: center;
+  color: #8fb6ff;           /* Color de los enlaces */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-align: center;
+  text-decoration: underline;
+}
