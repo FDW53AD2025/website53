@@ -1,0 +1,184 @@
+.headersone {
+    color: #FAE8EB;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.headerstwo{
+    color: #F0EFF4;
+    font-family: 'Arial', sans-serif;
+    margin-top: 15px;
+    font-size: 60px;
+    margin-bottom: 8px;
+    font-weight: bold; 
+}
+
+.headerstres{
+    color: #C44536;
+    font-family: 'Arial', sans-serif;
+    margin-top: 15px;
+    font-size: 60px;   
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
+    color: #f9f9f9;
+}
+
+.imagenesBuenas{
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.imagenesBuenas img {
+    width: 300px;
+}
+
+
+.videoBueno {
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin: 0;
+    background: #222;
+}
+
+body {
+    background-color: #272727;
+}
+
+.nav1 {
+    background-color: #F6CACA;
+    padding: 10px;
+}
+
+.nav2 {
+    background-color: #F0EFF4;
+    padding: 10px;
+}
+
+.nav3 {
+    background-color: #C44536;
+    padding: 10px;
+}
+
+.listas {
+
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #E4C2C6;
+    margin-left: 20px;
+}
+
+table {
+    width: 50%;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    border-color: #9E829C;
+    border: 5px solid #9E829C;
+    
+}
+
+th, td {
+    border: 1px solid #9E829C;
+    padding: 8px;
+    text-align: left;
+}
+
+#forms {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+form {
+    width: 60%;
+    margin: 30px auto 40px auto;
+    padding: 24px 32px;
+    background: #2d2d2d;
+    border: 3px solid #C44536;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    display: table;
+}
+
+form label {
+    display: table-cell;
+    padding: 12px 8px;
+    color: #F0EFF4;
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    vertical-align: middle;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    display: table-cell;
+    width: 95%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #C44536;
+    border-radius: 6px;
+    background: #222;
+    color: #F0EFF4;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+form input[type="checkbox"] {
+    margin-left: 10px;
+    transform: scale(1.2);
+    accent-color: #C44536;
+}
+
+form button[type="submit"] {
+    display: block;
+    margin: 24px auto 0 auto;
+    padding: 10px 32px;
+    background: #C44536;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background: #a83224;
+}
+
+form > label,
+form > input,
+form > button {
+    display: table-row;
+}
+
+form > label,
+form > input[type="text"],
+form > input[type="number"],
+form > input[type="checkbox"] {
+    width: 100%;
+}

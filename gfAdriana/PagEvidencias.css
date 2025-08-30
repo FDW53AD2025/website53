@@ -1,0 +1,9 @@
+.border2 {
+    border: 2px solid black;
+    background-color: rgb(223, 223, 209);
+}
+.Evidencias {
+    border: 2px double black;
+    background-color: rgb(121, 202, 168);
+}
+

@@ -1,0 +1,13 @@
+.Pasatiempos {
+    text-align: center;
+    background-color: beige;
+}
+
+hr{
+        height: 3px; 
+        background-color: cadetblue;
+        text-align: center;
+        border:none;
+        margin: 20px auto;
+        width: 80%;
+    }
