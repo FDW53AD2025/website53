@@ -6,145 +6,158 @@
   <title>Escuchar Música</title>
   <style>
     
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap');
+
     body {
-      font-family: 'Courier New', Courier, monospace;
-      background: linear-gradient(to right, #1c1c1c, #2e2e2e);
-      color: #ddd;
+      font-family: 'Roboto Mono', monospace;
+      background: linear-gradient(135deg, #1a1a1a, #2b0050);
+      color: #e0e0e0;
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      background-image: url('https://i.imgur.com/oVn0G2f.png');
+      background-size: cover;
+      background-blend-mode: overlay;
     }
 
     header {
-      background-color: #111;
+      background: rgba(0, 0, 0, 0.7);
       padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 3px solid #444;
+      border-bottom: 2px dashed #7f00ff;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
-      color: #eee;
-      text-shadow: 2px 2px 4px #000;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.8rem;
+      color: #f8f;
+      text-shadow: 0 0 8px #9d00ff;
     }
 
     nav {
-      background-color: #181818;
-      padding: 0.8rem;
-      display: flex;
-      justify-content: center;
-      border-bottom: 1px solid #333;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #7f00ff;
     }
 
     nav ul {
       list-style: none;
       display: flex;
-      gap: 1.5rem;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
       padding: 0;
       margin: 0;
-      flex-wrap: wrap;
-      justify-content: center;
     }
 
     nav a {
       text-decoration: none;
-      color: #bbb;
+      color: #cfcfcf;
       font-weight: bold;
-      padding: 0.3rem 0.6rem;
+      background: #400040;
+      padding: 0.5rem 1rem;
       border-radius: 4px;
-      transition: all 0.3s;
+      border: 1px solid #a44fd4;
+      box-shadow: 0 0 6px #a44fd4;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.75rem;
+      transition: all 0.2s ease;
     }
 
     nav a:hover {
-      background-color: #333;
-      color: #fff;
+      background: #9d00ff;
+      color: #000;
+      box-shadow: 0 0 12px #f8f;
+      transform: scale(1.05);
     }
 
     main {
-      max-width: 800px;
+      max-width: 780px;
       margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 1rem;
       text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid #7f00ff;
+      border-radius: 8px;
     }
 
     main h2 {
-      font-size: 1.8rem;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.2rem;
       margin-bottom: 1rem;
-      color: #fff;
-      border-bottom: 2px dashed #555;
-      display: inline-block;
-      padding-bottom: 5px;
+      color: #f8f;
+      text-shadow: 0 0 6px #a44fd4;
     }
 
     main p {
-      font-size: 1rem;
-      color: #ccc;
+      font-size: 0.95rem;
+      color: #ddd;
     }
 
     aside {
-      background: #1a1a1a;
+      background: rgba(0, 0, 0, 0.6);
       max-width: 320px;
       margin: 2rem auto;
-      padding: 1.5rem 2rem;
+      padding: 1.5rem;
       border-radius: 8px;
-      border: 1px solid #333;
+      border: 1px solid #7f00ff;
+      box-shadow: 0 0 8px #a44fd4;
       text-align: center;
     }
 
     aside h3 {
       margin-top: 0;
-      font-size: 1.3rem;
-      color: #eee;
-      border-bottom: 1px solid #444;
-      padding-bottom: 0.5rem;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
+      color: #f8f;
     }
 
     aside p {
-      color: #bbb;
+      color: #cfcfcf;
       font-style: italic;
     }
 
     footer {
       text-align: center;
-      padding: 1.5rem;
-      font-size: 0.85rem;
-      color: #777;
-      border-top: 1px solid #333;
-      background-color: #111;
+      padding: 1rem;
+      font-size: 0.75rem;
+      color: #aaa;
+      border-top: 1px solid #7f00ff;
+      background: rgba(0, 0, 0, 0.7);
     }
+
   </style>
 </head>
 <body>
   <header>
-    <h1>Pasatiempo 1</h1>
+    <h1>PASATIEMPO 1</h1>
   </header>
 
   <nav>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="pasatiempo2.html">Salir</a></li>
-      <li><a href="pasatiempo3.html">Ver Series o Películas</a></li>
-      <li><a href="pasatiempo4.html">Caminar o Correr</a></li>
-      <li><a href="pasatiempo5.html">Dibujar</a></li>
+      <li><a href="index.html">INICIO</a></li>
+      <li><a href="pasatiempo2.html">SALIR</a></li>
+      <li><a href="pasatiempo3.html">VER SERIES</a></li>
+      <li><a href="pasatiempo4.html">CAMINAR</a></li>
+      <li><a href="pasatiempo5.html">DIBUJAR</a></li>
     </ul>
   </nav>
 
   <main>
-    <h2>Esuchar música</h2>
-    <p>La mayor parte del tiempo me la paso escuchando musica, 
-        me gusta descubrir nuevas canciones🎧</p>
+    <h2>Esuchar música 🎧</h2>
+    <p>La mayor parte del tiempo me la paso escuchando musica, me gusta descubrir nuevas canciones.</p>
   </main>
 
   <aside>
     <h3>Tip</h3>
-    <p>La música instrumental ayuda mucho a concentrarse y relajarse.</p>
+    <p>La música instrumental ayuda a concentrarse y relajarse.</p>
   </aside>
 
   <footer>
-    <p>Creado por Mimi</p>
+    <p>Creado por Mimi • MySpace</p>
   </footer>
 </body>
 </html>
-
 
