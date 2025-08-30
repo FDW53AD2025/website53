@@ -3,131 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Escuchar Música</title>
+  <title>Pasatiempo 1 - Escuchar Música</title>
   <style>
-    
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap');
+    /* Fuentes elegantes */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400&display=swap');
 
     body {
-      font-family: 'Roboto Mono', monospace;
-      background: linear-gradient(135deg, #1a1a1a, #2b0050);
-      color: #e0e0e0;
       margin: 0;
       padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #111; /* fondo oscuro elegante */
+      color: #eaeaea;
       line-height: 1.6;
-      background-image: url('https://i.imgur.com/oVn0G2f.png');
-      background-size: cover;
-      background-blend-mode: overlay;
     }
 
     header {
-      background: rgba(0, 0, 0, 0.7);
+      background: #000;
       padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 2px dashed #7f00ff;
+      border-bottom: 2px solid #d4af37; /* dorado */
     }
 
     header h1 {
       margin: 0;
-      font-family: 'Press Start 2P', cursive;
-      font-size: 1.8rem;
-      color: #f8f;
-      text-shadow: 0 0 8px #9d00ff;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #d4af37;
+      text-transform: uppercase;
     }
 
     nav {
-      background-color: rgba(0, 0, 0, 0.6);
+      background: #1a1a1a;
       padding: 1rem;
       text-align: center;
-      border-bottom: 1px solid #7f00ff;
+      border-bottom: 1px solid #444;
     }
 
     nav ul {
       list-style: none;
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
       padding: 0;
       margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
     }
 
     nav a {
       text-decoration: none;
-      color: #cfcfcf;
+      color: #eaeaea;
       font-weight: bold;
-      background: #400040;
       padding: 0.5rem 1rem;
-      border-radius: 4px;
-      border: 1px solid #a44fd4;
-      box-shadow: 0 0 6px #a44fd4;
-      font-family: 'Press Start 2P', cursive;
-      font-size: 0.75rem;
-      transition: all 0.2s ease;
+      border: 1px solid transparent;
+      transition: all 0.3s ease;
+      font-family: 'Playfair Display', serif;
     }
 
     nav a:hover {
-      background: #9d00ff;
-      color: #000;
-      box-shadow: 0 0 12px #f8f;
-      transform: scale(1.05);
+      border: 1px solid #d4af37;
+      color: #d4af37;
     }
 
     main {
-      max-width: 780px;
+      max-width: 700px;
       margin: 2rem auto;
-      padding: 1rem;
+      padding: 2rem;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 6px;
       text-align: center;
-      background: rgba(0, 0, 0, 0.5);
-      border: 2px solid #7f00ff;
-      border-radius: 8px;
     }
 
     main h2 {
-      font-family: 'Press Start 2P', cursive;
-      font-size: 1.2rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
       margin-bottom: 1rem;
-      color: #f8f;
-      text-shadow: 0 0 6px #a44fd4;
+      color: #d4af37;
     }
 
     main p {
-      font-size: 0.95rem;
-      color: #ddd;
+      font-size: 1rem;
+      color: #ccc;
     }
 
     aside {
-      background: rgba(0, 0, 0, 0.6);
-      max-width: 320px;
+      max-width: 400px;
       margin: 2rem auto;
       padding: 1.5rem;
-      border-radius: 8px;
-      border: 1px solid #7f00ff;
-      box-shadow: 0 0 8px #a44fd4;
+      background: #000;
+      border: 1px solid #333;
+      border-radius: 6px;
       text-align: center;
     }
 
     aside h3 {
       margin-top: 0;
-      font-family: 'Press Start 2P', cursive;
-      font-size: 1rem;
-      color: #f8f;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: #d4af37;
     }
 
     aside p {
-      color: #cfcfcf;
+      color: #bbb;
       font-style: italic;
     }
 
     footer {
       text-align: center;
       padding: 1rem;
-      font-size: 0.75rem;
-      color: #aaa;
-      border-top: 1px solid #7f00ff;
-      background: rgba(0, 0, 0, 0.7);
+      font-size: 0.8rem;
+      color: #999;
+      border-top: 1px solid #333;
+      background: #111;
     }
-
   </style>
 </head>
 <body>
@@ -137,27 +125,26 @@
 
   <nav>
     <ul>
-      <li><a href="index.html">INICIO</a></li>
-      <li><a href="pasatiempo2.html">SALIR</a></li>
-      <li><a href="pasatiempo3.html">VER SERIES</a></li>
-      <li><a href="pasatiempo4.html">CAMINAR</a></li>
-      <li><a href="pasatiempo5.html">DIBUJAR</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pasatiempo2.html">Salir</a></li>
+      <li><a href="pasatiempo3.html">Ver series</a></li>
+      <li><a href="pasatiempo4.html">Caminar</a></li>
+      <li><a href="pasatiempo5.html">Dibujar</a></li>
     </ul>
   </nav>
 
   <main>
-    <h2>Esuchar música 🎧</h2>
+    <h2>Esuchar música</h2>
     <p>La mayor parte del tiempo me la paso escuchando musica, me gusta descubrir nuevas canciones.</p>
   </main>
 
   <aside>
-    <h3>Tip</h3>
-    <p>La música instrumental ayuda a concentrarse y relajarse.</p>
+    <h3>🔔</h3>
+    <p>Una playlist bien elegida puede ser la mejor carta de presentación.</p>
   </aside>
 
   <footer>
-    <p>Creado por Mimi • MySpace</p>
+    <p>Sitio web • Creado por Mimi </p>
   </footer>
 </body>
 </html>
-
