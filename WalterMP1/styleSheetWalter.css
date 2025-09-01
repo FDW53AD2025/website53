@@ -10,4 +10,6 @@
     color: rgb(16, 222, 16);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    animation: pulse 2s bounce;
+    border: 6px dashed rgb(0, 0, 0) ;
 }
