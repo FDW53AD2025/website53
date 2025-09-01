@@ -9,6 +9,8 @@
 .a26:hover {
     color: rgb(16, 222, 16);
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 3px black;
     transform: scale(1.2);
-    border: 6px dashed rgb(0, 0, 0) ;
 }
