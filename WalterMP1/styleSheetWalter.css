@@ -3,13 +3,12 @@
     font-weight: bold;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    transition: all 0.4s ease-in-out;
 }
 
 .a26:hover {
     color: rgb(16, 222, 16);
-    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    animation: pulse 2s bounce;
+    transform: scale(1.2);
     border: 6px dashed rgb(0, 0, 0) ;
 }
