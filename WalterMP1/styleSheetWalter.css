@@ -1,0 +1,10 @@
+.a26 {
+    color: red;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a26:hover {
+    text-decoration: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
