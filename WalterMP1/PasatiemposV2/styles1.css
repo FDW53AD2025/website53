@@ -1,0 +1,124 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+main {
+    padding: 1.5rem;
+    background: white;
+    margin: 1rem auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+img, video, iframe {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background: #4a90e2;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #f0f4f8;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 0.5rem;
+    border: 1px solid #0b70ff;
+    border-radius: 6px;
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    border: black solid 2px;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    cursor: progress;
+    margin-right: px;;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}

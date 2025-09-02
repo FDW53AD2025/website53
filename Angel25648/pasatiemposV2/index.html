@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis PasatiemposV2</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Mis PasatiemposV2</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="juegosdemesa.html">Juegos de Mesa</a></li>
+        <li><a href="musica.html">Música</a></li>
+        <li><a href="videojuegos.html">Videojuegos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p class="bienvenida">Bienvenidos a mi pagina web, estos son algunos de mis pasatiempos que tengo y tambien porque son interesantes para mi</p>
+    
+    <h2>Encuesta de Pasatiempos</h2>
+    <form action="">
+      <div>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+      </div>
+
+      <div>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required><br><br>
+      </div>
+
+      <div>
+        <label>¿Qué pasatiempo disfrutas más?</label><br>
+        <input type="radio" name="favorito" value="series"> Series<br>
+        <input type="radio" name="favorito" value="juegosdemesa"> Juegos de Mesa<br>
+        <input type="radio" name="favorito" value="musica"> Música<br>
+        <input type="radio" name="favorito" value="videojuegos"> Videojuegos<br><br>
+      </div>
+
+      <div>
+        <label>¿Qué actividades practicas?</label><br>
+        <input type="checkbox" name="actividad" value="leer"> Leer<br>
+        <input type="checkbox" name="actividad" value="deporte"> Hacer deporte<br>
+        <input type="checkbox" name="actividad" value="escuchar"> Escuchar música<br>
+        <input type="checkbox" name="actividad" value="jugar"> Jugar videojuegos<br><br>
+      </div>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+    </form>
+  </main>
+
+  <aside class="info-box">
+    <h2>Tip para fundamentos de desarrollo web</h2>
+    <p>Aprende la teoría, pero enfócate en practicar creando proyectos reales. Esto te ayudará a entender cómo funcionan juntos HTML, CSS y JavaScript, resolver problemas prácticos y construir un portafolio que demuestre tus habilidades.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 - PasatiemposV2</p>
+    <p>Desarrollado por: AIBM</p>
+  </footer>
+</body>
+</html>

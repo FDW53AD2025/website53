@@ -1,0 +1,26 @@
+.titulo-centrado {
+    text-align: center;
+    background-color: rgb(64, 5, 119);
+    color: rgb(9, 255, 0);
+    border: 1px solid black;
+    margin: 10px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ccc;
+    font-family: "EB Garamond", serif;
+}
+
+/*uso del border
+.banner-superior {
+    background-color: #9400d3;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    AQUI es donde agregamos el borde
+    border: 3px solid #ffcc00; Un borde amarillo-naranja 
+    border: [ancho] [estilo] [color];
+    */

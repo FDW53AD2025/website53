@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0; padding:20px;
+  background: radial-gradient(circle at 50% 50%, #4b247e, #1b263b);
+  color:#fff; text-align:center;
+}
+.contacto-container {
+  background: rgba(11, 218, 255, 0.1);
+  padding:40px;
+  border-radius:15px;
+  max-width:400px;
+  margin:auto;
+  box-shadow:0 8px 25px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+h1 { font-size:2.5rem; margin-bottom:25px; }
+input, textarea {
+  width:100%; padding:12px 15px; margin-bottom:20px;
+  border-radius:8px; border:none; font-size:1rem;
+  background: rgba(255,255,255,0.2); color:#fff;
+}
+textarea { height:120px; resize:none; }
+button {
+  background-color:#2b0004; color:#fff; border:none; padding:12px 25px;
+  border-radius:8px; cursor:pointer; font-size:1rem; transition:0.3s;
+}
+button:hover { background-color:#fdbfc7; transform:scale(1.05);}
+
+.instagram { margin-top:20px; font-size:1rem; }
+.instagram a { color:#8be8ff; text-decoration:none; font-weight:bold; transition:0.3s; }
+.instagram a:hover { color:#fd1d1d; }
+footer { margin-top:40px; font-size:1rem; color:#ccc; text-shadow:1px 1px 5px rgba(0,0,0,0.4); animation:glow 2s infinite alternate;}
+
+</style>
+</head>
+<body>
+
+    <nav style="text-align: center;"> <font size="5">
+        <a href="index2_Pasatiempos.html">Inicio</a>
+        <a href="Peliculas.html">Películas</a>
+        <a href="Astronomia.html">Astronomía</a>
+        <a href="Familia.html">Familia</a>
+        <a href="Musica.html">Música</a>
+        <a href="Contacto.html">Contacto</a>
+      </font>
+    </nav>
+
+
+<div class="contacto-container">
+  <h1>📬 Contáctame</h1>
+
+  <form>
+    <input type="text" placeholder="Nombre" required>
+    <input type="email" placeholder="Correo" required>
+    <textarea placeholder="Escribe tu mensaje..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="instagram">
+    Sígueme en Instagram: <a href="https://www.instagram.com/caro.rdz26/"target="_blank">@caro.rdz26</a>
+  </div>
+</div>
+
+<footer>✨ Siempre puedes escribirme o seguirme en Instagram ✨</footer>
+
+</body>
+</html>
