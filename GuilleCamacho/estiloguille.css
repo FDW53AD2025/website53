@@ -1,10 +1,10 @@
-#main li[id=a07]:hover{
+#main li[id=a07]+a:hover{
     box-shadow: 5px -5px 5px gold;
     border: 3px solid gold;
     background-color: black;
     color: white;
 }
 
-#main li[id=a07] {
+#main li[id=a07]+a {
     color: greenyellow;
 } 
