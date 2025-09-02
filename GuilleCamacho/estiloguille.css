@@ -1,17 +1,15 @@
 #a07 {
     color: white;
     text-shadow: 
-    0 0 5px red,
+    0 0 5px violet,
     0 0 10px orange,
     0 0 20px yellow,
     0 0 40px green,
     0 0 60px blue,
-    0 0 80px violet;
+    0 0 80px red;
 } 
 
 #a07:hover{
     box-shadow: 5px -5px 5px gold;
-    border: 3px solid gold;
-    background-color: black;
     color: white;
 }
