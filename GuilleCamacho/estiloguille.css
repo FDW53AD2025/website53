@@ -1,9 +1,8 @@
 .a07 {
-    font-size: 50px;
-    color: #fff;
+    color: white;
     text-shadow: 
-    0 0 5px red,
-    0 0 10px red,
-    0 0 20px red,
-    0 0 40px red;
+    0 0 5px violet,
+    0 0 10px violet,
+    0 0 20px violet,
+    0 0 40px violet;
 } 
