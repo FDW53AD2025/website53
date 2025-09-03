@@ -1,0 +1,26 @@
+#a8 {
+  background: linear-gradient(135deg, #ffc0cb, #ff69b4); /* rosa suave a rosa fuerte */
+  color: #3a3a3a;              /* texto gris oscuro para contraste */
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+
+  /* caja */
+  border-radius: 20px;
+  border: 2px solid #ff99bb;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+
+  /* tipografía */
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+
+  /* animación suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+#a8:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
