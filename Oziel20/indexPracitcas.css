@@ -1,40 +1,35 @@
-/* Esto es para todo el cuerpo de la página.
-   Ponemos un fondo gris claro y un tipo de letra simple. */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-/* Esto es para el título principal. Lo hacemos grande y de color azul oscuro. */
 h1 {
     color: #004080;
     text-align: center;
 }
 
-/* Estos estilos son para los títulos de las prácticas. */
+
 h2, h3 {
     color: #333;
 }
 
-/* Esto es para los enlaces (los "a").
-   Quitamos la línea de abajo y los ponemos de color azul. */
+
 a {
     text-decoration: none;
     color: #0066cc;
 }
 
-/* Esto cambia el color del enlace cuando pasas el mouse por encima. */
+
 a:hover {
     color: #0088ff;
 }
 
-/* Esto es para los cuadros que contienen los enlaces.
-   Les damos un fondo blanco, un borde y una pequeña sombra. */
+
 aside {
     background-color: #ffffff;
     border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 5px; /* Esto hace que las esquinas sean un poco redondas. */
+    border-radius: 5px; 
 }
