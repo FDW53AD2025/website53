@@ -1,5 +1,7 @@
 #a23 {
-  color: rgb(216, 176, 0);
-  text-shadow: 0 0 8px violet, 0 0 12px blue;
+    font-family: "Pusab", sans-serif;
+    font-size: 16px;
+    color: rgb(216, 176, 0);
+    text-shadow: 0 0 8px violet, 0 0 12px blue;
 
 }
