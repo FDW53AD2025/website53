@@ -22,8 +22,3 @@ li::before{
     color: gold;
 }
 
-li:hover{
-    width: 35%;
-    background-color: whitesmoke;
-}
-
