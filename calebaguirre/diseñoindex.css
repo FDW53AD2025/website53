@@ -1,0 +1,7 @@
+#a02 { /*al pasar el cursor en sobre la opcion se  marque un recuadro negro */
+    border: 3px solid #000000;
+    background-color:lightseagreen;
+    font-family: fantasy;
+    color: rgb(141, 0, 0);
+    font-size: 15px;
+}
