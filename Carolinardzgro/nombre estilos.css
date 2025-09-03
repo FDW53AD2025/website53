@@ -1,17 +1,9 @@
-    body {
-      background: #1e1e2f;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    h1 {
-      font-family: Arial, sans-serif;
-      font-size: 60px;
-      background: linear-gradient(90deg, #a64cff, #8000ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(128, 0, 255, 0.5);
-      margin: 40px;
-    }
-  
+
+    #a36 {
+    font-family:Arial;
+    font-weight: 700;
+    background-color: rgb(65, 205, 248);
+
+    
+   
+} 
