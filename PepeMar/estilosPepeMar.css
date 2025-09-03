@@ -1,10 +1,8 @@
-#a23 {
-    font-family: "Pusab", sans-serif;
-    font-size: 16px;
-    color: rgb(216, 176, 0);
+#a23 li {
+    color: rgb(216, 176, 0); /* color del texto */
     text-shadow: 0 0 8px violet, 0 0 12px blue;
 }
 
 #a23 li::marker {
-    color: black;
+    color: black; /* color de la viñeta */
 }
