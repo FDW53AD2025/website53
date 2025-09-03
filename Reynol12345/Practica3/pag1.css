@@ -1,143 +1,168 @@
-
+/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Body y fondo oscuro */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f5f5;
-    color: #000000;
-    padding: 20px;
-    line-height: 1.6;
+  background-color: #1b1b2f;
+  color: #f0f0f0;
+  line-height: 1.6;
+  min-height: 100vh;
 }
 
+/* Header */
 header {
-    background-color: #0b46a5;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 8px 8px 0 0;
+  background-color: #0f3460;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 header h1 {
-    margin-bottom: 10px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Navegación */
+nav {
+  margin-top: 1rem;
 }
 
 nav a {
-    color: #f8f8f8;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-    color: #697214;
+  background-color: #53354a;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4);
 }
 
-main section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* Main y secciones */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
-main h2 {
-    margin-bottom: 10px;
-    color: #ffffff;
+section, aside, div {
+  background-color: #2e2e3e;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
 }
 
-aside {
-    background-color: #fff7ed;
-    padding: 15px;
-    border-left: 6px solid #0a9dca;
-    margin-bottom: 20px;
-    border-radius: 5px;
+/* Titulos */
+h2, h3, h1 {
+  color: #e94560;
+  margin-bottom: 1rem;
 }
 
-img, video, audio, iframe, embed {
-    display: block;
-    margin: 10px auto;
-    border-radius: 6px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+h2, h3 {
+  text-align: center;
 }
 
-
-ul, ol, dl {
-    margin-left: 20px;
+/* Listas */
+ul, ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
-dt {
-    font-weight: bold;
-    color: #1e3a8a;
+li {
+  margin-bottom: 0.5rem;
 }
 
-dd {
-    margin-left: 20px;
-    color: #444;
+/* Definiciones */
+dl dt {
+  font-weight: bold;
+  color: #f0f0f0;
+  margin-top: 1rem;
 }
 
-mark {
-    background-color: #f1dc1b;
+dl dd {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-span {
-    font-weight: bold;
-    color: #3fb6a6;
+blockquote {
+  border-left: 4px solid #e94560;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #fff;
+  margin: 1rem 0;
 }
 
-cite {
-    color: #3b82f6;
-    font-style: italic;
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
-abbr {
-    border-bottom: 1px dotted #444;
-    cursor: help;
+#galeria img, #galeria iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
 }
-
-small {
-    font-size: 0.85em;
-    color: gray;
-}
-
-div p {
-    margin: 10px 0;
-}
-
 
 a {
-    color: #3b82f6;
-    text-decoration: none;
+  color: #e94560;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #ff6a00;
+  text-decoration: underline;
 }
 
-address {
-    margin-top: 20px;
-    background-color: #e0f2fe;
-    padding: 15px;
-    font-style: normal;
-    border-radius: 5px;
+abbr {
+  text-decoration: underline dotted;
+  cursor: help;
 }
 
-hr {
-    margin: 30px 0;
-    border: none;
-    border-top: 1px solid #ccc;
-}
 footer {
-    background-color: #1e3a8a;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    border-radius: 0 0 8px 8px;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #0f3460;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.3);
 }
 
+mark {
+  background-color: #e94560;
+  color: #fff;
+  padding: 0 0.2rem;
+  border-radius: 3px;
+}
+
+sub, sup {
+  color: #f0f0f0;
+}
+
+span {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  #galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 0.5rem;
+  }
+}
