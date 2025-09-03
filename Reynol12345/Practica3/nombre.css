@@ -1,0 +1,9 @@
+#a31 a {
+  display: inline-block;
+  background-color: #082d6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px; 
+  text-decoration: none; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+}
