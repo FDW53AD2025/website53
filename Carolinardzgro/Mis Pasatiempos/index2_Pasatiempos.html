@@ -6,47 +6,63 @@
   <title>Pasatiempos Carolina</title>
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
-      color: #333;
+      background: linear-gradient(135deg, #f8f9fa, #260550);
+      color: #caf9ff;
     }
+
     header {
       background: #b97798;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 20px 0;
       text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
+
     header h1 {
       margin: 0;
       font-size: 2.5em;
     }
+
     nav {
       margin-top: 10px;
     }
+
     nav a {
       text-decoration: none;
-      color: white;
+      color: rgb(230, 169, 197);
       margin: 0 15px;
-      transition: color 0.3s;
+      font-weight: bold;
+      transition: all 0.3s;
     }
+
     nav a:hover {
       color: #ffe6f0;
+      transform: scale(1.1);
     }
+
     main {
       max-width: 900px;
-      margin: auto;
+      margin: 30px auto;
       padding: 30px 20px;
+      background: rgba(218, 192, 192, 0.8);
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
+
     h2 {
       text-align: center;
-      color: #000000;
+      color: #333;
     }
+
     p {
       text-align: center;
       line-height: 1.6;
+      color: #444;
     }
+
     footer {
       background: #333;
       color: white;
@@ -54,10 +70,12 @@
       padding: 15px 0;
       margin-top: 40px;
     }
+
     footer a {
       color: #ffb3d9;
       text-decoration: none;
     }
+
     footer a:hover {
       text-decoration: underline;
     }
@@ -67,14 +85,12 @@
   <header>
     <h1>Pasatiempos</h1>
     <nav>
-      <font size="5">
-        <a href="">Inicio</a>
-        <a href="Peliculas.html">Películas</a>
-        <a href="Astronomia.html">Astronomía</a>
-        <a href="Familia.html">Familia</a>
-        <a href="Musica.html">Música</a>
-        <a href="Contacto.html">Contacto</a>
-      </font>
+      <a href="index2_Pasatiempos.html">Inicio</a>
+      <a href="Peliculas.html">Películas</a>
+      <a href="Astronomia.html">Astronomía</a>
+      <a href="Familia.html">Familia</a>
+      <a href="Musica.html">Música</a>
+      <a href="Contacto.html">Contacto</a>
     </nav>
   </header>
 
@@ -82,18 +98,56 @@
     <article>
       <header>
         <h2>Hola, soy Carolina</h2>
+        <img width="200px" src="imagenes/biografia.jpg" alt="personal">
       </header>
       <section>
-        <p>Bienvenida/o a mi página de la materia <strong>Fundamentos de Desarrollo Web</strong>.</p>
+        <p>“Bienvenido a mi espacio digital donde comparto mis <strong>proyectos, pasatiempos y logros creativos".</strong>.</p>
+
+        <p>Cuentame sobre ti:</p>    
+        <body>
+          <div>
+          <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+          </form>
+        </div>
+
+        <div>
+          <label for="fechaNac">Fecha de Nacimiento</label>
+          <input type="date" name="fechaNac" id="fechaNac">
+        </div>
+
+        <div>
+          <label for="edad">Edad</label>
+          <input type="text" name="edad" id="edad">
+        </div>
+
+        <div>
+          <label for="colorFav">Color Favorito</label>
+          <input type="text" name="colorFav" id="colorFav">
+        </div>
+
+        <div>
+          <label for="foto">Foto</label>
+          <input type="file" name="foto" id="foto">
+        </div>
+        
+        </body>    
         <h2>Mi educación</h2>
-        <p>Estudié en la preparatoria <strong>15 Florida</strong>.</p>
-        <p>Actualmente curso la carrera de <strong>Licenciatura en Tecnologías de Información (LTI)</strong> en <b>La Poderosa FACPYA</b>.</p>
+        <div style="display: flex; align-items: center; gap: 20px;"></div>
+        <p>Estudié en la preparatoria <strong>15 Florida</strong>.</p><p> <strong>KIOWAS</strong></p>
+        <video controls width="200px" src="Videos/video1.mp4"></video>
+
+        <div style="display: flex; align-items: center; gap: 20px;">
+    <p>Actualmente curso la carrera de <strong>Licenciatura en Tecnologías de Información (LTI)</strong> en <b>La Poderosa FACPYA</b>.</p>
+    <video controls width="200px" src="Videos/video2.mp4"></video>
+  </div>
       </section>
     </article>
   </main>
 
   <footer>
-    <p><font size="3">Sitio creado por: <b>Carolina R.</b></font></p>
+    <p>Sitio creado por: <b>Carolina R.</b></p>
   </footer>
 </body>
 </html>
