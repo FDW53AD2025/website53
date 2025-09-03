@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactame</title>
+    <link rel="stylesheet" href="diseños.css">
 </head>
 <body>
-    <h1>Registra Tus Datos aqui </h1>
-</body>
+ <h1>Registra tus datos aqui</h1>
+
+    <form class="texto" action="">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+
+        <div>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="Apellidos">
+        </div>
+
+        <div>
+            <label for="Correo">Correo electronico:</label>
+            <input type="text" name="correo" id="correo">
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad">
+        </div>
+
+        <div>
+            <label for="Fechareg">Fecha de registro:</label>
+            <input type="date" name="Fecha" id="Fecha">
+        </div>
+        <div>
+            <label for="Pasatiempo">Pasatiempo Favorito:</label>
+            <select name="pasatiempo" id="pasatiempo">
+                <option value="1">Cocina </option>
+                <option value="2">Ejercicio</option>
+                <option value="3">Peliculas</option>
+                <option value="4">Musica</option>
+                <option value="5">Ninguna</option>
+            </select>
+        </div>
+
+    </form>
+    <div class="contenedor">
+      <a href="contacto.html" class="recuadro" >Registrar</a>
+      <a href="sobremi.html" class="recuadro" >Salir</a>
+    </div>
+  </nav>
 </html>
