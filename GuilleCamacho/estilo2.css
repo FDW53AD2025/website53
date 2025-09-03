@@ -1,5 +1,29 @@
 h1{
-    color:white;
-    border-bottom: 2px solid orange;
-    background-color:black;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    border-bottom: 3px solid orange;
+    text-align: center;
 }
+
+h2 {
+    width: 35%;
+    text-shadow: 2px -2px 4px orange;
+    border-bottom: 3px solid orange;
+ }
+
+ul {
+    list-style:none;
+}
+
+li::before{
+    content: "👉🏼​";
+    margin-right: 5px;
+    color: gold;
+}
+
+li:hover{
+    width: 35%;
+    background-color: whitesmoke;
+}
+
