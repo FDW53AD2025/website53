@@ -1,0 +1,16 @@
+/* Estilo solo para tu nombre */
+#a14 a {
+  font-family: 'Courier New', monospace; /* Fuente diferente */
+  font-size: 22px; /* Tamaño de letra */
+  font-weight: bold; /* Negrita */
+  color: #1e90ff; /* Azul llamativo */
+  text-transform: uppercase; /* Todo en mayúsculas */
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Sombra para resaltar */
+  transition: 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+#a14 a:hover {
+  color: #ff4500; /* Cambia a naranja */
+  transform: scale(1.2); /* Aumenta un poco el tamaño */
+}
