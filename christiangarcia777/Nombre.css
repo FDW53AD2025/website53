@@ -1,7 +1,7 @@
 /* Estilo solo para tu nombre */
 #a14 a {
   font-family: 'Courier New', monospace; /* Fuente diferente */
-  font-size: 22px; /* Tamaño de letra */
+  font-size: 16px; /* Tamaño de letra */
   font-weight: bold; /* Negrita */
   color: #1e90ff; /* Azul llamativo */
   text-transform: uppercase; /* Todo en mayúsculas */
