@@ -23,5 +23,17 @@
   color: rgb(219, 24, 118); 
 }
 #a10 a::after {
-  content: '🥶👻';
+  content: '🥶👻🙀';
+  position: absolute;
+  margin-left: 8px;
+  animation: floatConfetti 3s infinite ease-in-out;
+  font-size: 1.2em;
+}
+@keyframes floatConfetti {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
