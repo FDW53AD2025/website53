@@ -29,28 +29,3 @@
   animation: floatConfetti 3s infinite ease-in-out;
   font-size: 1.2em;
 }
-@keyframes floatConfetti {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 0.8;
-  }
-  50% {
-    transform: translateY(-5px) rotate(10deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 0.8;
-  }
-}
-#a10 a:active {
-  transform: scale(1.2) rotate(-2deg);
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 20px rgba(255, 200, 255, 0.6);
-  transition: all 0.2s ease;
-}
-#a10 a:hover {
-  color: #ffeaf7;
-  text-shadow: 0 0 8px #ffd6f5, 0 0 12px #ffcce6;
-  background-color: rgba(255, 255, 255, 0.05);
-}
