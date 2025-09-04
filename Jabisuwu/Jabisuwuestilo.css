@@ -1,9 +1,9 @@
 #a10 {
     color: rgb(255, 54, 121);
-    box-shadow: -5px -5px 20px rgba(255, 114, 189, 0.6);
+    box-shadow: -5px -5px 20px rgba(255, 0, 136, 0.6);
     font-family: 'lucida handwriting', cursive;
-    text-shadow: 2px 2px 4px rgba(255, 59, 209, 0.5);
-    background-color: rgb(255, 140, 213);
+    text-shadow: 2px 2px 4px rgba(189, 0, 66, 0.5);
+    background-color: rgb(255, 159, 220);
     color: rgb(255, 171, 202);
     border: 50px hidden rgb(233, 83, 150);
     padding: 0.10em;
