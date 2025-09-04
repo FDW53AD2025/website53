@@ -29,3 +29,11 @@
   animation: floatConfetti 3s infinite ease-in-out;
   font-size: 1.2em;
 }
+@keyframes floatConfetti {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
