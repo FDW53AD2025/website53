@@ -1,7 +1,7 @@
 #a04{
   font-family: 'UnifrakturCook', 'Old English Text MT', 'Goudy Text', 'Cormorant SC', serif;
-  background: pink;           /* fondo rosa */
-  font-weight: bold;          /* más marcado */
+  background: pink;         
+  font-weight: bold;          
   padding: 0.75rem 1rem;      
   border-radius: 12px;        
   line-height: 1.2;
