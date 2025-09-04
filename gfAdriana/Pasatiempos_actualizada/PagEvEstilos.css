@@ -1,4 +1,4 @@
-.a17 a {
+#a17 a {
   display: inline-block;
   padding: 10px 20px;
   background: linear-gradient(135deg, #a176cf, #839ecd); 
@@ -11,7 +11,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.a17 a:hover {
+#a17 a:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
