@@ -1,6 +1,6 @@
 #a30 {
     color: #fff;
-    background: linear-gradient(135deg, #7b2ff7, #f107a3); /* Degradado morado-rosa */
+    background: linear-gradient(135deg, #7b2ff7, #f107a3); 
     text-decoration: none;
     padding: 10px 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,8 +12,8 @@
 }
 
 #a30:hover {
-    background: linear-gradient(135deg, #f107a3, #7b2ff7); /* Invierte colores */
-    transform: scale(1.08); /* Efecto de agrandado */
+    background: linear-gradient(135deg, #f107a3, #7b2ff7); 
+    transform: scale(1.08); 
     box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
     cursor: pointer;
 }
