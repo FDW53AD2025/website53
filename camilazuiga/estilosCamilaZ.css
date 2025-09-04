@@ -1,0 +1,13 @@
+#a30{
+    color: #fff;
+    background: linear-gradient(135deg, #7b2ff7, #f107a3); 
+    text-decoration: none;
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
