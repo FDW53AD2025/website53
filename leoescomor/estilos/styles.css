@@ -1,0 +1,27 @@
+
+#a12 a{
+  --accent:#F6CACA;            
+  display:inline-block;
+  padding:.5rem 1rem;
+  border-radius:999px;
+  background:linear-gradient(135deg, var(--accent), #272727);
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  letter-spacing:.3px;
+  box-shadow:0 6px 18px rgba(0,0,0,.12);
+  transition:transform .15s ease, box-shadow .15s ease, filter .2s ease;
+}
+#a12 a:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px rgba(0,0,0,.16);
+  filter:saturate(1.2);
+}
+#a12 a:active{
+  transform:translateY(0);
+  box-shadow:0 4px 12px rgba(0,0,0,.18);
+}
+#a12 a:focus-visible{
+  outline:2px solid #272727;
+  outline-offset:2px;
+}

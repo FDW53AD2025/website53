@@ -1,0 +1,35 @@
+#a16 {
+  display: block;
+  padding: 6px 14px; 
+  background: linear-gradient(135deg, #cce0ff, #e6f0ff); 
+  border: 2px solid rgba(2, 146, 21, 0.637); 
+  box-shadow: 0 3px 10px rgb(35, 221, 51);
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+  font-weight: bold;
+  font-size: 16px; 
+  color: #A0522D; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+  position: relative;
+}
+
+#a16::before {
+  content: "•";
+  position: absolute;
+  left: -22px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  font-size: 23px;
+  transition: color 0.2s ease;
+}
+
+#a16:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(15, 235, 132, 0.87);
+  border-color: rgba(18, 192, 85, 0.5);
+}
+
+#a16:hover::before {
+  color: #1a1aff;
+}

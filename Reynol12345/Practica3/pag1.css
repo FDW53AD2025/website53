@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body y fondo oscuro */
 body {
   background-color: #1b1b2f;
   color: #f0f0f0;
@@ -14,7 +13,6 @@ body {
   min-height: 100vh;
 }
 
-/* Header */
 header {
   background-color: #0f3460;
   color: #fff;
@@ -30,7 +28,6 @@ header h1 {
   letter-spacing: 1px;
 }
 
-/* Navegación */
 nav {
   margin-top: 1rem;
 }
@@ -51,7 +48,6 @@ nav a:hover {
   box-shadow: 0 4px 6px rgba(0,0,0,0.4);
 }
 
-/* Main y secciones */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -66,7 +62,6 @@ section, aside, div {
   box-shadow: 0 6px 10px rgba(0,0,0,0.4);
 }
 
-/* Titulos */
 h2, h3, h1 {
   color: #e94560;
   margin-bottom: 1rem;
@@ -76,7 +71,6 @@ h2, h3 {
   text-align: center;
 }
 
-/* Listas */
 ul, ol {
   margin-left: 2rem;
   margin-bottom: 1rem;
@@ -86,7 +80,6 @@ li {
   margin-bottom: 0.5rem;
 }
 
-/* Definiciones */
 dl dt {
   font-weight: bold;
   color: #f0f0f0;
