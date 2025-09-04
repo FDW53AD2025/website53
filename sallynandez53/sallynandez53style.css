@@ -1,114 +1,33 @@
-body {
+a {
+  text-decoration: none;
   font-family: Arial, sans-serif;
-  background: #fafafa;
-  margin: 20px;
+  font-size: 18px;
 }
 
-h1 {
-  text-align: center;
+.link-rojo {
   color: purple;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
-
-/* 🔹 Azul con fondo */
-.link-azul {
-  background: lightblue;
-  color: navy;
-  font-weight: bold;
-  font-style: italic;
-  padding: 6px 12px;
+  border: 2px solid blueviolet;
+  padding: 5px;
   display: inline-block;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
-/* 🔹 Celeste con borde negro */
-.link-celeste {
-  background: cyan;
-  color: black;
-  border: 2px solid black;
-  padding: 6px 12px;
-  display: inline-block;
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* 🔹 Rosa con esquinas redondeadas */
 .link-rosa {
-  background: pink;
-  color: purple;
-  padding: 6px 12px;
-  border-radius: 12px;
-  display: inline-block;
-  font-style: italic;
-}
-
-/* 🔹 Borde rojo */
-.link-rojo-borde {
-  border: 2px solid red;
-  padding: 6px 12px;
-  display: inline-block;
-  color: blue;
-  font-style: italic;
-}
-
-/* 🔹 Morado con corazón */
-.link-morado {
-  background: violet;
+  background-color: pink;
   color: white;
-  font-weight: bold;
-  font-style: italic;
-  padding: 6px 12px;
-  border-radius: 12px;
-  display: inline-block;
-}
-
-/* 🔹 Degradado */
-.link-gradient {
-  background: linear-gradient(to right, gold, orange);
-  padding: 6px 12px;
-  color: white;
-  font-weight: bold;
-  font-style: italic;
+  padding: 5px 10px;
   border-radius: 8px;
-  display: inline-block;
+  font-weight: bold;
 }
 
-/* 🔹 Verde pastel */
-.link-verde {
-  background: #d4fcd4;
-  border: 2px solid green;
-  color: darkgreen;
-  padding: 6px 12px;
-  border-radius: 6px;
-  display: inline-block;
+.link-subrayado {
+  color: violet;
+  text-decoration: underline wavy orange;
   font-style: italic;
 }
 
-/* 🔹 Azul con sombra */
-.link-azul-sombra {
-  color: blue;
+.link-sombra {
+  color: darkblue;
   font-weight: bold;
   text-shadow: 2px 2px 5px lightblue;
-  padding: 6px 12px;
-  display: inline-block;
-  font-style: italic;
-}
-
-/* 🔹 Fondo rojo fuerte */
-.link-rojo {
-  background: red;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  display: inline-block;
-  font-weight: bold;
-  font-style: italic;
 }
