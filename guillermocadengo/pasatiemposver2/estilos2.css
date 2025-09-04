@@ -749,7 +749,7 @@ body.videojuegos footer.videojuegos-footer a:hover {
   text-decoration: underline;
 }
 
-
+/* NavBar */
 
 nav {
   background-color: #222;
@@ -835,7 +835,7 @@ hr {
 
 
 
-/* ===== Estilos para la página de contacto ===== */
+/* ---- Estilos para la página de contacto ---- */
 body.contacto {
   background-color: #fff;
   color: #222;
@@ -846,8 +846,8 @@ body.contacto {
 
 /* Header y Footer Contacto */
 header.contacto-header,
-body.contacto footer.contacto-footer {
-  background-color: #8B4513; /* café claro */
+footer.contacto-footer {
+  background-color: #8B4513; 
   color: white;
   text-align: center;
   padding: 20px;
@@ -878,9 +878,80 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #D2691E; /* color naranja-café al pasar */
+  background-color: #D2691E; 
   color: black;
 }
+
+/* Main general */
+main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Título */
+main h2 {
+  margin-bottom: 10px;
+  color: #8b5e3c; /* tono café */
+}
+
+/* Separador */
+main hr {
+  border: 0;
+  height: 2px;
+  background-color: #d2b48c; /* café claro */
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 5px;
+}
+
+/* Formulario */
+form {
+  display: inline-block;
+  text-align: left;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #f5f5dc; 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botón enviar */
+form button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #a47551;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #8b5e3c;
+}
+
 
 /* Footer enlaces Instagram */
 body.contacto footer.contacto-footer a {
@@ -897,63 +968,7 @@ body.contacto footer.contacto-footer a img {
 }
 
 body.contacto footer.contacto-footer a:hover {
-  color: #FFD700; /* dorado al pasar */
+  color: #FF4500;
   text-decoration: underline;
 }
 
-/* Formulario */
-.formulario-contacto {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f5f5dc; /* beige clarito */
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  text-align: left;
-}
-
-.formulario-contacto h2 {
-  text-align: center;
-  color: #8B4513; /* mismo color del header */
-  margin-bottom: 15px;
-}
-
-.formulario-contacto p {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.formulario-contacto label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
-
-.formulario-contacto input[type="text"],
-.formulario-contacto input[type="email"],
-.formulario-contacto textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  resize: vertical;
-}
-
-.formulario-contacto button {
-  display: block;
-  margin: 25px auto 0 auto;
-  padding: 10px 25px;
-  background-color: #8B4513; /* mismo color del header */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.formulario-contacto button:hover {
-  background-color: #D2691E;
-}

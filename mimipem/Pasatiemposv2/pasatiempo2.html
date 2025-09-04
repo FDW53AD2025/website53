@@ -3,142 +3,191 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salir</title>
+  <title>Pasatiempo 2 - Salir</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400&display=swap');
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #cfa3ff, #8e44ad);
-      color: #fff;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+      font-family: 'Roboto', sans-serif;
+      background: url("https://i.ibb.co/4V7Yk5J/city-night.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.85);
+      z-index: -1;
     }
 
     header {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 2rem 1rem;
       text-align: center;
-      border-bottom: 3px solid rgba(255, 255, 255, 0.3);
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 2rem 1rem;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
-      color: #f3e5ff;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      color: #fff;
+      text-transform: lowercase;
+      letter-spacing: 2px;
     }
 
+    header h1 span {
+      color: #d4af37;
+    }
+
+    
     nav {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 1rem;
       display: flex;
       justify-content: center;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      border-radius: 10px;
-      margin: 1rem;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-      padding: 0;
-      margin: 0;
-      flex-wrap: wrap;
-      justify-content: center;
+      gap: 1.2rem;
+      margin: 1.5rem 0;
     }
 
     nav a {
+      width: 80px;
+      height: 80px;
+      background: #111;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-decoration: none;
-      color: #f3e5ff;
-      font-weight: 500;
-      padding: 0.3rem 0.6rem;
-      border-radius: 8px;
-      transition: all 0.3s;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.8rem;
+      color: #f5f5f5;
+      border: 2px solid #d4af37;
+      transition: all 0.3s ease;
+      text-align: center;
+      padding: 10px;
     }
 
     nav a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      transform: translateY(-2px);
+      background: #d4af37;
+      color: #111;
     }
 
+    
     main {
-      max-width: 800px;
+      max-width: 700px;
       margin: 2rem auto;
-      padding: 0 1rem;
       text-align: center;
+      color: #ddd;
+    }
+
+    .polaroid {
+      background: #fff;
+      color: #111;
+      display: inline-block;
+      padding: 10px 10px 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+      transform: rotate(-2deg);
+      margin-bottom: 2rem;
+    }
+
+    .polaroid img {
+      max-width: 250px;
+      display: block;
+    }
+
+    .caption {
+      margin-top: 8px;
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-style: italic;
     }
 
     main h2 {
+      font-family: 'Playfair Display', serif;
       font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #f3e5ff;
+      margin-top: 1.5rem;
+      color: #d4af37;
     }
 
     main p {
+      background: rgba(0,0,0,0.7);
+      padding: 1.2rem 2rem;
+      border-radius: 8px;
+      border: 1px solid #333;
+      margin-top: 1rem;
       font-size: 1rem;
-      color: #e0caff;
     }
 
     aside {
-      background: rgba(255,255,255,0.1);
-      max-width: 320px;
+      max-width: 600px;
       margin: 2rem auto;
+      background: #111;
+      border: 1px solid #d4af37;
       padding: 1.5rem 2rem;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: left;
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
     }
 
     aside h3 {
       margin-top: 0;
-      font-size: 1.3rem;
-      color: #f3e5ff;
+      color: #d4af37;
+      font-size: 1.2rem;
+      text-transform: uppercase;
     }
 
     aside p {
-      color: #e0caff;
+      font-style: italic;
+      color: #ccc;
     }
 
     footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: #f3e5ff;
-      border-top: 2px solid rgba(255,255,255,0.3);
-      background-color: rgba(0,0,0,0.05);
+      color: #aaa;
+      font-family: 'Playfair Display', serif;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Pasatiempo 2: Salir</h1>
+    <h1>Pasatiempo 2</h1>
   </header>
 
   <nav>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="pasatiempo1.html">Escuchar Música</a></li>
-      <li><a href="pasatiempo3.html">Ver Series o Películas</a></li>
-      <li><a href="pasatiempo4.html">Caminar o Correr</a></li>
-      <li><a href="pasatiempo5.html">Dibujar</a></li>
-    </ul>
+    <a href="index.html">Inicio</a>
+    <a href="pasatiempo2.html">Salir</a>
+    <a href="pasatiempo3.html">Programas</a>
+    <a href="pasatiempo4.html">Deporte</a>
+    <a href="pasatiempo5.html">Dibujar</a>
   </nav>
 
   <main>
-    <h2>Me gusta salir</h2>
-    <p>Disfruto mucho salir con amigos, pasear al aire libre y descubrir nuevos lugares en la ciudad.</p>
+    <div class="polaroid">
+      <img src="https://i.ibb.co/x65k3fg/polaroid-night-out.jpg" alt="Salir de noche">
+      <div class="caption">Las mejores memorias se hacen afuera ✨</div>
+    </div>
+
+    <h2>Salir</h2>
+    <p>Me encanta salir con amigos, a caminar o simplemente explorar nuevos lugares.</p>
   </main>
 
   <aside>
-    <h3>Tip</h3>
-    <p>Salir a caminar por la tarde ayuda a despejar la mente y recargar energía.</p>
+    <h3>🌃</h3>
+    <p>Salir no es solo cambiar de lugar, es cambiar de perspectiva.</p>
   </aside>
 
   <footer>
-    <p>Creado por Mimi</p>
+    <p>Creador por Noemi </p>
   </footer>
 </body>
 </html>
+

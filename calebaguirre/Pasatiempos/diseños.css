@@ -14,7 +14,7 @@ h2 {
   font-weight: normal;
 }
 h1 {
-  background-color: #333;   /* Fondo oscuro */
+  background-color: #333;   
   color: #fff;           
   text-align: center;
   margin-bottom: 10px;
@@ -30,15 +30,16 @@ h1 {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .imagen {
-  max-width: 300px;  /* Tamaño máximo (ajústalo a tu gusto) */
-  width: 100%;       /* Escala según el contenedor */
-  height: auto;      /* Mantiene proporciones */
-  border-radius: 10px; /* Opcional: esquinas redondeadas */
+  max-width: 300px;  
+  width: 100%;       
+  height: auto;      
+  border-radius: 10px; 
 }
-/* Recuadros que ahora son enlaces */
+/* Recuadros con enlaces */
 .recuadro {
   display: block;
   background-color: #fff;
@@ -47,9 +48,13 @@ h1 {
   padding: 10px;
   width: 100px;
   text-align: center;
-  text-decoration: none;   /* Quita el subrayado típico de los links */
-  color: #333;             /* Color del texto */
-  transition: background 0.2s;
+  text-decoration: none;   
+  color: #333;             
+  transition:  0.2s;
+}
+.audios{
+  text-align: center;
+  display: block;
 }
 
 /* Efecto al pasar el mouse */
@@ -57,29 +62,30 @@ h1 {
   background-color: #424c5e;
 }
 
+
 /* Estilo para el párrafo centrado y justificado */
 .texto {
-  max-width: 600px;       /* Controla el ancho máximo del bloque */
-  margin: 30px auto;         /* Centra el bloque en la página */
-  text-align: justify;    /* Justifica el texto dentro del bloque */
+  max-width: 600px;       
+  margin: 30px auto;        
+  text-align: justify;   
   font-family: Arial, sans-serif;
-  line-height: 1.6;       /* Espaciado entre líneas */
-  font-size: 16px;        /* Tamaño de letra */
-  color: #333;            /* Color del texto */
+  line-height: 1.6;       
+  font-size: 16px;        
+  color: #333;           
 }
 
 footer {
-  background-color: #333;   /* Fondo oscuro */
-  color: #fff;              /* Texto blanco */
+  background-color: #333;   
+  color: #fff;             
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
-  margin-top: 40px;         /* Espacio antes del footer */
+  margin-top: 40px;         
 }
 
 footer a {
   text-align: center;
-  color: #8fb6ff;           /* Color de los enlaces */
+  color: #8fb6ff;           
   text-decoration: none;
   margin: 0 10px;
 }

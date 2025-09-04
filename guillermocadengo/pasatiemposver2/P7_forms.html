@@ -21,30 +21,52 @@
   </nav>
 
   <!-- Contenido principal -->
-  <main>
-    <section class="formulario-contacto">
-      <h2>Envíame un mensaje</h2>
-      <p>Llena el siguiente formulario y te responderé lo antes posible.</p>
+<main>
+  <h2>Formulario de Contacto</h2>
+  <hr>
 
-      <form action="#" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required tabindex="1">
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
 
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="tu@correo.com" required tabindex="2">
+    <label for="select">Semestre:</label><br>
+    <select id="select" name="select">
+      <option value="Primero y segundo semestre">1° - 2°</option>
+      <option value="Tercero y cuarto semestre">3° - 4°</option>
+      <option value="Quinto y sexto">5° - 6°</option>
+      <option value="Septimo a noveno semestre">7° - 9°</option>
+    </select><br><br>
 
-        <label for="asunto">Asunto:</label>
-        <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required tabindex="3">
+    <label for="selectMultiple">Carrera:</label><br>
+    <select id="selectMultiple" name="selectMultiple" multiple size="4">
+      <option value="LTI">LTI</option>
+      <option value="LA">LA</option>
+      <option value="CP">CP</option>
+      <option value="LNI">LNI</option>
+    </select><br><br>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required tabindex="4"></textarea>
+    <label>Género:</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">Femenino</label><br><br>
 
-        <button type="submit" tabindex="5">Enviar</button>
-      </form>
-    </section>
-  </main>
+    <label for="fecha">Fecha:</label><br>
+    <input type="date" id="fecha" name="fecha"><br><br>
 
-  <!-- Footer -->
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="comentarios">Comentarios:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+   <!-- Footer -->
   <footer class="contacto-footer">
     <address>
       Sitio desarrollado por guillermocadengo <br>
@@ -55,6 +77,6 @@
       </a>
     </address>
   </footer>
+  
 
-</body>
-</html>
+</main>
