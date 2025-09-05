@@ -1,7 +1,38 @@
+<<<<<<< HEAD
 #a26 {
     font-family:cursive;
     color: rgb(0, 26, 20);
     background-color: rgb(132, 243, 182);
+=======
+#a15 {
+    background-color: palevioletred;
+>>>>>>> 530c660e7ef7ca35dbbca3805fffca79ee121594
     
-   
 } 
+
+#a15:hover {
+    transform: scale(1.05);
+}
+
+#a15 a {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+}
+
+#a15 a:hover {
+  color: rgb(219, 24, 118); 
+}
+#a15 a::after {
+  content: "✰❤✰" ;
+  position: absolute;
+  margin-left: 8px;
+  animation: slide 1s infinite backwards;
+  font-size: 1.2em;
+}
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
