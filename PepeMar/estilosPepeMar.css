@@ -1,7 +1,7 @@
-#a23 {
+#a23 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 201, 83); 
+    color: rgb(202, 235, 187); 
     background: linear-gradient(90deg, #4e74c7 0%, #55dbc5 100%);
     padding: 2px;
-    text-shadow: 0 0 8px violet, 0 0 12px blue;
+    text-shadow: 0 0 8px rgb(255, 255, 255), 0 0 12px blue;
 }
