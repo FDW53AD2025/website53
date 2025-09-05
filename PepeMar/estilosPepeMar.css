@@ -1,5 +1,7 @@
 #a23 {
-    font-family: "Pusab", sans-serif;
-    color: rgb(0, 0, 0); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 201, 83); 
+    background: linear-gradient(90deg, #4e74c7 0%, #55dbc5 100%);
+    padding: 2px;
     text-shadow: 0 0 8px violet, 0 0 12px blue;
 }
