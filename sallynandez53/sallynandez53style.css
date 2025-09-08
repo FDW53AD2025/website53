@@ -1,0 +1,15 @@
+.link-morado {
+  color: white;
+  background-color: purple;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.link-morado:hover {
+  background-color: violet;
+  color: black;
+}
