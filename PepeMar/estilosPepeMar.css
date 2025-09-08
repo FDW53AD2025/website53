@@ -1,5 +1,7 @@
-#a23 {
-    font-family: "Pusab", sans-serif;
-    color: rgb(0, 0, 0); 
-    text-shadow: 0 0 8px violet, 0 0 12px blue;
+#a23 a {
+    font-family: "press start 2p", monospace;
+    color: rgb(202, 235, 187); 
+    background: linear-gradient(90deg, #4e74c7 0%, #55dbc5 100%);
+    padding: 1px;
+    text-shadow: 0 0 8px rgb(81, 17, 117), 0 0 12px blue;
 }
