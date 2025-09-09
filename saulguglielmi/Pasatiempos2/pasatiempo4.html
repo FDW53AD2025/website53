@@ -8,72 +8,76 @@
         /* selector universal */
         * {
             box-sizing: border-box;
-            margin: 10;
-            padding: 10;
+            margin: 0;
+            padding: 0;
         }
 
-        /* selector de tipo */
+        /* selector tipo */
         body {
             background-color: #f2f2f2;
             color: #111;
             font-family: 'Roboto', Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
+            line-height: 1.6rem;
+            padding: 1.25rem; 
         }
         h1 {
             color: #ffcc00;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.4); 
             text-align: center;
         }
         legend {
             color: #ffcc00;
             font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-            font-size: 1.5em;
+            text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+            font-size: 1.5rem;
         }
         fieldset {
             border: 1px solid #ccc;
             background: #fafafa;
-            margin-bottom: 25px;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5625rem;
+            padding: 1.25rem;
+            border-radius: 0.75rem; /* 12px */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         }
         hr {
             border: none;
             border-top: 2px solid #ffcc00;
-            margin: 30px 0;
+            margin: 1.875rem 0;
         }
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 1.25rem;
             background-color: #333;
             color: #fff;
         }
 
-        /* selector clase */
+        /* selector de tipo section */
+        section {
+            padding: 1.5rem;
+        }
+
+        /* selector de clase */
         .resaltado {
             color: #ffcc00;
             font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            text-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
         }
 
-        /* selector atributo */
+        /* selector de atributos */
         iframe[src] {
             border: 2px solid #ffcc00;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(5, 0, 0, 0.25);
+            border-radius: 0.5rem;
         }
         
-        /* selectores desendientes */
+        /* Selectores de lista */
         h2, h3 {
             color: #333;
         }
 
-        /* selector desendiente */
+        /* Selector de decendientes */
         section p {
-            margin-bottom: 15px;
-            font-size: 1.1em;
+            margin-bottom: 0.9375rem;
+            font-size: 1.1rem;
         }
         
         /* hermano adyacente */
@@ -88,15 +92,19 @@
             color: #555;
         }
 
+        /* Pseudo-clase */
         a:hover {
             color: #2e2900;
             transform: scale(1.05);
         }
         a {
-        transition: transform 0.3s ease-in-out;
-        display: inline-block;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
         }
-
+        img {
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -146,7 +154,7 @@
             </article>
             
             <hr>
-    
+
             <article>
                 <h3>Uno de mis Diseños</h3>
                 <p>Aquí uno de mis diseños, es un banner:</p>
@@ -160,7 +168,6 @@
             <aside>
                 <h3>Herramientas que Utilizo</h3>
                 <p>Uso software de diseño como Adobe Photoshop, After Effects e Illustrator (Illustrator muy poco).</p>
-                
             </aside>
         </section>
     </main>
