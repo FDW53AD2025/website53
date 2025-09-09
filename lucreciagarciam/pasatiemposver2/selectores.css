@@ -131,6 +131,8 @@ div.header ~ div{
 
 /* Selector hermano adyacente */
 .datos + p{
+    color: #F7C0C8;
+    background-color:#A46F6A;
    font-weight: bold;
    outline: 3px solid #631C1D;
 }
