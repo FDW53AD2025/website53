@@ -1,3 +1,7 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
 header {
     background-color: black;
     color: orange;
@@ -63,4 +67,13 @@ p {
 strong{
     color:white;
     background-color: black;
+}
+
+#goat {
+    font-family: fantasy;
+}
+
+.musica{
+    padding: 20px;
+    border: 2px solid gold;
 }
