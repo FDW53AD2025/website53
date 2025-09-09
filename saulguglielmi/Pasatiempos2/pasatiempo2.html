@@ -3,33 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Anime y Series</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
+        /* selector Universal (todos los elementos) */
+        * {
+            box-sizing: border-box; 
+        }
+
+        /* selector de Tipo*/
         body {
-            background-color: #f2f2f2;
-            color: #111; 
-            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f4f8; 
+            color: #334e68;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
         }
         h1 {
-            color: #ffe600;
-            text-shadow: 1px 1px 2px #888;
+            color: #122a40;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         legend {
-            color: #ffe600;
+            color: #ff5733; 
             font-weight: bold;
             text-shadow: 1px 1px 2px #888;
-        }
-        a {
-            color: #111;
+            font-size: 1.5em;
         }
         fieldset {
-            border: 1px solid #ccc;
-            background: #fafafa;
-            margin-bottom: 20px;
+            border: 1px solid #dcdfe6;
+            background: #ffffff; 
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        table {
-            background: #fff;
+
+        /* selector de ID "series-container". */
+        #series-container {
+            background-color: #e6f7ff;
+            border: 2px solid #b3e0ff;
         }
+        
+        /* selector de clase "destacado". */
+        .destacado {
+            font-weight: bold;
+            color: #ff5733;
+        }
+
+        /* selector de atributo */
+        img[width="180"] {
+            border: 3px solid #ffe600;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
+
+        /* selector de lista estilo a múltiples selectores. */
+        h3, h2 {
+            margin-bottom: 15px;
+            color: #2a3a4f;
+        }
+
+        /* selector de descendientes*/
+        article p {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* selector de hijos directos: estiliza solo los <li> */
+        ul > li {
+            list-style-type: none; 
+            position: relative;
+            padding-left: 25px;
+        }
+        ul > li:before {
+            content: '⭐'; 
+            position: absolute;
+            left: 0;
+        }
+
+        /*hermano adyacente estiliza la <p> que esta despues del <nav>. */
+        nav + hr {
+            border-top: 3px dashed #ffe600;
+        }
+
+        /* selector hermano general: estiliza todas las <p> que siguen al <h2>. */
+        h2 ~ p {
+            color: #777;
+        }
+
     </style>
 </head>
 <body>
@@ -49,9 +111,9 @@
             <legend>Animes que me gustan</legend>
             <article>
                 <h3>JoJo's</h3>
-                <p>me gusta <b>Jojo's</b>, pero luego a veces se siente pesado de ver, o para mi que soy niño tiktok.</p>
+                <p>me gusta <b class="destacado">Jojo's</b>, pero luego a veces se siente pesado de ver, o para mi que soy niño tiktok.</p>
                 <figure>
-                    <img src="https://static.wikia.nocookie.net/allficcion/images/6/6a/JoJo%27s_Bizarre_Adventure.jpg/revision/latest?cb=20160604170824&path-prefix=es" alt="Imagen de Naruto" width="180" height="100">
+                    <img src="https://static.wikia.nocookie.net/allficcion/images/6/6a/JoJo%27s_Bizarre_Adventure.jpg/revision/latest?cb=20160604170824&path-prefix=es" alt="Imagen de JoJo's" width="180" height="100">
                     <figcaption>Joseph besto jojo</figcaption>
                 </figure>
                 <br>
@@ -66,7 +128,7 @@
 
         <hr>
         
-        <fieldset>
+        <fieldset id="series-container">
             <legend>Series</legend>
             <p>Tambien me gustan las series, ultimamente he visto un poco de kdramas.</p>
             <br>
@@ -78,7 +140,7 @@
                 <li><strong>2521</strong></li>
                 <li><strong>Stranger things</strong></li>
             </ul>
-        </section>
+        </fieldset>
     </main>
 
     <footer>
