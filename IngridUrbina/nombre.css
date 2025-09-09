@@ -1,0 +1,10 @@
+.a41{
+    color: rgb(230, 211, 248);
+    background-color: rgba(131, 130, 130, 0.973);
+
+}
+
+.a41:hover  {
+    color: rgb(163, 204, 199);
+    background-color: black;
+}
