@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Pasatiempos</title>
-    
+    <title>Saul Guglielmi - Evidencias</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
-        /* Selector Universal: Ajusta el modelo de caja para todos los elementos. */
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        /* Selectores de Tipo: Estilos base para el cuerpo, encabezados y enlaces. */
         body {
             background-color: #f2f2f2;
             color: #111;
@@ -35,40 +32,29 @@
             color: #2a3a4f;
             margin-bottom: 0.9375rem;
         }
-        
-        legend {
-            color: #ffe600;
-            font-weight: bold;
-            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
-            font-size: 1.5rem;
+
+        h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
         }
-        
-        fieldset {
-            border: 1px solid #ccc;
-            background: #fafafa;
-            margin-bottom: 1.25rem;
-            padding: 1.25rem;
+
+        .main-content {
+            background-color: #fafafa;
+            padding: 1.5rem;
             border-radius: 0.75rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-
-        /* Estilos para la sección principal con Flexbox */
-        .main-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.25rem;
-            padding: 1.5rem;
-        }
-
-        .main-content > div {
-            flex: 1;
-            min-width: 250px;
+        
+        .evidence-item {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
         }
         
-        .main-content .central {
-            flex: 2;
+        .evidence-item:last-child {
+            border-bottom: none;
         }
-        
+
         ul {
             list-style: none;
         }
@@ -77,22 +63,15 @@
             margin-bottom: 0.5rem;
         }
         
-        blockquote {
-            margin: 1.25rem 0;
-            padding-left: 1rem;
-            border-left: 4px solid #ffe600;
-            font-style: italic;
+        .evidence-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.5rem;
         }
         
-        blockquote cite {
-            display: block;
-            text-align: right;
-            font-style: normal;
-        }
-
-        /* Selectores de Atributo y Pseudo-clase */
         a {
-            color: #111;
+            color: #723d00;
             text-decoration: none;
             font-weight: bold;
             transition: transform 0.3s ease-in-out;
@@ -103,7 +82,7 @@
             color: #2e2900;
             transform: scale(1.05);
         }
-
+        
         footer {
             text-align: center;
             padding: 1.25rem;
@@ -115,56 +94,66 @@
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Mis Pasatiempos Favoritos</h1>
-        <p>¡Bienvenido a mi sitio web personal! Aquí te comparto un poco de lo que me gusta hacer en mi tiempo libre.</p>
-        <p><strong>Nota:</strong> Ahora sí se utilizó CSS para darle un mejor estilo a la página principal. 😁</p>
+        <h1>Saul Guglielmi</h1>
     </header>
-
     <main>
         <section class="main-content">
-            <div class="nav-links">
-                <fieldset>
-                    <legend>Navegación</legend>
-                    <ul>
-                        <li><a href="pasatiempo1.html">🎵 Música 🎵</a></li>
-                        <li><a href="pasatiempo2.html">🍜 Anime y Series 🍜</a></li>
-                        <li><a href="pasatiempo3.html">🎮 Videojuegos 🎮</a></li>
-                        <li><a href="pasatiempo4.html">🎨 Diseño 🎨</a></li>
-                    </ul>
-                </fieldset>
+            <h2>Evidencias</h2>
+
+            <div class="evidence-item">
+                <h3>Práctica 1: "Pasatiempos"</h3>
+                <p>Se hizo una página sencilla ya que es la primera práctica web, se usó HTML y CSS.</p>
+                <div class="evidence-links">
+                    <a href="https://github.com/saulguglielmi/Sobre-Mi" target="_blank">Repositorio</a>
+                    <a href="https://saulguglielmi.github.io/Sobre-Mi/" target="_blank">Página</a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Commit</a>
+                    <a href="https://github.com/saulguglielmi/Sobre-Mi/commits/main/" target="_blank">Commits</a>
+                </div>
             </div>
-            <div class="central">
-                <fieldset>
-                    <legend>Un poco sobre mí</legend>
-                    <article>
-                        <p>Me gusta mucho aprender cosas nuevas y estar con mis amigos, tambien quisiera aprender mas a programar y crear cosas nuevas! :D</p>
-                        <blockquote>
-                            "La creatividad es la inteligencia divirtiéndose."
-                            <br>
-                            <cite>— Albert Einstein</cite>
-                        </blockquote>
-                        <p>dea eso na mas lo ponia pa poner la cita</p>
-                    </article>
-                </fieldset>
+
+            <div class="evidence-item">
+                <h3>Práctica 2: "Carpeta Personal en Organización"</h3>
+                <p>Se hizo una carpeta con un menú principal para poner las evidencias de la materia, básicamente es esta página.</p>
+                <div class="evidence-links">
+                    <a href="https://github.com/FDW53AD2025/website53/blob/main/saulguglielmi/index.html" target="_blank">Repositorio</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi" target="_blank">Commits</a>
+                </div>
             </div>
-            <div class="social-links">
-                <fieldset>
-                    <legend>Mis redes sociales</legend>
-                    <ul>
-                        <li><a href="https://www.tiktok.com/@yutoflxp_">Tiktok</a></li>
-                        <li><a href="https://www.instagram.com/saul.flxp_/">Instagram</a></li>
-                        <li><a href="https://www.youtube.com/@yutoflop">Youtube</a></li>
-                    </ul>
-                </fieldset>
+
+            <div class="evidence-item">
+                <h3>Práctica 3: "Pasatiempos V2"</h3>
+                <p>Se hizo una página con un menú principal y submenús, en los submenús se habla de mis pasatiempos.</p>
+                <div class="evidence-links">
+                    <a href="Pasatiempos2/menu.html" target="_blank">Página</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi/Pasatiempos2" target="_blank">Commits</a>
+                    <a href="https://github.com/FDW53AD2025/website53/tree/main/saulguglielmi/Pasatiempos2" target="_blank">Repositorio</a>
+                </div>
             </div>
+
+            <div class="evidence-item">
+                <h3>Práctica 4: "Cambio de Fuente de Texto"</h3>
+                <p>Se hizo un cambio de fuente de texto en el menú del código.</p>
+                <div class="evidence-links">
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi" target="_blank">Commits</a>
+                </div>
+            </div>
+
+            <div class="evidence-item">
+                <h3>Práctica 5: "Cambios en la Página V3"</h3>
+                <p>Se hicieron cambios en las páginas de los pasatiempos.</p>
+                <div class="evidence-links">
+                    <a href="Pasatiempos2/menu.html" target="_blank">Página</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi" target="_blank">Commits</a>
+                </div>
+            </div>
+
+            <p>(Con el tiempo se actualizará este menú)</p>
         </section>
     </main>
 
     <footer>
-        <small>Página creada por un menso llamado Saul Guglielmi Marin. &copy; <time datetime="2025-08">Agosto 2025</time>.</small>
+        <small>Página creada por Saul Guglielmi Marin &copy; <time datetime="2025-09">Septiembre 2025</time>.</small>
     </footer>
-
 </body>
 </html>
