@@ -7,6 +7,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         
     <style>
+
+        /* Selector Universal: Ajusta el modelo de caja para todos los elementos. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Selectores de Tipo: Estilos base para el cuerpo, encabezados y enlaces. */
+body {
+  background-color: #f0f4f8; /* Un gris azulado claro. */
+  color: #334e68;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1 {
+  color: #122a40; /* Azul oscuro. */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #e0e6ed;
+  margin: 30px 0;
+}
+
+/* selector de Clase (tabla de discos) */
+.tabla-discos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de Descendientes(celdas de la tabla) */
+.tabla-discos th, .tabla-discos td {
+  border: 1px solid #dcdfe6;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Selector de Descendientes (encabezados de la tabla) */
+.tabla-discos thead {
+  background-color: #f7f9fc;
+}
+
+/* Selector de Atributo (enlaces que abren en una nueva pestaña) */
+a[target="_blank"] {
+  color: #000000;
+  font-weight: bold;
+}
+
+/*pseudo-clase(color y escala al pasar el cursor sobre los enlaces) */
+a:hover {
+  color: #2e2900;
+  transform: scale(1.05);
+}
+
+/* transicion para enlaces. */
+a {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+}
         
         body {
             background-color: #f2f2f2;
