@@ -3,32 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <title>Diseño</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* selector universal */
+        * {
+            box-sizing: border-box;
+            margin: 10;
+            padding: 10;
+        }
+
+        /* selector de tipo */
         body {
             background-color: #f2f2f2;
-            color: #111; 
-            font-family: Arial, Helvetica, sans-serif;
+            color: #111;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
         }
         h1 {
-            color: #ffe600;
-            text-shadow: 1px 1px 2px #888;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            text-align: center;
         }
         legend {
-            color: #ffe600;
+            color: #ffcc00;
             font-weight: bold;
-            text-shadow: 1px 1px 2px #888;
-        }
-        a {
-            color: #111;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            font-size: 1.5em;
         }
         fieldset {
             border: 1px solid #ccc;
             background: #fafafa;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        table {
-            background: #fff;
+        hr {
+            border: none;
+            border-top: 2px solid #ffcc00;
+            margin: 30px 0;
         }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* selector clase */
+        .resaltado {
+            color: #ffcc00;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* selector atributo */
+        iframe[src] {
+            border: 2px solid #ffcc00;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(5, 0, 0, 0.25);
+        }
+        
+        /* selectores desendientes */
+        h2, h3 {
+            color: #333;
+        }
+
+        /* selector desendiente */
+        section p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        /* hermano adyacente */
+        section + hr {
+            border-color: #ffcc00;
+            border-top: 5px solid;
+        }
+
+        /* hermano general */
+        h3 ~ p {
+            font-style: italic;
+            color: #555;
+        }
+
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+        a {
+        transition: transform 0.3s ease-in-out;
+        display: inline-block;
+        }
+
     </style>
 </head>
 <body>
