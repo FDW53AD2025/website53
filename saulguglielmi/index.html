@@ -3,42 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saul Guglielmi</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mis Pasatiempos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Selector Universal: Ajusta el modelo de caja para todos los elementos. */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Selectores de Tipo: Estilos base para el cuerpo, encabezados y enlaces. */
+        body {
+            background-color: #f2f2f2;
+            color: #111;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            padding: 1.25rem;
+        }
+
+        h1 {
+            color: #ffe600;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            text-align: center;
+            margin-bottom: 1.25rem;
+        }
+
+        h2 {
+            color: #2a3a4f;
+            margin-bottom: 0.9375rem;
+        }
+        
+        legend {
+            color: #ffe600;
+            font-weight: bold;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            font-size: 1.5rem;
+        }
+        
+        fieldset {
+            border: 1px solid #ccc;
+            background: #fafafa;
+            margin-bottom: 1.25rem;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para la sección principal con Flexbox */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            padding: 1.5rem;
+        }
+
+        .main-content > div {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .main-content .central {
+            flex: 2;
+        }
+        
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        blockquote {
+            margin: 1.25rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #ffe600;
+            font-style: italic;
+        }
+        
+        blockquote cite {
+            display: block;
+            text-align: right;
+            font-style: normal;
+        }
+
+        /* Selectores de Atributo y Pseudo-clase */
+        a {
+            color: #111;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+        }
+        
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0.75rem;
+            margin-top: 1.875rem;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Saul Guglielmi</h1>
+        <h1>Mis Pasatiempos Favoritos</h1>
+        <p>¡Bienvenido a mi sitio web personal! Aquí te comparto un poco de lo que me gusta hacer en mi tiempo libre.</p>
+        <p><strong>Nota:</strong> Ahora sí se utilizó CSS para darle un mejor estilo a la página principal. 😁</p>
     </header>
+
     <main>
-        <h2>Evidencias</h2>
-
-        <h3>Evidencia 1: </h3>
-        <ul>
-            <li>Practica 1: "Pasa tiempos"</li>
-            <p>Se hizo una pagina sencilla ya que es la primera practica web, se hizo con html y css</p>
-            <a href="https://github.com/saulguglielmi/Sobre-Mi">Repositorio</a>
-            <a href="https://saulguglielmi.github.io/Sobre-Mi/">Pagina</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Comit</a>
-            <a href="https://github.com/saulguglielmi/Sobre-Mi/commits/main/">Commits</a>
-
-            <li>Practica 2: "Carpeta Personal En Organizacion"</li>
-            <p>Se hizo una carpeta con un menu principal para poner las evidencias de la materia, y basicamente es esta pagina</p>
-            <a href="https://github.com/FDW53AD2025/website53/blob/main/saulguglielmi/index.html">Repositorio</a>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi">Commits</a>
-            
-            <li>Practica 3: "PasatiemposV2"</li>
-            <p>Se hizo una pagina con un menu principal y submenus, en los submenus se habla de mis pasatiempos</p>
-            <a href="Pasatiempos2/index.html">Pagina</a>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi/Pasatiempos2">Commits</a>
-            <a href="https://github.com/FDW53AD2025/website53/tree/main/saulguglielmi/Pasatiempos2">Repositorio</a>
-
-            <li>Practica 4: "Cambio De Fuente de texto"</li>
-            <p>Se hizo un cambio de fuente de texto en el menu del codigo</p>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi">Commits</a>
-            
-        </ul>
-        <p>(con el tiempo se actualizara este menu)</p>
+        <section class="main-content">
+            <div class="nav-links">
+                <fieldset>
+                    <legend>Navegación</legend>
+                    <ul>
+                        <li><a href="pasatiempo1.html">🎵 Música 🎵</a></li>
+                        <li><a href="pasatiempo2.html">🍜 Anime y Series 🍜</a></li>
+                        <li><a href="pasatiempo3.html">🎮 Videojuegos 🎮</a></li>
+                        <li><a href="pasatiempo4.html">🎨 Diseño 🎨</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="central">
+                <fieldset>
+                    <legend>Un poco sobre mí</legend>
+                    <article>
+                        <p>Me gusta mucho aprender cosas nuevas y estar con mis amigos, tambien quisiera aprender mas a programar y crear cosas nuevas! :D</p>
+                        <blockquote>
+                            "La creatividad es la inteligencia divirtiéndose."
+                            <br>
+                            <cite>— Albert Einstein</cite>
+                        </blockquote>
+                        <p>dea eso na mas lo ponia pa poner la cita</p>
+                    </article>
+                </fieldset>
+            </div>
+            <div class="social-links">
+                <fieldset>
+                    <legend>Mis redes sociales</legend>
+                    <ul>
+                        <li><a href="https://www.tiktok.com/@yutoflxp_">Tiktok</a></li>
+                        <li><a href="https://www.instagram.com/saul.flxp_/">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/@yutoflop">Youtube</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <small>Página creada por un menso llamado Saul Guglielmi Marin. &copy; <time datetime="2025-08">Agosto 2025</time>.</small>
+    </footer>
+
 </body>
 </html>
