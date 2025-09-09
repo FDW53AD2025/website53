@@ -5,6 +5,110 @@
     <title>Mis Pasatiempos</title>
 
     <style>
+/* selector de tipo (header) */
+        header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* selector por clase (social-link) */
+a.social-link {
+  color: #757e00;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* selector de tipo (main) */
+main fieldset {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* selector de tipo (ul) */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* selector de atributos (a[href^="https"]) */
+a[href^="https"] {
+  background-color: #e9ecef;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+/* selector de tipo (article) */
+article p {
+  line-height: 1.6;
+  font-size: 1.1em;
+  /* selector de tipo hijos directos */
+}
+ul > li {
+  margin-bottom: 5px;
+}
+/* selector adyasente */
+h1 + p {
+  font-style: italic;
+  color: #555;
+  margin-top: -10px;
+}
+/* selector de tipo (a) */
+a {
+  display: inline-block; 
+  transition: transform 0.3s ease-in-out; 
+}
+/* selector de pseudo clase */
+a:hover {
+  transform: scale(0.95); 
+}
+/* selector de tipo (footer) */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+}
+/* selector por clase (soblockquote) */
+.blockquote {
+  border-left: 4px solid #ffe600;
+  padding-left: 15px;
+  margin-left: 0;
+  font-style: italic;
+  color: #555;
+}
+/* selector por clase (cite) */
+.cite {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: #888;
+}
+/* selector por id (pasatiempos) */
+#pasatiempos ul {
+  list-style-type: '🎵 ';
+}
+/* selector por id (redes-sociales) */
+#redes-sociales ul {
+  list-style-type: '🌐 ';
+}
+
+/* selector de tipo (fieldset) */
+fieldset {
+  border: 1px solid #d4d4d4;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+/* selector de tipo (legend) */
+legend {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
+  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
         body {
             background-color: #f2f2f2;
             color: #111; 
@@ -44,13 +148,13 @@
         <table border="1" width="100%" cellpadding="10">
             <tr>
                 <td width="25%" valign="top">
-                    <fieldset>
+                    <fieldset id="pasatiempos">
                         <legend>Navegación</legend>
                         <ul>
-                            <li><a href="pasatiempo1.html">🎵 Música 🎵</a></li>
-                            <li><a href="pasatiempo2.html">🍜 Anime y Series 🍜</a></li>
-                            <li><a href="pasatiempo3.html">🎮 Videojuegos 🎮</a></li>
-                            <li><a href="pasatiempo4.html">🎨 Diseño 🎨</a></li>
+                            <li><a href="pasatiempo1.html"> Música </a></li>
+                            <li><a href="pasatiempo2.html"> Anime y Series </a></li>
+                            <li><a href="pasatiempo3.html"> Videojuegos </a></li>
+                            <li><a href="pasatiempo4.html"> Diseño </a></li>
                         </ul>
                     </fieldset>
                 </td>
@@ -59,23 +163,21 @@
                         <legend>Un poco sobre mí</legend>
                         <article>
                             <p>Me gusta mucho aprender cosas nuevas y estar con mis amigos, tambien quisiera aprender mas a programar y crear cosas nuevas! :D</p>
-                            <blockquote>
-                                "La creatividad es la inteligencia divirtiéndose."
-                                <br>
-                                <cite>— Albert Einstein</cite>
-
-                            <p>dea eso na mas lo ponia pa poner la cita</p>
+                            <blockquote class="blockquote">
+                            "La creatividad es la inteligencia divirtiéndose."
+                            <br>
+                            <cite class="cite">— Albert Einstein</cite>
                             </blockquote>
                         </article>
                     </fieldset>
                 </td>
                 <td width="25%" valign="top">
-                    <fieldset>
+                    <fieldset id="redes-sociales">
                         <legend>Mis redes sociales</legend>
                         <ul>
-                            <li><a href="https://www.tiktok.com/@yutoflxp_">Tiktok</a></li>
-                            <li><a href="https://www.instagram.com/saul.flxp_/">Instagram</a></li>
-                            <li><a href="https://www.youtube.com/@yutoflop">Youtube</a></li>
+                            <li><a href="https://www.tiktok.com/@yutoflxp_" class="social-link">Tiktok</a></li>
+                            <li><a href="https://www.instagram.com/saul.flxp_/" class="social-link">Instagram</a></li>
+                            <li><a href="https://www.youtube.com/@yutoflop" class="social-link">Youtube</a></li>
                         </ul>
                     </fieldset>
                 </td>
