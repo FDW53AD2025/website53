@@ -2,6 +2,10 @@ body{
     background-image: url(https://wallpapers.com/images/hd/venom-from-marvel-eyes-x7laveq2a3a9sn6j.jpg);
 }
 
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1 {
   color: white;
   text-shadow: 2px 2px 5px black;
