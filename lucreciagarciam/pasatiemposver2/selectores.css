@@ -97,7 +97,7 @@ blockquote cite {
 
 p, .datos {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* Selectores atributo y pseudo clase */
@@ -135,6 +135,9 @@ div.header ~ div{
    outline: 3px solid #631C1D;
 }
 
+/* Selector por atributo */
 
-
+a[href^="#"] {
+    background-color:#F297A5;
+}
 
