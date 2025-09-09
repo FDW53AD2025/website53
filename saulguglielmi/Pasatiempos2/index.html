@@ -3,136 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <title>Mis Pasatiempos</title>
-
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
-/* selector de tipo (header) */
-        header {
-  text-align: center;
-  margin-bottom: 25px;
-}
-/* selector por clase (social-link) */
-a.social-link {
-  color: #757e00;
-  font-weight: bold;
-  text-decoration: none;
-}
-/* selector de tipo (main) */
-main fieldset {
-  padding: 20px;
-  border-radius: 8px;
-}
+        /* Selector Universal: Ajusta el modelo de caja para todos los elementos. */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-/* selector de tipo (ul) */
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-/* selector de atributos (a[href^="https"]) */
-a[href^="https"] {
-  background-color: #e9ecef;
-  padding: 2px 5px;
-  border-radius: 3px;
-}
-/* selector de tipo (article) */
-article p {
-  line-height: 1.6;
-  font-size: 1.1em;
-  /* selector de tipo hijos directos */
-}
-ul > li {
-  margin-bottom: 5px;
-}
-/* selector adyasente */
-h1 + p {
-  font-style: italic;
-  color: #555;
-  margin-top: -10px;
-}
-/* selector de tipo (a) */
-a {
-  display: inline-block; 
-  transition: transform 0.3s ease-in-out; 
-}
-/* selector de pseudo clase */
-a:hover {
-  transform: scale(0.95); 
-}
-/* selector de tipo (footer) */
-footer {
-  text-align: center;
-  margin-top: 30px;
-  padding: 15px;
-  background-color: #333;
-  color: #fff;
-  font-size: 0.9em;
-}
-/* selector por clase (soblockquote) */
-.blockquote {
-  border-left: 4px solid #ffe600;
-  padding-left: 15px;
-  margin-left: 0;
-  font-style: italic;
-  color: #555;
-}
-/* selector por clase (cite) */
-.cite {
-  display: block;
-  text-align: right;
-  margin-top: 5px;
-  color: #888;
-}
-/* selector por id (pasatiempos) */
-#pasatiempos ul {
-  list-style-type: '🎵 ';
-}
-/* selector por id (redes-sociales) */
-#redes-sociales ul {
-  list-style-type: '🌐 ';
-}
-
-/* selector de tipo (fieldset) */
-fieldset {
-  border: 1px solid #d4d4d4;
-  border-radius: 12px;
-  background-color: #f7f7f7;
-  padding: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-}
-/* selector de tipo (legend) */
-legend {
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #333;
-  padding: 0 10px;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid #d4d4d4;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
+        /* Selectores de Tipo: Estilos base para el cuerpo, encabezados y enlaces. */
         body {
             background-color: #f2f2f2;
-            color: #111; 
-            font-family: Arial, Helvetica, sans-serif;
+            color: #111;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            padding: 1.25rem;
         }
+
         h1 {
             color: #ffe600;
-            text-shadow: 1px 1px 2px #888;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            text-align: center;
         }
+
+        /* Selector de Tipo: Estilos para el texto. */
+        p {
+            margin-bottom: 1rem;
+        }
+
         legend {
             color: #ffe600;
             font-weight: bold;
-            text-shadow: 1px 1px 2px #888;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            font-size: 1.2rem;
         }
-        a {
-            color: #111;
-        }
+
         fieldset {
             border: 1px solid #ccc;
             background: #fafafa;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        table {
-            background: #fff;
+
+        /* Estilos para la sección principal con Flexbox */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            padding: 1.5rem;
+        }
+
+        .main-content > div {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .main-content .central {
+            flex: 2;
+        }
+        
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        blockquote {
+            margin: 1.25rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #ffe600;
+            font-style: italic;
+        }
+        
+        blockquote cite {
+            display: block;
+            text-align: right;
+            font-style: normal;
+        }
+
+        /* Selectores de Atributo y Pseudo-clase */
+        a {
+            color: #111;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+        }
+        
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0.75rem;
+            margin-top: 1.875rem;
         }
     </style>
 </head>
@@ -141,48 +117,47 @@ legend {
     <header>
         <h1>Mis Pasatiempos Favoritos</h1>
         <p>¡Bienvenido a mi sitio web personal! Aquí te comparto un poco de lo que me gusta hacer en mi tiempo libre.</p>
-        <p><strong>Nota:</strong> Ya se uso CSS :D</p>
+        <p><strong>Nota:</strong> Ahora sí se utilizó CSS para darle un mejor estilo a la página principal. 😁</p>
     </header>
 
     <main>
-        <table border="1" width="100%" cellpadding="10">
-            <tr>
-                <td width="25%" valign="top">
-                    <fieldset id="pasatiempos">
-                        <legend>Navegación</legend>
-                        <ul>
-                            <li><a href="pasatiempo1.html"> Música </a></li>
-                            <li><a href="pasatiempo2.html"> Anime y Series </a></li>
-                            <li><a href="pasatiempo3.html"> Videojuegos </a></li>
-                            <li><a href="pasatiempo4.html"> Diseño </a></li>
-                        </ul>
-                    </fieldset>
-                </td>
-                <td width="50%" valign="top">
-                    <fieldset>
-                        <legend>Un poco sobre mí</legend>
-                        <article>
-                            <p>Me gusta mucho aprender cosas nuevas y estar con mis amigos, tambien quisiera aprender mas a programar y crear cosas nuevas! :D</p>
-                            <blockquote class="blockquote">
+        <section class="main-content">
+            <div class="nav-links">
+                <fieldset>
+                    <legend>Navegación</legend>
+                    <ul>
+                        <li><a href="pasatiempo1.html">🎵 Música 🎵</a></li>
+                        <li><a href="pasatiempo2.html">🍜 Anime y Series 🍜</a></li>
+                        <li><a href="pasatiempo3.html">🎮 Videojuegos 🎮</a></li>
+                        <li><a href="pasatiempo4.html">🎨 Diseño 🎨</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="central">
+                <fieldset>
+                    <legend>Un poco sobre mí</legend>
+                    <article>
+                        <p>Me gusta mucho aprender cosas nuevas y estar con mis amigos, tambien quisiera aprender mas a programar y crear cosas nuevas! :D</p>
+                        <blockquote>
                             "La creatividad es la inteligencia divirtiéndose."
                             <br>
-                            <cite class="cite">— Albert Einstein</cite>
-                            </blockquote>
-                        </article>
-                    </fieldset>
-                </td>
-                <td width="25%" valign="top">
-                    <fieldset id="redes-sociales">
-                        <legend>Mis redes sociales</legend>
-                        <ul>
-                            <li><a href="https://www.tiktok.com/@yutoflxp_" class="social-link">Tiktok</a></li>
-                            <li><a href="https://www.instagram.com/saul.flxp_/" class="social-link">Instagram</a></li>
-                            <li><a href="https://www.youtube.com/@yutoflop" class="social-link">Youtube</a></li>
-                        </ul>
-                    </fieldset>
-                </td>
-            </tr>
-        </table>
+                            <cite>— Albert Einstein</cite>
+                        </blockquote>
+                        <p>dea eso na mas lo ponia pa poner la cita</p>
+                    </article>
+                </fieldset>
+            </div>
+            <div class="social-links">
+                <fieldset>
+                    <legend>Mis redes sociales</legend>
+                    <ul>
+                        <li><a href="https://www.tiktok.com/@yutoflxp_">Tiktok</a></li>
+                        <li><a href="https://www.instagram.com/saul.flxp_/">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/@yutoflop">Youtube</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+        </section>
     </main>
 
     <footer>
