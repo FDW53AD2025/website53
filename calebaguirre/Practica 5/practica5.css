@@ -1,6 +1,6 @@
 /* selector universal */
-#s1 *{
-    color:gray
+#s3 *{
+    color:goldenrod
 }
 /*SELECTOR DE TIPO */
 #s1 p{
@@ -17,15 +17,16 @@
   font-size:20px;       
   color: blue;          
 }
---/*SELECTOR DE ATRIBUTO */
-#s1 [href ^= "¿"]{ /*este formato se utiliza solo para cambiar de color los formatos que INICIEN con simbolo numerico*/
-    color: tomato;
+/*SELECTOR DE ATRIBUTO */
+#s1 [class="texto"]{ /*este formato se utiliza solo para cambiar de color los formatos que INICIEN con simbolo numerico*/
+    color: crimson;
 }
 
 /*SELECTOR EN LISTA */
 /*PADRE DESCENDIENTE */
 #s1 h2{ 
-    color: red;
+    color: purple;
+    font-size: 30px;
 }
 /*HIJO DIRECTO*/
 #s2 > h3 {
@@ -33,4 +34,19 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 text-align: center;
 font-size: 30px;
 color:darkgreen
+}
+
+/*HIJO ADYACENTE zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+#sadyacente h4 + h5 {
+    text-align: center;
+    color: mediumvioletred;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HERMANO GENERAL */
+#s2 h3 ~ p { /* todo lo que vaya delante del h2 se realizara el cambio */
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
