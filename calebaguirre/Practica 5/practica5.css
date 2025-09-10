@@ -1,0 +1,21 @@
+/* selector universal */
+#s1 *{
+    color:gray
+}
+/*SELECTOR DE TIPO */
+#s1 p{
+    border: 5px inset gray;
+}
+
+/*SELECTOR DE CLASE*/
+.texto {
+  max-width: 600px;       
+  margin: 30px auto;        
+  text-align: justify;   
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;       
+  font-size:20px;       
+  color: blue;          
+}
+
+
