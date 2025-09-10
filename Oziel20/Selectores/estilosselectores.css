@@ -1,0 +1,82 @@
+/* 1.- universal */
+* {
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+    background: rgb(184, 208, 209);
+}
+
+/* 2.-De tipo*/
+
+h1 {
+  font-family: Arial, sans-serif; 
+
+}
+
+a {
+  text-decoration: none; 
+}
+
+p{
+    color: brown;
+}
+
+
+/*2.- ID*/
+
+#titulo-principal {
+  text-align: center; 
+}
+
+/*3.- Por Clase*/
+
+.introduccion {
+  font-style: italic;
+}
+.TiempoLibre {
+  color: teal; 
+}
+
+/*4.- atributo  y de lista*/
+
+/* Atributo*/
+a[target="_blank"] {
+  border-bottom: 1px dotted blue; /* Selecciona el enlace <a> que tiene el atributo target con el valor "_blank" */
+}
+a[atributo-inventado="valor"] {
+  color: red; /* Selecciona el enlace con el atributo "atributo-inventado" */
+}
+
+/*lista*/
+
+h1, h2, h3 {
+  font-weight: bold; /* Selecciona todos los <h1>, <h2> y <h3> */
+}
+.genero-drama, .genero-comedia, .genero-accion {
+  background-color: lightyellow; /* Selecciona todos los enlaces que tienen estas clases */
+}
+
+/*5.- decendientes*/
+
+ul a {
+  color: green;
+  font-weight: bold;
+}
+
+/*6.-hijos directos*/
+section > h2 {
+  border-left: 5px solid blue;
+  padding-left: 10px;
+}
+
+/*7.- hermano adyacente*/
+
+h2 + p {
+  background-color: #f0f8ff;
+}
+
+/*8.- Hermano general*/
+
+h1 ~ p {
+  text-indent: 20px;
+}
