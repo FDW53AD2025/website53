@@ -42,3 +42,10 @@
     font-style: oblique;
     background-color: rgb(222, 172, 210);
 }
+
+/*SELECTOR DE ATRIBUTO*/
+#atributo2 [href *= "com"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: darkmagenta;
+}
