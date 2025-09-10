@@ -1,10 +1,13 @@
-/* Reset básico */
+/* Selector universal
+   Aplica a todos los elementos*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Selectores de tipo
+   Aplica a todos los elementos de ese tipo */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -104,4 +107,59 @@ footer {
     color: white;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+/* Selector por ID
+   Aplica a un elemento con un ID específico */
+#titulo-principal { color: #ff6347; }
+#titulo-comics { color: #ff4500; }
+#titulo-deportes { color: #32cd32; }
+#titulo-series { color: #8a2be2; }
+#titulo-videojuegos { color: #ffffff; }
+
+/* Selector por clase
+   Aplica a todos los elementos con esta clase */
+.destacado {
+    background-color: #ffff99;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/*Selector de atributo
+Aplica a todos los elementos con un atributo específico */
+img[alt] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Selector descendiente
+   Aplica a elementos que son descendientes de otros */
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Selector hijos directos
+   Aplica solo a los hijos directos*/
+main > section {
+    border: 2px solid #1e90ff;
+}
+
+/* Selector hermano adyacente
+   Aplica al siguiente elemento inmediatamente después */
+h3 + ul {
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Selector hermano general
+   Aplica a todos los hermanos que vienen después */
+h3 ~ ul li {
+    margin-bottom: 0.3rem;
+}
+
+/* Selector de lista
+   Aplica a todos los <li> dentro de <ul> */
+ul li {
+    list-style-type: square;
 }

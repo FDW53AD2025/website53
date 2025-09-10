@@ -34,28 +34,6 @@
     font-weight: bold;
 }
 
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    padding: 0 10px;
-    color: #f9f9f9;
-}
-
-.imagenesBuenas{
-    display: flex;
-    margin: 20px auto;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 10px;
-}
-
-.imagenesBuenas img {
-    width: 300px;
-}
 
 
 .videoBueno {
@@ -195,4 +173,46 @@ form > input[type="text"],
 form > input[type="number"],
 form > input[type="checkbox"] {
     width: 100%;
+}
+
+img[alt] {
+    border: 2px dashed #177E89;
+}
+
+nav > ul > li {
+    border-left: 5px solid #C44536;
+    background-color: #F0EFF4;
+    padding-left: 16px;
+}
+
+nav ul li {
+    background-color: #F0EFF4;
+    color: #177E89;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+nav ul li:hover {
+    background-color: #C44536;
+    color: #fff;
+}
+
+nav ul li strong {
+    color: #C44536;
+    text-decoration: underline;
+}
+
+h2 + p {
+
+    color: #F0EFF4;
+    letter-spacing: 10px;
+
+}
+
+
+h2 ~ p {
+    border-left: 4px solid orange;
 }
