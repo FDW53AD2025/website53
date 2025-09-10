@@ -49,3 +49,10 @@
     font-size: medium;
     color: darkmagenta;
 }
+
+/*SELECTOR DE DESCENDIENTES*/
+body p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(97, 59, 59);
+}
