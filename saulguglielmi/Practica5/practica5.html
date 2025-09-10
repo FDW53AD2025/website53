@@ -3,90 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uso De Selecciones</title>
+    <title>Uso De Selectores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Selector Universal: Ajusta el modelo de caja para todos los elementos. */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f2f2f2;
+            color: #111;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            padding: 1.25rem;
+        }
+
+        h1 {
+            color: #ffe600;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            text-align: center;
+            margin-bottom: 1.25rem;
+        }
+
+        h2, h3 {
+            color: #2a3a4f;
+            margin-bottom: 0.9375rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e0e6ed;
+            margin: 1.875rem 0;
+        }
+
+        /* Contenedor principal para el contenido */
+        main {
+            background-color: #fafafa;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para cada sección de selector */
+        .selector-card {
+            border: 1px solid #dcdfe6;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            background-color: #f7f9fc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Contenedor para imágenes y código usando Flexbox */
+        .code-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .code-images img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0.75rem;
+            margin-top: 1.875rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Uso de Selectores</h1>
-        <p>En esta parte de la pagina enseñare las capturas de que se hizo en cada selector</p>
-        <p><strong>Nota:</strong> solo pondre los mas relevantes! (ya que son muchos)</p>
+        <p>En esta parte de la pagina enseñaré las capturas de lo que se hizo con cada selector.</p>
+        <p><strong>Nota:</strong> solo pondré los más relevantes (ya que son muchos).</p>
     </header>
     <hr>
     <main>
-        <h1>Selector Universal</h1>
-                <p>El selector universal (*) selecciona todos los elementos en el documento HTML. En este caso, se utiliza para aplicar un modelo de caja consistente (box-sizing: border-box) y eliminar los márgenes y rellenos predeterminados de todos los elementos. Esto asegura que el diseño sea más predecible y uniforme en toda la página.</p>
-        <img src="img/uni.png" alt="Selector Universal">
-        <h2>Codigo:</h2>
-        <img src="img/unic.png" alt="Selector de Tipo">
-        <hr>
-        <h1>Selector de Tipo</h1>
-        <p>Los selectores de tipo se utilizan para aplicar estilos a todos los elementos de un tipo específico, como body, h1, p, etc. En este caso, se han definido estilos base para el cuerpo del documento (body), encabezados (h1, h2, h3, h4) y enlaces (a). Estos estilos incluyen colores, fuentes, márgenes y otros atributos que afectan la apariencia general de estos elementos en la página.</p>
-        <img src="img/tipo.png" alt="Selector de Tipo">
-        <h2>Codigo:</h2>
-        <img src="img/tipoc.png" alt="Selector de Tipo">
-        <hr>
-        <h1>Selector de Clase</h1>
-        <p>Los selectores de clase permiten aplicar estilos a elementos específicos que comparten una clase común. En este caso, se han definido varias clases como .main-content, .evidence-item, .evidence-links, etc., para aplicar estilos específicos a diferentes secciones y componentes de la página. Esto permite una mayor flexibilidad y reutilización de estilos en diferentes partes del documento.</p>
-        <img src="img/clase.png" alt="Selector de Clase">
-        <h2>Codigo:</h2>
-        <img src="img/clasec.png" alt="Selector de Clase">
-        <hr>
-        <h1>Selector de ID</h1>
-        <p>Los selectores de ID se utilizan para aplicar estilos a un elemento único en el documento que tiene un atributo id específico. En este caso, se ha definido un estilo para el elemento con el ID #header, que es el encabezado principal de la página. Los estilos aplicados incluyen colores, fuentes, márgenes y otros atributos que afectan la apariencia del encabezado.</p>
-        <img src="img/id.png" alt="Selector de ID">
-        <h2>Codigo:</h2>
-        <img src="img/idc.png" alt="Selector de ID">
-        <hr>
-        <h1>Selector de Atributo</h1>
-        <p>Los selectores de atributo permiten aplicar estilos a elementos basados en la presencia o el valor de un atributo específico. En este caso, se ha definido un estilo para los enlaces (a) que tienen el atributo target="_blank". Este estilo cambia el color del enlace y agrega un subrayado cuando el usuario pasa el cursor sobre el enlace. Esto es útil para resaltar enlaces que abren en una nueva pestaña o ventana.</p>
-        <img src="img/pseudo.png" alt="Selector de Atributo">
-        <h2>Codigo:</h2>
-        <img src="img/atrc.png" alt="Selector de Atributo">
-        <hr>
-        <h1>Selector de Lista</h1>
-        <p>Los selectores de lista permiten aplicar estilos a elementos específicos dentro de una lista. En este caso, se ha definido un estilo para los elementos de lista (li) que son hijos directos de un elemento con la clase .evidence-links. Este estilo agrega un margen derecho a cada elemento de la lista, excepto al último, para crear espacio entre los enlaces en línea. Esto mejora la legibilidad y la apariencia visual de los enlaces en la página.</p>
-        <img src="img/lista.png" alt="Selector de Lista">
-        <h2>Codigo:</h2>
-        <img src="img/listac.png" alt="Selector de Lista">
-        <hr>
-        <h1>Selector de Pseudo-clase</h1>
-        <p>Los selectores de pseudo-clase permiten aplicar estilos a elementos en estados específicos o condiciones. En este caso, se ha definido un estilo para los enlaces (a) cuando el usuario pasa el cursor sobre ellos (:hover). Este estilo cambia el color del enlace y agrega un subrayado para indicar que el enlace es interactivo. Esto mejora la experiencia del usuario al proporcionar retroalimentación visual cuando interactúa con los enlaces en la página.</p>
-        <img src="img/pseudo.png" alt="Selector de Pseudo-clase">
-        <h2>Codigo:</h2>
-        <img src="img/pseudoc.png" alt="Selector de Pseudo-clase">
-        <hr>
-        <h1>Selector de Descendiente</h1>
-        <p>Los selectores de descendiente permiten aplicar estilos a elementos que son descendientes de un elemento específico. En este caso, se ha definido un estilo para los elementos de párrafo (p) que son descendientes de un elemento con la clase .main-content. Este estilo agrega un margen inferior a cada párrafo para crear espacio entre los párrafos dentro de la sección principal del contenido. Esto mejora la legibilidad y la apariencia visual del texto en la página.</p>
-        <img src="img/desc.png" alt="Selector de Descendiente">
-        <h2>Codigo:</h2>
-        <img src="img/descc.png" alt="Selector de Descendiente">
-        <hr>
-        <h1>Selector de Hijo</h1>
-        <p>Los selectores de hijo permiten aplicar estilos a elementos que son hijos directos de un elemento específico. En este caso, se ha definido un estilo para los elementos de lista (li) que son hijos directos de un elemento con la clase .evidence-links. Este estilo agrega un margen derecho a cada elemento de la lista, excepto al último, para crear espacio entre los enlaces en línea. Esto mejora la legibilidad y la apariencia visual de los enlaces en la página.</p>
-        <img src="img/hijo.png" alt="Selector de Hijo">
-        <h2>Codigo:</h2>
-        <img src="img/hijoc.png" alt="Selector de Hijo">
-        <hr>
-        <h1>Selector de Grupo</h1>
-        <p>Los selectores de grupo permiten aplicar los mismos estilos a múltiples elementos al agruparlos en una sola regla CSS. En este caso, se han agrupado los selectores de encabezados (h2, h3, h4) para aplicarles estilos comunes, como el color y la sombra de texto. Esto reduce la redundancia en el código CSS y facilita el mantenimiento, ya que cualquier cambio en los estilos de los encabezados se puede hacer en un solo lugar.</p>
-        <img src="img/grupo.png" alt="Selector de Grupo">
-        <h2>Codigo:</h2>
-        <img src="img/grupoc.png" alt="Selector de Grupo">
-        <hr>
-        <h1>Selector de Hermano general</h1>
-        <p>Los selectores de hermano general permiten aplicar estilos a elementos que son hermanos de un elemento específico, independientemente de su posición en el árbol DOM. En este caso, se ha definido un estilo para los elementos hr que son hermanos de un elemento con la clase .main-content. Este estilo agrega un margen vertical y un borde para separar visualmente las secciones del contenido principal. Esto mejora la organización y la apariencia visual de la página.</p>
-        <img src="img/hermano.png" alt="Selector de Hermano general">
-        <h2>Codigo:</h2>
-        <img src="img/hermanoc.png" alt="Selector de Hermano general">
-        <hr>
+        <section class="selector-card">
+            <h2>Selector Universal</h2>
+            <p>El selector universal (<code>*</code>) selecciona todos los elementos en el documento HTML. Se utiliza para aplicar un modelo de caja consistente (<code>box-sizing: border-box;</code>) y eliminar los márgenes y rellenos predeterminados de todos los elementos, asegurando que el diseño sea más predecible y uniforme.</p>
+            <div class="code-images">
+                <img src="img/uni.png" alt="Ejemplo de uso del selector universal en CSS.">
+                <h3>Código:</h3>
+                <img src="img/unic.png" alt="Código CSS para el selector universal.">
+            </div>
+        </section>
 
+        <section class="selector-card">
+            <h2>Selector de Tipo</h2>
+            <p>Los selectores de tipo se utilizan para aplicar estilos a todos los elementos de un tipo específico, como <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, etc. Se definen estilos base para el cuerpo del documento, encabezados y enlaces, que afectan la apariencia general de la página.</p>
+            <div class="code-images">
+                <img src="img/tipo.png" alt="Ejemplo de estilo aplicado con un selector de tipo.">
+                <h3>Código:</h3>
+                <img src="img/tipoc.png" alt="Código CSS para el selector de tipo.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Clase</h2>
+            <p>Los selectores de clase permiten aplicar estilos a elementos que comparten una clase común. Se definen clases como `.selector-card` y `.code-images` para aplicar estilos específicos a diferentes secciones y componentes de la página, lo que permite una mayor flexibilidad y reutilización de estilos.</p>
+            <div class="code-images">
+                <img src="img/clase.png" alt="Ejemplo de estilo aplicado con un selector de clase.">
+                <h3>Código:</h3>
+                <img src="img/clasec.png" alt="Código CSS para el selector de clase.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de ID</h2>
+            <p>Los selectores de ID se utilizan para aplicar estilos a un elemento **único** en el documento que tiene un atributo <code>id</code> específico. Se definen estilos para un elemento, como `#header`, que afectan su apariencia sin influir en otros elementos.</p>
+            <div class="code-images">
+                <img src="img/id.png" alt="Ejemplo de estilo aplicado con un selector de ID.">
+                <h3>Código:</h3>
+                <img src="img/idc.png" alt="Código CSS para el selector de ID.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Atributo</h2>
+            <p>Los selectores de atributo permiten aplicar estilos a elementos basados en la presencia o el valor de un atributo específico. Se ha definido un estilo para los enlaces (<code>a</code>) que tienen el atributo <code>target="_blank"</code>, lo que es útil para resaltar enlaces que abren en una nueva pestaña o ventana.</p>
+            <div class="code-images">
+                <img src="img/pseudo.png" alt="Ejemplo de estilo aplicado con un selector de atributo.">
+                <h3>Código:</h3>
+                <img src="img/atrc.png" alt="Código CSS para el selector de atributo.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Pseudo-clase</h2>
+            <p>Los selectores de pseudo-clase aplican estilos a elementos en estados específicos. En este caso, el selector <code>:hover</code> cambia el color y añade un efecto visual a los enlaces cuando el usuario pasa el cursor sobre ellos, mejorando la experiencia del usuario al proporcionar retroalimentación visual.</p>
+            <div class="code-images">
+                <img src="img/pseudo.png" alt="Ejemplo de estilo aplicado con un selector de pseudo-clase.">
+                <h3>Código:</h3>
+                <img src="img/pseudoc.png" alt="Código CSS para el selector de pseudo-clase.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Descendiente</h2>
+            <p>Los selectores de descendiente aplican estilos a elementos que están anidados dentro de otro. Por ejemplo, se define un estilo para los párrafos (<code>p</code>) que son descendientes de la sección principal (<code>main</code>), creando un margen inferior para mejorar la legibilidad y la apariencia visual del texto.</p>
+            <div class="code-images">
+                <img src="img/tipo.png" alt="Ejemplo de estilo aplicado con un selector de descendiente.">
+                <h3>Código:</h3>
+                <img src="img/descc.png" alt="Código CSS para el selector de descendiente.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Hijo</h2>
+            <p>Los selectores de hijo aplican estilos a elementos que son hijos directos de otro elemento. Por ejemplo, los elementos de la lista (<code>li</code>) que son hijos directos de una clase `.evidence-links` tienen un margen para crear espacio entre ellos, mejorando la legibilidad de la lista de enlaces.</p>
+            <div class="code-images">
+                <img src="img/hijo.png" alt="Ejemplo de estilo aplicado con un selector de hijo.">
+                <h3>Código:</h3>
+                <img src="img/hijoc.png" alt="Código CSS para el selector de hijo.">
+            </div>
+        </section>
+
+        <section class="selector-card">
+            <h2>Selector de Hermano General</h2>
+            <p>Los selectores de hermano general aplican estilos a elementos que comparten el mismo padre. En este caso, se ha definido un estilo para los elementos <code>&lt;hr&gt;</code> que son hermanos de un elemento con la clase `.selector-card`, agregando un margen y un borde para separar visualmente las secciones y mejorar la organización de la página.</p>
+            <div class="code-images">
+                <img src="img/hermano.png" alt="Ejemplo de estilo aplicado con un selector de hermano general.">
+                <h3>Código:</h3>
+                <img src="img/hermanoc.png" alt="Código CSS para el selector de hermano general.">
+            </div>
+        </section>
 
     </main>
     <hr>
     <footer>
-        <p>dea que ponia aqui, todos los derechos son del menso de Saul Guglielmi Marin</p>
+        <p>Todos los derechos son del menso de Saul Guglielmi Marin</p>
     </footer>
-
-
 </body>
 </html>
