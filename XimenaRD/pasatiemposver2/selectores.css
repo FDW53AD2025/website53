@@ -1,0 +1,7 @@
+/* SELECTOR UNIVERSAL (y el id es por #) */
+#links * {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: medium;
+    color: darkcyan;
+}
