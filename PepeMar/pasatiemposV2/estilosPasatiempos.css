@@ -119,8 +119,11 @@ footer {
 
 /* Selector por clase
    Aplica a todos los elementos con esta clase */
-.destacado {
-    background-color: #ffff99;
+.pagina-comics main .comic-card figcaption,
+.pagina-videojuegos main .videojuego-card figcaption,
+.pagina-series main .serie-card figcaption,
+.pagina-deportes main .deporte-card figcaption {
+    background-color: #4682b4;
     padding: 0.5rem;
     border-radius: 5px;
 }
