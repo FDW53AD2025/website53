@@ -68,3 +68,10 @@
     border: 5px double rgb(112, 158, 189);
     background-color: rgb(173, 213, 240);
 }
+
+/*SELECTOR HERMANO GENERAL*/
+.titulo3 ~ p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+}
