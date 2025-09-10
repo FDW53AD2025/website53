@@ -5,3 +5,8 @@
     font-size: medium;
     color: darkcyan;
 }
+
+/*SELECTOR DE TIPO*/
+#tipopag1 p {
+    border: 5px inset rgb(133, 215, 181);
+}
