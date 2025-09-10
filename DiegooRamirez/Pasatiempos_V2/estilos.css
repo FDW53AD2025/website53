@@ -33,4 +33,12 @@ h1{
     font-family: 'Comic Sans MS', cursive;
     color: green;
     font-weight: bold;
+    background-color: rgb(5, 248, 127);
+    animation: slide 1s infinite backwards;
+    font-size: 1.2em;
+}
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(10px); }
+  100% { transform: translateX(0); }
 }
