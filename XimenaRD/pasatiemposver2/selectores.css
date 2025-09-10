@@ -10,3 +10,28 @@
 #tipopag1 p {
     border: 5px inset rgb(133, 215, 181);
 }
+
+.clasepag1 {
+    border: 5px double rgb(128, 188, 146);
+    background-color: rgb(196, 232, 207);
+}
+
+.clasepag2 {
+    border: 5px double rgb(154, 96, 176);
+    background-color: rgb(210, 165, 228);
+}
+
+.clasepag3 {
+    border: 5px double rgb(204, 116, 157);
+    background-color: rgb(242, 174, 206);
+}
+
+.clasepag4 {
+    border: 5px double rgb(197, 191, 125);
+    background-color: rgb(234, 229, 178);
+}
+
+.clasepag5 {
+    border: 5px double rgb(164, 146, 214);
+    background-color: rgb(217, 203, 255);
+}
