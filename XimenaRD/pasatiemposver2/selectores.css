@@ -1,4 +1,4 @@
-/* SELECTOR UNIVERSAL (y el id es por #) */
+/* SELECTOR UNIVERSAL Y DE ID*/
 #links * {
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
@@ -11,6 +11,7 @@
     border: 5px inset rgb(133, 215, 181);
 }
 
+/*SELECTOR DE CLASE*/
 .clasepag1 {
     border: 5px double rgb(128, 188, 146);
     background-color: rgb(196, 232, 207);
@@ -34,4 +35,17 @@
 .clasepag5 {
     border: 5px double rgb(164, 146, 214);
     background-color: rgb(217, 203, 255);
+}
+
+/*SLECTOR DE LISTA*/
+#atributo1 p {
+    font-style: oblique;
+    background-color: rgb(222, 172, 210);
+}
+
+/*SELECTOR DE ATRIBUTO*/
+#atributo2 [href *= "com"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: darkmagenta;
 }
