@@ -1,15 +1,33 @@
-.link-morado {
-  color: white;
-  background-color: purple;
-  font-weight: bold;
-  padding: 6px 12px;
-  border-radius: 12px;
+a {
   text-decoration: none;
-  display: inline-block;
-  transition: 0.3s;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
 }
 
-.link-morado:hover {
-  background-color: violet;
-  color: black;
+.link-rojo {
+  color: purple;
+  border: 2px solid blueviolet;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.link-rosa {
+  background-color: pink;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.link-subrayado {
+  color: violet;
+  text-decoration: underline wavy orange;
+  font-style: italic;
+}
+
+.link-sombra {
+  color: darkblue;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px lightblue;
 }
