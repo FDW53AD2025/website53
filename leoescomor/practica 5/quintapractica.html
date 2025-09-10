@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <section>
+
+        <h1> Selectores </h1>
+        <h2>Selector Universal</h2>
+        <p>El selector universal (*) selecciona todos los elementos en el documento HTML.</p> <hr>
+        <p>Codigo:</p>
+        <p class="code"><code> 
+
+        img {
+        border-radius: 5px;
+        border: 3px solid beige;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }   
+
+        </p></code>
+        <img src="img/uno.png" alt="Pasatiempo cuatro">
+
+    </section>
+
+    <section>
+
+        <h2>Selector de Tipo</h2>
+        <p> El selector de tipo en CSS selecciona todos los elementos de un tipo específico, como p, h1, img, etc. </p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code"><code>h1 {
+        
+        text-shadow: 2px 2px 8px #177E89, 0 0 4px #C44536;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        }</code>
+        </p>
+        <img src="img/dos.png" alt="Imagen de selector de tipo">
+
+    </section>
+
+    <section>
+
+        <h2>Selector por id</h2>
+        <p>Selecciona un unico elemento que contenga el id correspondido</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+            #descr {
+        color: #C44536;
+        font-size: 2.2em;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 6px #177E89;
+        background-color: #f4f4f4;
+        padding: 10px 20px;
+        border-radius: 8px;
+        border-bottom: 4px solid #177E89;
+        width: fit-content;
+        margin: 30px auto 20px auto;
+        }
+        </code>
+        </p>
+        <img src="img/tres.png" alt="Selector por id">
+
+    </section>    
+    
+    <section>
+
+        <h2>Selector por clase</h2>
+        <p>Selecciona varios elementos que contenga en su declaracion la clase</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+            .parrafos {
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 10px;
+        color: #f9f9f9;
+        border-left: 4px solid #C44536;
+        background-color: #2d2d2d;
+        }
+        </code>
+        </p>
+        <img src="img/cuatro.png" alt="Selector por clase">
+
+    </section>
+
+    <section>
+
+        <h2>Selector de atributo</h2>
+        <p>El selector de atributo en CSS selecciona elementos que tienen un atributo específico o un valor determinado en su etiqueta HTML.</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+        img[alt] {
+        border: 2px dashed #177E89;
+        }
+        </code>
+        </p>
+        <img src="img/cinco.png" alt="Selector por atributo">
+
+    </section>
+
+    <section>
+
+        <h2>Selector de lista</h2>
+        <p>El selector de lista en CSS generalmente se refiere a los selectores que afectan elementos de listas.</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+        nav ul li {
+        background-color: #F0EFF4;
+        color: #177E89;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        padding: 6px 12px;
+        font-weight: bold;
+        transition: background 0.2s;
+        }
+
+        nav ul li:hover {
+        background-color: #C44536;
+        color: #fff;
+        }
+        </code>
+        </p>
+        <img src="img/seis.png" alt="Selector de lista">
+
+    </section>
+
+    <section>
+
+        <h2>Selector de descendentes</h2>
+        <p>Los selectores descendientes en CSS seleccionan elementos que están dentro de otros elementos, sin importar cuántos niveles de anidación haya.</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+        nav ul li strong {
+            color: #C44536;
+            text-decoration: underline;
+        }
+        </code>
+        </p>
+        <img src="img/siete.png" alt="Selector de lista">
+
+    </section>
+
+
+    <section>
+
+        <h2>Selector hijos directos</h2>
+        <p>El selector de hijos directos en CSS se escribe con el símbolo > y selecciona solo los elementos que son hijos directos de otro elemento, no los descendientes en cualquier nivel.</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+            nav > ul > li {
+            border-left: 5px solid #C44536;
+            background-color: #F0EFF4;
+            padding-left: 16px;
+            }
+        </code>
+        </p>
+        <img src="img/ocho.png" alt="Selector de lista">        
+    
+    </section>    
+
+    <section>
+
+        <h2>Selector hermano adyecente</h2>
+        <p>sirve para aplicar estilos a un elemento que está inmediatamente después de otro en el mismo nivel (hermanos).</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+            h2 + p {
+
+                color: #F0EFF4;
+                letter-spacing: 10px;
+
+            }
+        </code>
+        </p>
+        <img src="img/nueve.png" alt="Selector de hermano adyacente">   
+
+    </section>
+
+    <section>
+
+        <h2>Selector de hermano general</h2>
+        <p>El selector de hermano general, solo afecta al primer inmediato.</p>
+        <hr>
+        <p>Codigo</p>
+        <p class="code">   
+        <code>
+            h2 ~ p {
+                border-left: 4px solid orange;
+            }
+        </code>
+        </p>
+        <img src="img/diez.png" alt="Selector de hermano general">   
+
+    </section>
+
+</body>
+</html>
