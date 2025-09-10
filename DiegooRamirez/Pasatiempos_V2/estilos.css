@@ -1,4 +1,8 @@
-.titulos {
+*{
+    font-family: 'times new roman', Times, serif;
+}
+
+h1{
     color: rgb(2, 2, 36);
     font-weight: bold;
     font-size: 40px;
