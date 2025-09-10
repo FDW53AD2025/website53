@@ -115,9 +115,9 @@ footer {
 #titulo-comics { color: #ff4500; }
 #titulo-deportes { color: #32cd32; }
 #titulo-series { color: #8a2be2; }
-#titulo-videojuegos { color: #1e90ff; }
+#titulo-videojuegos { color: #ffffff; }
 
-/*n Selector por clase
+/* Selector por clase
    Aplica a todos los elementos con esta clase */
 .destacado {
     background-color: #ffff99;
