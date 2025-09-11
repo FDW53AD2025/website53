@@ -1,9 +1,7 @@
-/* estilos.css */
-
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fefcf9;
-  color: #4a4a4a;
+  background-color: #ffbce0;
+  color: #a80057;
   line-height: 1.6;
   padding: 20px;
 }
@@ -14,16 +12,16 @@ main {
 }
 
 section {
-  background-color: #fffaf4;
-  border: 1px solid #e8e2d9;
+  background-color: #ffd5e6;
+  border: 5px solid #bb1b3b;
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 32px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(205, 31, 60, 0.05);
 }
 
 h2 {
-  color: #a86e3d;
+  color: #750426;
   font-size: 1.8em;
   margin-bottom: 8px;
 }
@@ -39,6 +37,6 @@ figure {
 
 figcaption {
   font-style: italic;
-  color: #7a6c5d;
+  color: #cf0e52;
   margin-top: 4px;
 }
