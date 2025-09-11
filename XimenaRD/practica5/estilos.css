@@ -1,0 +1,12 @@
+.h1 {
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: hsl(240,50%,90%);
+}
+
+.h2 {
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #476EAE;
+    box-shadow: 5px 10px #476EAE;
+}
