@@ -18,11 +18,16 @@
   color: blue;          
 }
 /*SELECTOR DE ATRIBUTO */
-#s2 [class="texto"]{ /*este formato se utiliza solo para cambiar de color los formatos que INICIEN con simbolo numerico*/
+#s2 [class="texto"]{
     color: crimson;
 }
 
 /*SELECTOR EN LISTA */
+#s3, .texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
 /*PADRE DESCENDIENTE */
 #s2 h2{ 
     color: purple;
@@ -45,7 +50,7 @@ color:darkgreen
 }
 
 /* HERMANO GENERAL */
-#s3 h3 ~ p { /* todo lo que vaya delante del h2 se realizara el cambio */
+#s3 h3 ~ p { 
     color: aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;

@@ -1,73 +1,93 @@
-/* SELECTOR UNIVERSAL */
+/* Selector universal */
 * {
-  box-sizing: border-box;
-  font-family: "Inter", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #07ff17;
+    background-color: #fafafa;
+}
+/* Selector de tipo  */
+h1 {
+    background-color: yellow; /* Fondo distinto al de la página */
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    padding: 15px;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    border-radius: 8px;
 }
 
 
-/* SELECTOR DE TIPO */
-section {
-  padding: 1rem;
-  background-color: #e6f7e6; /* verde claro */
-  border: 2px solid #cfe9cf;
-  margin-bottom: 1rem;
-  border-radius: 6px;
+/* Selector por ID */
+#titulo-principal {
+    color: rgb(107, 2, 255);
+    background-color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    padding: 15px;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 10px;
 }
 
-/* SELECTOR POR ID */
-#especial {
-  background: linear-gradient(90deg,#007bff,#0056d6);
-  color: #fff;
-  padding: .6rem .8rem;
-  border-radius: 6px;
-  display: inline-block;
-  margin-bottom: 1rem;
+/* Selector por clase */
+.seccion-arte {
+    background-color: #0088ff; 
+    border: 2px solid rgb(0, 128, 23);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
 }
 
-/* SELECTOR POR CLASE */
-.resaltado {
-  font-weight: 700;
-  color: #b10e2e;
-  background: rgba(177,14,46,0.06);
-  padding: 0.25rem 0.4rem;
-  border-radius: 3px;
+
+/* Selector por atributo */
+a[target="_blank"] {
+    color: rgb(7, 0, 0);
+    background-color: rgb(40, 196, 9);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* SELECTOR POR ATRIBUTO */
-input[type="text"],
-input[type="email"] {
-  border: 2px solid #2d8f2d;
-  padding: .45rem .6rem;
-  border-radius: 4px;
-  outline: none;
-}
-input[type="text"]:focus,
-input[type="email"]:focus {
-  box-shadow: 0 0 6px rgba(45,143,45,0.25);
+/* Selector de lista: estilos a ul y li */
+ul {
+    list-style-type: square; 
+    background-color: #f0f8ff;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
 }
 
-/* SELECTOR DE LISTA */
-h1, h2, h3 {
-  color: #163b6d;
-  margin-bottom: .5rem;
+ul li {
+    color: darkblue;
+    font-weight: bold;
+    margin: 5px 0;
 }
 
-/* SELECTOR DE DESCENDIENTES */
-div p {
-  color: purple;
-  font-size: 0.95rem;
+
+/* Selector de descendientes:
+   Afecta a todos los <p> que estén dentro de <section> */
+section p {
+    color: darkblue;
+    font-style: italic;
+    background-color: #f0f8ff;
+    padding: 8px;
+    border-left: 4px solid darkblue;
+    margin-bottom: 10px;
 }
 
-/* SELECTOR DE HIJOS DIRECTOS (>) */
-div > span {
-  display: inline-block;
-  background: #fff3b0;
-  padding: .2rem .5rem;
-  border-radius: 4px;
-  border: 1px dashed #e2c542;
+/* Selector de hijos directos:
+   Solo afecta a los <p> que son hijos inmediatos de <footer> */
+footer > p {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 
 /* SELECTOR DE HERMANO ADYACENTE (+) */
 h2 + p {

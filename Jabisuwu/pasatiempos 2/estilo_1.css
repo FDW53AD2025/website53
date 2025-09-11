@@ -63,7 +63,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Selector universal */
+
 * {
   margin: 0.1em;
   padding: 0;
@@ -71,21 +71,18 @@ footer {
   font-family: 'Georgia', serif;
 }
 
-/* Selector de tipo */
 h2 {
   color: #dc2b69;
   text-align: center;
   margin-top: 20px;
 }
 
-/* Selector por ID */
 #favorita {
   background-color: #fdf6e3;
   padding: 20px;
   border-left: 5px solid #ffb6c1;
 }
 
-/* Selector por clase */
 .detalle {
   font-style: italic;
   color: #ff69b4;
@@ -93,41 +90,36 @@ h2 {
   padding: 10px;
 }
 
-/* Selector de atributo */
 img[alt] {
   border-radius: 12px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
 
-/* Selector por lista*/
 li {
   list-style-type: square;
   margin-bottom: 5px;
   color: #d78191;
 }
 
-/* Selector de descendientes */
 section p {
   line-height: 1.6;
   font-size: 16px;
 }
 
-/* Selector de hijos directos */
 nav > ul {
   background-color: #ffc0ef;
   padding: 10px;
   border-radius: 8px;
 }
 
-/* Selector hermano adyacente */
 h2 + p {
   margin-top: 10px;
   font-size: 18px;
   color: #444;
 }
 
-/* Selector hermano general */
 h2 ~ p {
   font-size: 17px;
   color: #a13f7f;
 }
+

@@ -15,3 +15,28 @@
     h3{
         text-align: center;
     }
+
+    li {
+    background-color: #a176cf;
+    border: 5px solid black;
+}
+
+header *{
+    border: 5px inset greenyellow;
+
+}
+
+div > p {
+    background-color: rgb(21, 42, 146);
+}
+
+span + p {
+    background-color: #a176cf;
+}
+
+span ~ p {
+    background-color: #8d357e;
+}
+
+
+
