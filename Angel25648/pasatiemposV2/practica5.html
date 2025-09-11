@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores CSS</title>
+    <link rel="stylesheet" href="estiloPractica.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <h1>Práctica 5 - Selectores CSS</h1>
+</header>
+
+<main class="contenedor">
+    <article class="tarjeta">
+        <h2>Selector Universal</h2>
+        <div class="bloque-codigo">
+* {
+    margin: 1;
+    padding: 1;
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector universal.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector de tipo</h2>
+        <div class="bloque-codigo">
+section {
+    color: blue;
+    padding: 10px;
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector de tipo.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector por ID</h2>
+        <div class="bloque-codigo">
+#nombre {
+    border: 3px solid rgb(38, 255, 0);
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector por ID.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector por clase</h2>
+        <div class="bloque-codigo">
+.videojuego-img {
+    border: 3px solid rgb(43, 0, 255);
+    width: 200px;
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector por clase.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector de atributo</h2>
+        <div class="bloque-codigo">
+input[type="email"] {
+    background-color: rgb(255, 255, 255);
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector de atributo.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector de lista</h2>
+        <div class="bloque-codigo">
+h1, h2 {
+    text-align: center;
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector de lista (agrupado).png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector de descendientes</h2>
+        <div class="bloque-codigo">
+aside.info-box p {
+    color: rgb(255, 0, 0);
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector de descendientes.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector hijos directos</h2>
+        <div class="bloque-codigo">
+main > header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector hijos directos.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector hermano adyacente</h2>
+        <div class="bloque-codigo">
+h2 + section {
+    color: rgb(88, 0, 139);
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector hermano adyacente.png" alt="Resultado">
+        </div>
+    </article>
+
+    <article class="tarjeta">
+        <h2>Selector hermano general</h2>
+        <div class="bloque-codigo">
+h2 ~ section {
+    background-color: rgb(193, 255, 159);
+    border: 3px solid rgb(0, 0, 0);
+}
+        </div>
+        <div class="imagenes">
+            <img src="img/Selector hermano general.png" alt="Resultado">
+        </div>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2025 - Practica5</p>
+    <p>Desarrollado por: AIBM</p>
+</footer>
+
+</body>
+</html>

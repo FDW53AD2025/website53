@@ -1,0 +1,66 @@
+/* Practicá 5 */
+
+/* 1. selector universal */
+* {
+  border: 2px solid #ff33aa; /* borde rosa fuerte */
+  padding: 4px;
+  margin: 4px;
+  box-sizing: border-box;
+}
+
+/* 2. Selector de tipo*/
+p {
+  color: #66ff91; /* rosa fuerte */
+  font-family: Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* 3. Selector de tipo*/
+#lool {
+  color: #147aff; /* rosa intenso */
+  font-weight: bold;
+}
+
+/* 4. Selector por clase */
+.resaltado {
+  background-color: #ffe6f0; /* rosa muy claro */
+  font-style: italic;
+}
+
+/* 5. Selector por atributo */
+img[alt] {
+  border: 3px solid #dcff69; /* borde rosa */
+  border-radius: 8px;
+}
+
+/* 6. Selector por lista */
+ul li {
+  list-style-type: circle;
+  color: #33f1ff; /* rosa oscuro */
+  margin-bottom: 0.5rem;
+}
+
+/* 7. Selector de descendientes */
+main p {
+  background-color: #ff0000; /* lavanda rosada */
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* 8. Selector de descendientes */
+main > section {
+  border: 2px dashed #99ffa7; 
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* 9.selector de hermano adyaciente */
+p + p {
+  border-left: 4px solid #07385b; /* borde rosa a la izquierda */
+  padding-left: 0.5rem;
+}
+
+/* 10. Selector de hermano general */
+p:first-of-type ~ p {
+  color: #9f70b1; /* rosa medio */
+}

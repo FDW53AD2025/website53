@@ -2,6 +2,13 @@ body{
     background-image: url(https://wallpapers.com/images/hd/venom-from-marvel-eyes-x7laveq2a3a9sn6j.jpg);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 1;
+  padding: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1 {
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -11,9 +18,10 @@ h2{
   color: white;
   text-shadow: 2px 2px 5px rgb(77, 139, 255); 
 }
-p{
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 5px black;
+p, .comic{
+  color: rgb(0, 247, 255);
+  text-shadow: 2px 2px 5px rgba(0, 26, 255, 0.507);
+  
 }
 
 img{
@@ -51,3 +59,31 @@ form {
   width: 350px;
 }
 
+#T1 {
+  background-color: rgb(0, 0, 0);
+  padding: 45px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+h1[title="Titulo"] {
+    background-color: rgb(12, 125, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer p {
+  color: red;
+}
+
+tr > th {
+  background-color: rgba(84, 78, 172, 0.589);
+}
+
+h2 + p {
+  background-color: rgb(74, 77, 255);
+}
+
+h2 ~ p{
+  color: aqua;
+}
