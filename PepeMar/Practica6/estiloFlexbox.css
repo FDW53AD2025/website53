@@ -8,11 +8,13 @@ body {
   height: 100vh;
 }
 
-.container {
-  display: flex;
-  gap: 20px; /* espacio entre tarjetas */
-}
 
+.container {
+  display: flex;          
+  flex-direction: row;    
+  justify-content: center; 
+  gap: 20px;              
+}
 .card {
   background-color: #2b2b36;
   border-radius: 10px;
