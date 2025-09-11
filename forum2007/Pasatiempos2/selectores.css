@@ -1,0 +1,58 @@
+/*Selector universal*/
+*{
+    color: aqua;
+}
+
+/*Selector de tipo*/
+h2{
+    color: red;
+}
+
+/*Selector por ID*/
+#especial{
+    color: yellow;
+}
+
+/*Selector por clase*/
+.destacado {
+  color: khaki;
+  font-weight: bold;
+}
+
+/*Selector de Atributo */
+img[alt="Palomazo Norteño"] {
+  border: 3px solid green;
+}
+
+/*Selector de Lista */
+h3, p {
+  border-bottom: 1px dashed gray;
+}
+
+/*Selector Descendiente */
+nav ul li a {
+  color: purple;
+}
+
+/* Selector Hijos Directos */
+main > div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*Selector Hermano Adyacente */
+h2 + p {
+  color: orange;
+  font-style: italic;
+}
+
+/*Selector Hermano General */
+div ~ div {
+  background-color: lightblue;   
+  border: 3px solid darkblue;   
+  color: darkred;                
+  font-weight: bold;            
+}
+
+

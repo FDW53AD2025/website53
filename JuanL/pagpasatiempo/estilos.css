@@ -176,11 +176,13 @@ nav ul {
     font-size: 26px; 
 }
 
-footer > p {position: relative; top: 5px; color: aliceblue; text-align: center;   /*Selector hijos directos*/
+footer > p {position: relative; top: 5px; 
+    color: aliceblue; text-align: center;      /*Selector hijos directos*/
 
 }
 
-h2 + video {width: 1200px; height: 800px; margin: auto; display: block;   /*Selector de hermano adyacente*/
+h2 + video {width: 1200px; height: 800px; 
+           margin: auto; display: block;   /*Selector de hermano adyacente*/
 
 }   
 
