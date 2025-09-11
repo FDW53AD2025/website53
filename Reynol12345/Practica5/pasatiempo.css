@@ -1,0 +1,61 @@
+/* 1. Selector universal */
+* {
+  border: 2px dashed red;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+/* 2. Selector de tipo */
+h1 {
+  color: rgb(4, 46, 100);
+  text-transform: uppercase;
+}
+
+/* 3. Selector por ID */
+#galeria {
+  background-color: #444;
+  padding: 1rem;
+}
+
+/* 4. Selector por clase */
+.resaltado {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 0.3rem;
+}
+
+/* 5. Selector de atributo */
+a[target="_blank"] {
+  color: orange;
+  font-style: italic;
+  border-bottom: 2px solid orange;
+}
+
+/* 6. Selector de lista (varios elementos) */
+h2, h3 {
+  text-align: center;
+  background-color: #222;
+  color: cyan;
+}
+
+/* 7. Selector de descendientes */
+section p {
+  color: rgb(24, 117, 5);
+}
+
+/* 8. Selector hijos directos */
+main > section {
+  border: 5px solid green;
+}
+
+h2 + p {
+  background-color: #ff0095;
+  color: rgb(16, 71, 2);
+  padding: 0.5rem;
+}
+
+/* 10. Selector hermano general */
+h2 ~ p {
+  font-style: arial;
+  color: rgb(22, 7, 151);
+}
