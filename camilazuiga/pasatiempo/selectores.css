@@ -1,0 +1,77 @@
+/* 🎨 Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* 🎨 Selector de tipo */
+section {
+  color: #6a1b9a; /* morado oscuro */
+  background-color: #fbe9f7; /* rosa muy claro */
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+
+/* 🎨 Selector por ID */
+#nombre {
+  border: 2px solid #d500f9; /* morado vibrante */
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+/* 🎨 Selector por clase */
+.videojuego-img {
+  border: 4px solid #f48fb1; /* rosa */
+  border-radius: 16px;
+  width: 220px;
+  box-shadow: 0px 4px 10px rgba(106, 27, 154, 0.3);
+}
+
+/* 🎨 Selector de atributo */
+input[type="email"] {
+  background-color: #fff;
+  border: 2px solid #ba68c8;
+  border-radius: 6px;
+  padding: 8px;
+  color: #6a1b9a;
+}
+
+/* 🎨 Selector de lista (agrupado) */
+h1, h2 {
+  text-align: center;
+  color: #8e24aa; /* morado medio */
+  margin-bottom: 10px;
+}
+
+/* 🎨 Selector de descendientes */
+aside.info-box p {
+  color: #ad1457; /* rosa fuerte */
+  font-weight: bold;
+}
+
+/* 🎨 Selector hijos directos */
+main > header {
+  background: linear-gradient(90deg, #8e24aa, #f48fb1);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* 🎨 Selector hermano adyacente */
+h2 + section {
+  color: #d500f9; /* morado neón */
+  font-style: italic;
+}
+
+/* 🎨 Selector hermano general */
+h2 ~ section {
+  background-color: #f3e5f5; /* lavanda claro */
+  border: 2px dashed #ce93d8;
+  padding: 10px;
+  border-radius: 10px;
+}
