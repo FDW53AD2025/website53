@@ -1,5 +1,5 @@
 body{
-    background-color: gray; /* color de fondo suave */
+    background-color: gray; 
     color: red;
     padding: 20px;
     text-align: center;
@@ -23,7 +23,7 @@ form input[type="submit"] {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Asegura que el padding no añada al ancho */
+    box-sizing: border-box; 
 }
 
 form input[type="submit"] {
@@ -44,7 +44,7 @@ nav {
   padding: 15px;
   display: flex;
   justify-content: center;
-  gap: 20px;                /* Espacio entre enlaces */
+  gap: 20px;              
 }
 
 nav a {

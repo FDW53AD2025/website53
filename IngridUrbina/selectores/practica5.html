@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5: Selectores</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background: #fdfcff;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3c1361;
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #5e2bb1, #4a2099);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        section {
+            background: #ffffff;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 18px;
+            max-width: 850px;
+            border: 1px solid #e0d4f7;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: #4b0082;
+            margin-bottom: 15px;
+            border-left: 6px solid #6a11cb;
+            padding-left: 12px;
+        }
+
+        .imagen {
+            margin: 18px 0;
+            text-align: center;
+            background: #faf8ff;
+            border: 1px dashed #b59ce6;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        .imagen p {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+            color: #333;
+        }
+
+        .imagen img {
+            max-width: 95%;
+            border: 3px solid #9370db;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(147,112,219,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .imagen img:hover {
+            transform: scale(1.05) rotate(-1deg);
+        }
+
+        /* Detalle de pie de página */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Práctica 5: Selectores</h1>
+
+    <section>
+        <h2>1. Selector universal</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/universal.jpg" alt="Código selector universal">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/universalres.jpg" alt="Resultado selector universal">
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Selector de tipo</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/tipo.jpg" alt="Código selector tipo">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/tiposres.jpg" alt="Resultado selector tipo">
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Selector de clase</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/clase.jpg" alt="Código selector clase">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/claseres.jpg" alt="Resultado selector clase">
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Selector de id</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/id.jpg" alt="Código selector id">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/idres .jpg" alt="Resultado selector id">
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Selector de atributo</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/atributo.jpg" alt="Código selector descendente">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/atributores.jpg" alt="Resultado selector descendente">
+        </div>
+    </section>
+
+    <section>
+        <h2>6. Selector de lista</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/lista.jpg" alt="Código selector hijo">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/listares.jpg" alt="Resultado selector hijo">
+        </div>
+    </section>
+
+    <section>
+        <h2>7. Selector de descendientes</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/descendientes.jpg" alt="Código selector adyacente">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/descendientesres.jpg" alt="Resultado selector adyacente">
+        </div>
+    </section>
+
+    <section>
+        <h2>8. Selector hijos directos</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/hijosdirectos.jpg" alt="Código selector atributos">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/hijosdirectosres .jpg" alt="Resultado selector atributos">
+        </div>
+    </section>
+
+    <section>
+        <h2>9. Selector hermano adyacente</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/hermano.jpg" alt="Código pseudoclase">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/hermanores.jpg" alt="Resultado pseudoclase">
+        </div>
+    </section>
+
+    <section>
+        <h2>10. Selector hermano general</h2>
+        <div class="imagen">
+            <p><b>Código:</b></p>
+            <img src="../selectores/img/hermanogen.jpg" alt="Código pseudoelemento">
+        </div>
+        <div class="imagen">
+            <p><b>Resultado:</b></p>
+            <img src="../selectores/img/hermanogenres.jpg" alt="Resultado pseudoelemento">
+        </div>
+    </section>
+
+    <footer>
+        <p>Sitio web desarrollado por Ingrid Urbina · FDW 2025</p> 
+    </footer>
+</body>
+</html>

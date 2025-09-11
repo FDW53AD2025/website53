@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Mis PasatiemposV2</title>
   <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="selectores.css">
 </head>
 <body>
   <header>
@@ -20,39 +21,49 @@
   </header>
 
   <main>
+    <header>
+      <h3>Sección principal</h3>
+    </header>
     <p class="bienvenida">Bienvenidos a mi pagina web, estos son algunos de mis pasatiempos que tengo y tambien porque son interesantes para mi</p>
     
     <h2>Encuesta de Pasatiempos</h2>
-    <form action="">
-      <div>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
-      </div>
+    <section class="encuesta">
+      <form action="">
+        <div>
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+        </div>
 
-      <div>
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required><br><br>
-      </div>
+        <div>
+          <label for="email">Correo electrónico:</label><br>
+          <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required><br><br>
+        </div>
 
-      <div>
-        <label>¿Qué pasatiempo disfrutas más?</label><br>
-        <input type="radio" name="favorito" value="series"> Series<br>
-        <input type="radio" name="favorito" value="juegosdemesa"> Juegos de Mesa<br>
-        <input type="radio" name="favorito" value="musica"> Música<br>
-        <input type="radio" name="favorito" value="videojuegos"> Videojuegos<br><br>
-      </div>
+        <div>
+          <label>¿Qué pasatiempo disfrutas más?</label><br>
+          <input type="radio" name="favorito" value="series"> Series<br>
+          <input type="radio" name="favorito" value="juegosdemesa"> Juegos de Mesa<br>
+          <input type="radio" name="favorito" value="musica"> Música<br>
+          <input type="radio" name="favorito" value="videojuegos"> Videojuegos<br><br>
+        </div>
 
-      <div>
-        <label>¿Qué actividades practicas?</label><br>
-        <input type="checkbox" name="actividad" value="leer"> Leer<br>
-        <input type="checkbox" name="actividad" value="deporte"> Hacer deporte<br>
-        <input type="checkbox" name="actividad" value="escuchar"> Escuchar música<br>
-        <input type="checkbox" name="actividad" value="jugar"> Jugar videojuegos<br><br>
-      </div>
+        <div>
+          <label>¿Qué actividades practicas?</label><br>
+          <input type="checkbox" name="actividad" value="leer"> Leer<br>
+          <input type="checkbox" name="actividad" value="deporte"> Hacer deporte<br>
+          <input type="checkbox" name="actividad" value="escuchar"> Escuchar música<br>
+          <input type="checkbox" name="actividad" value="jugar"> Jugar videojuegos<br><br>
+        </div>
 
-      <button type="submit">Enviar</button>
-      <button type="reset">Limpiar</button>
-    </form>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </section>
+
+    <section class="nota">
+      <p>Gracias por responder la encuesta.</p>
+    </section>
+
   </main>
 
   <aside class="info-box">
