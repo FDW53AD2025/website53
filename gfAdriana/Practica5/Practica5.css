@@ -1,0 +1,155 @@
+#a17 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #a176cf, #839ecd);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#a17 a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+}
+
+header *{
+    border: 5px inset greenyellow;
+
+}
+
+#FondoID {
+    background: rosybrown;
+}
+
+.Clases {
+    background: black;
+}
+
+h2.especifica {
+    text-align: center;
+    color: black;
+
+}
+
+nav a[href="PagSeries.html"]{
+    background-color: #a176cf;
+    border: 4px solid black;
+
+}
+
+#li { /* Codigo de lista de pag web de series */
+    background-color: #a176cf;
+    border: 5px solid black;
+}
+
+div p { /* Codigo de descendientes */
+    background-color: bisque;
+}
+
+div > p { /*Codigo hijos directos */
+    background-color: rgb(125, 195, 145);
+    border: double black;
+}
+
+span  p { 
+    background-color: #a176cf;
+}
+span + p {
+    background-color: pink;
+}
+
+span ~ p {
+    background-color: #8d357e;
+}
+
+.Mispasatiempos { /* Pagina web de pasatiempos - version2 */
+        text-align: center;
+        background-color: rgb(222, 227, 179);
+    }
+    
+    hr{
+        height: 3px; 
+        background-color: cadetblue;
+        text-align: center;
+        border:none;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+.Pasatiempos {
+    text-align: center;
+    background-color: beige;
+}
+
+hr{
+        height: 3px; 
+        background-color: cadetblue;
+        text-align: center;
+        border:none;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+
+.titulo3{
+    text-align: center;
+    background-color: rgb(222, 173, 200);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.centrar { /* Mi selector para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo de mi practica1 ev1 */
+.titulosSelectoresEv1{
+    text-align: center;
+    background-color: rgb(184, 95, 201);
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 0.7em;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.estiloSelectoresEv1 {
+    background-color: rgb(135, 169, 203);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+
+}
+
+.selectoresTitulo{
+    text-align: center;
+    background-color:rgb(199, 161, 209);
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
