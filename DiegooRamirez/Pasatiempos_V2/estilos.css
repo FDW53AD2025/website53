@@ -8,6 +8,7 @@ h1{
     font-size: 40px;
     background-color: rgb(188, 190, 185);
     text-align: center;
+    border-radius: 50px;
 }
 
 .imagenes{
@@ -36,6 +37,34 @@ th, td {
     padding: 8px;
     text-align: left;
     box-sizing: border-box;
+}
+
+footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#p1 ol>li{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+    width: 12%;
+    background-color: rgba(221, 192, 229, 0.589);
+    border-radius: 45px;
+}
+
+#p3 hr + p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: dotted;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 45px;
 }
 
 #a34 {
