@@ -1,82 +1,71 @@
-/* 1.- universal */
+/*1.- Universal*/
 * {
-    font-family: sans-serif;
-    color: #333;
-    text-align: center;
-    background: rgb(184, 208, 209);
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: skyblue;
 }
 
-/* 2.-De tipo*/
+/*2.- Tipo*/
 
-h1 {
+h1, h2 {
   font-family: Arial, sans-serif; 
-
+  text-align: center;
 }
-
-a {
+p, ul{
   text-decoration: none; 
+  text-align: center;
 }
 
-p{
-    color: brown;
-}
-
-
-/*2.- ID*/
+/*3.- ID*/
 
 #titulo-principal {
   text-align: center; 
 }
 
-/*3.- Por Clase*/
+/*4.- clase*/
 
-.introduccion {
-  font-style: italic;
+.INTRO {
+  font-style: italic; 
 }
 .TiempoLibre {
-  color: teal; 
+  color: brown;
 }
 
-/*4.- atributo y de lista*/
+/*5.- Atributo*/
 
-/* Atributo*/
-a[target="_blank"] {
-  border-bottom: 1px dotted blue; /* Selecciona el enlace <a> que tiene el atributo target con el valor "_blank" */
-}
-a[atributo-inventado="valor"] {
-  color: red; /* Selecciona el enlace con el atributo "atributo-inventado" */
+img[alt] {
+    border: 5px solid green;
+    border-radius: 8px;
 }
 
-/*lista*/
+/*6.- Lista*/
 
-h1, h2, h3 {
-  font-weight: bold; /* Selecciona todos los <h1>, <h2> y <h3> */
-}
-.genero-drama, .genero-comedia, .genero-accion {
-  background-color: lightyellow; /* Selecciona todos los enlaces que tienen estas clases */
+h2, p {
+    font-family: 'Arial', serif;
 }
 
-/*5.- decendientes*/
+/*7.- Decendientes*/
 
-ul a {
-  color: green;
-  font-weight: bold;
+section p {
+    color: #bb1258;
+    font-size: 0.95em;
 }
 
-/*6.-hijos directos*/
-section > h2 {
-  border-left: 5px solid blue;
-  padding-left: 10px;
+/*7.- Hijos centrales*/
+
+ul > li {
+    list-style-type: square;
+    margin-bottom: 8PX;
 }
 
-/*7.- hermano adyacente*/
+/*8.-*/
 
-h2 + p {
-  background-color: #f0f8ff;
+li + img {
+    margin-top: 33px;
 }
 
-/*8.- Hermano general*/
+/*9.- Hermano General*/
 
 h1 ~ p {
-  text-indent: 20px;
+    font-weight: bold;
 }

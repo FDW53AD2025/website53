@@ -1,6 +1,7 @@
-
+/*selectoruniversal*/
 * {
   margin: 0;
+  border: 2px dashed red; /* Lo hice para la práctica no necesita border */
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

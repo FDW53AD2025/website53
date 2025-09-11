@@ -1,0 +1,137 @@
+/* SELECTOR UNIVERSAL */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* SELECTOR DE TIPO */
+section {
+  padding: 1rem;
+  background-color: #e6f7e6; /* verde claro */
+  border: 2px solid #cfe9cf;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* SELECTOR POR ID */
+#especial {
+  background: linear-gradient(90deg,#007bff,#0056d6);
+  color: #fff;
+  padding: .6rem .8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* SELECTOR POR CLASE */
+.resaltado {
+  font-weight: 700;
+  color: #b10e2e;
+  background: rgba(177,14,46,0.06);
+  padding: 0.25rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* SELECTOR POR ATRIBUTO */
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #2d8f2d;
+  padding: .45rem .6rem;
+  border-radius: 4px;
+  outline: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  box-shadow: 0 0 6px rgba(45,143,45,0.25);
+}
+
+/* SELECTOR DE LISTA */
+h1, h2, h3 {
+  color: #163b6d;
+  margin-bottom: .5rem;
+}
+
+/* SELECTOR DE DESCENDIENTES */
+div p {
+  color: purple;
+  font-size: 0.95rem;
+}
+
+/* SELECTOR DE HIJOS DIRECTOS (>) */
+div > span {
+  display: inline-block;
+  background: #fff3b0;
+  padding: .2rem .5rem;
+  border-radius: 4px;
+  border: 1px dashed #e2c542;
+}
+
+/* SELECTOR DE HERMANO ADYACENTE (+) */
+h2 + p {
+  background: #f1f1f1;
+  padding: .6rem;
+  border-left: 4px solid #ccc;
+  margin-bottom: .6rem;
+}
+
+/* SELECTOR DE HERMANO GENERAL (~) */
+h3 ~ p {
+  color: teal;
+  font-style: italic;
+  margin-bottom: .4rem;
+}
+
+
+
+.ejemplo {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+
+
+
+.codigo-imagen {
+  display: block;
+  width: 100%;
+  background: #0b1220;
+  color: #e6eef6;
+  padding: .75rem;
+  border-radius: 6px;
+  font-family: "Courier New", monospace;
+  font-size: .9rem;
+  white-space: pre-wrap;
+  margin-bottom: .6rem;
+}
+
+
+@media (max-width: 480px) {
+  body { padding: 1rem; }
+  .codigo-imagen { font-size: .8rem; }
+}
+
+
+.ejemplo img {
+  display: block;
+  max-width: 100%;   /* nunca se salen del contenedor */
+  height: auto;      /* mantiene proporción */
+  margin: 0.8rem auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+body {
+  padding: 2rem;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.5;
+}
