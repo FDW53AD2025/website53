@@ -119,6 +119,62 @@ footer a:hover {
     text-decoration: underline;
 }
 
-p{
+/*Practica 5*/
+
+/* Universal */
+* {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* Tipo */
+p {
     text-align: center;
+}
+
+/* ID */
+#ejemplo-id {
+    color: red;
+    font-weight: bold;
+}
+
+/* Clase */
+.ejemplo-clase {
+    background: yellow;
+    padding: 5px;
+}
+
+/* Atributo */
+a[title] {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* Lista */
+.lista1, .lista2 {
+    background: lightblue;
+    padding: 4px;
+}
+
+/* Descendiente */
+.contenedor p {
+    color: orange;
+    font-style: italic;
+}
+
+/* Hijo directo */
+.padre > p {
+    background: black;
+    padding: 20px;
+}
+
+/* Hermano adyacente */
+h4 + p {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Hermano general */
+h4 ~ p {
+    background: rgb(228, 222, 222);
+    border: 2px solid black;
 }
