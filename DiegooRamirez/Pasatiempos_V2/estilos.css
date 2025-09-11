@@ -56,6 +56,10 @@ footer p {
     border-radius: 45px;
 }
 
+#p2 p ~ p{
+    font-family: 'Comic Sans MS', cursive;
+}
+
 #p3 hr + p{
     font-size: 20px;
     font-weight: bold;
@@ -65,6 +69,17 @@ footer p {
     text-align: center;
     padding: 10px 10px 10px 10px;
     border-radius: 45px;
+}
+
+#p4 p:first-child{
+    font-family: 'yellowtail', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#p4 p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 #a34 {
