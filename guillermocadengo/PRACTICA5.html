@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deportes - Pádel</title>
+  <link rel="stylesheet" href="P5_estilos.css">
+</head>
+<body class="deportes">
+
+  <!-- Encabezado -->
+  <header class="deportes-header">
+    <p class="nota-selector">Selector aplicado: <b>ID (#titulo)</b></p>
+    <h1 id="titulo">Deportes</h1> <!-- Selector por ID -->
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav>
+    <p class="nota-selector">Selector aplicado: <b>Hijos directos (nav > ul > li)</b></p>
+    <ul>
+      <li><a href="pagina_principal.html">Volver al inicio</a></li>
+      <li><a href="#" class="especial" data-importante="si">
+        Contacto rápido <!-- Selector de atributo (a[data-importante]) -->
+      </a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main>
+    <article>
+      <p class="nota-selector">Selector aplicado: <b>Tipo (h2) y Clase (.subtitulo)</b></p>
+      <h2 class="subtitulo">El Pádel, uno de mis deportes favoritos 🎾</h2>
+
+      <p>
+        El <strong>pádel</strong> es un deporte que combina <em>agilidad</em>, 
+        <mark>estrategia</mark> y <b>trabajo en equipo</b>. 
+        Comencé a jugar pádel con mi familia y me encanta porque no solo es ejercicio, también hay que pensar y planear cada jugada.
+      </p>
+
+      <!-- Imagen con descripción -->
+      <figure>
+        <p class="nota-selector">Selector aplicado: <b>Universal (*)</b></p>
+        <img src="img/padel.jpg" alt="Jugando pádel" width="400">
+        <figcaption>Una jugada intensa en pádel.</figcaption>
+      </figure>
+
+      <!-- Lista de beneficios -->
+      <section>
+        <p class="nota-selector">Selector aplicado: <b>Descendientes (ul.beneficios li)</b></p>
+        <h3>Beneficios del pádel</h3>
+        <ul class="beneficios">
+          <li>Mejora la condición física.</li>
+          <li>Fomenta el trabajo en equipo.</li>
+          <li>Es divertido y dinámico.</li>
+          <li>Ayuda a liberar estrés.</li>
+        </ul>
+      </section>
+
+      <!-- Cita motivadora -->
+      <p class="nota-selector">Selector aplicado: <b>Lista (h2, h3, blockquote)</b></p>
+      <blockquote cite="https://www.padelfederacion.es">
+        "El pádel no es solo un deporte, es una forma de disfrutar la vida en compañía."
+      </blockquote>
+
+      <!-- Video embebido -->
+      <section>
+        <p class="nota-selector">Selector aplicado: <b>Hermanos adyacente (+) y general (~)</b></p>
+        <h3 id="hermano1">Un partido de pádel en acción</h3>
+        <p>Yo soy el párrafo hermano adyacente del h3.</p> <!-- + -->
+        <p>Yo soy hermano general, sigo estando después del h3.</p> <!-- ~ -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KGwIxW1JbOw?si=Jqwnwb5wyy-99gaE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+      <!-- Tabla de posiciones -->
+      <section>
+        <h3>Posiciones básicas en pádel</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Posición</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fondo</td>
+              <td>Defiende desde la parte trasera de la pista.</td>
+            </tr>
+            <tr>
+              <td>Red</td>
+              <td>Ataca cerca de la red para presionar al rival.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="deportes-footer">
+    <address>
+      Sitio desarrollado por guillermocadengo <br>
+      Contacto: 
+      <a href="https://www.instagram.com/gael.cadengo/" target="_blank" class="red-social">
+        Instagram
+        <img src="img/ig_logo.webp" alt="Instagram" width="50" height="50">
+      </a>
+    </address>
+  </footer>
+
+</body>
+</html>
