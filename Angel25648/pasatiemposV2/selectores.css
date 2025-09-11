@@ -1,0 +1,55 @@
+/* Selector universal */
+* {
+    margin: 1;
+    padding: 1;
+}
+
+/* Selector de tipo */
+section {
+    color: blue;
+    padding: 10px;
+}
+
+/* Selector por ID */
+#nombre {
+    border: 3px solid rgb(38, 255, 0);
+}
+
+/* Selector por clase */
+.videojuego-img {
+    border: 3px solid rgb(43, 0, 255);
+    width: 200px;
+}
+
+/* Selector de atributo */
+input[type="email"] {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Selector de lista (agrupado) */
+h1, h2 {
+    text-align: center;
+}
+
+/* Selector de descendientes */
+aside.info-box p {
+    color: rgb(255, 0, 0);
+}
+
+/* Selector hijos directos */
+main > header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+}
+
+/* Selector hermano adyacente */
+h2 + section {
+    color: rgb(88, 0, 139);
+}
+
+/* Selector hermano general */
+h2 ~ section {
+    background-color: rgb(193, 255, 159);
+    border: 3px solid rgb(0, 0, 0);
+}
