@@ -21,6 +21,36 @@
     border: 5px solid black;
 }
 
+#FondoID {
+    background: rosybrown;
+}
+
+.Clases {
+    background: black;
+}
+
+h2.especifica {
+    text-align: center;
+    color: black;
+
+}
+
+nav a[href="PagSeries.html"]{
+    background-color: #a176cf;
+    border: 4px solid black;
+
+}
+
+#li {
+    background-color: #a176cf;
+    border: 5px solid black;
+}
+
+div p {
+    background-color: rgb(125, 195, 145);
+    border: double black;
+}
+
 header *{
     border: 5px inset greenyellow;
 
