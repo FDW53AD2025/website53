@@ -29,8 +29,8 @@ body{
 
 .cajita img {
     width: 250px;
-    height: 220px; 
-    object-fit: cover; /* recorte muy bonito */
+    height: 220ñpx; 
+    object-fit: cover; 
     padding-top: 30%;
     
 }
@@ -38,5 +38,5 @@ body{
 .cajita h1 {
     margin: 10px;
     font-size: xx-large;
-    height: 35%;
+    height: 35%;
 }
