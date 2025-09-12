@@ -2,7 +2,6 @@ body{
     background-color: rgb(19, 20, 24);
 }
 
-
 .contenedor_de_cajas{
     height: 100vh;
     display: flex;
@@ -13,10 +12,9 @@ body{
 
 }
 
-
 .cajita {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     background-color: rgb(45, 47, 59);
     font-size: medium;
     width: 400px;
@@ -30,10 +28,9 @@ body{
 }
 
 .cajita img {
-    width: 100%;
-    height: 100%; 
-    object-fit: cover; 
-    height: 65%;
+    width: 250px;
+    height: 220px; 
+    object-fit: cover; /* recorte muy bonito */
     padding-top: 30%;
     
 }
@@ -41,5 +38,5 @@ body{
 .cajita h1 {
     margin: 10px;
     font-size: xx-large;
-    height: 35%;
+    height: 35%;
 }
