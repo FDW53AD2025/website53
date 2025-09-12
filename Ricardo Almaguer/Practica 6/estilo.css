@@ -25,9 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center; 
-  transition: transform 0.3s ease;
 }
-
 
 .icono img {
   width: 80px;
