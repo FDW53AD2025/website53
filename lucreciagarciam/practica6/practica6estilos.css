@@ -6,7 +6,7 @@
    body {
       margin: 0;
       padding: 0;
-      background-color: #101114;
+      background-color: #141416;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: #7398d1;
       display: flex;
@@ -16,13 +16,13 @@
     }
 
     .contenido {
-      background-color: #14161a;
+      background-color: #212127;
       padding: 40px 20px;
       border-radius: 12px;
       width: 140px;
       height: 200px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(25, 22, 22, 0.3);
+      box-shadow: 0 4px 10px rgba(98, 95, 95, 0.3);
       transition: transform 0.2s ease;
     }
 
