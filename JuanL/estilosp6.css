@@ -1,0 +1,40 @@
+body {
+    background-color: #12151a;
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    margin: 20px;
+  
+}
+
+
+.caja {
+    background-color: #1e242b;
+    position: relative;
+    border: 2px ;
+    border-radius: 10px;
+    padding: auto;
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 30px;
+    
+   
+}
+
+.caja p {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: cyan;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+    

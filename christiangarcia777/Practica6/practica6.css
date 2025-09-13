@@ -1,0 +1,64 @@
+body {
+    background-color: #121212; /* Un negro más puro para el fondo */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+}
+
+/* Contenedor principal de Flexbox */
+.flex-container {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo de cada caja */
+.flex-item {
+    background-color: #242424; /* Un gris oscuro notablemente más claro que el fondo */
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 150px; /* Tamaño fijo para que todos quepan en una fila */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo de las imágenes dentro de las cajas */
+.flex-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Estilo del texto */
+.flex-item p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+}

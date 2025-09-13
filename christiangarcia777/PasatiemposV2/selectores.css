@@ -1,0 +1,89 @@
+/* ================================== */
+/* ======== SELECTORES CSS ======== */
+/* ================================== */
+
+/* 1. SELECTOR UNIVERSAL */
+/* Añade un borde sutil y un 'box-sizing' para que el diseño sea más predecible. */
+* {
+    box-sizing: border-box;
+    /* Esto es bueno para que los paddings no sumen al ancho del elemento */
+    /* border: 1px dashed rgba(0, 0, 0, 0.1); */
+    /* Lo comento para que el borde universal no se vea en tu pagina final */
+}
+
+/* 2. SELECTOR DE TIPO */
+/* Estilo para todos los encabezados h2 y párrafos p. */
+h2, p {
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* 3. SELECTOR POR ID */
+/* Estilo para la sección de bienvenida, con sombra y padding. */
+#bienvenida {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. SELECTOR POR CLASE */
+/* Estilo para los enlaces de navegación, con un efecto de transición al pasar el mouse. */
+.enlace-nav {
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.enlace-nav:hover {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+/* 5. SELECTOR DE ATRIBUTO */
+/* Estilo para los campos de formulario obligatorios (inputs required). */
+input[required] {
+    border: 2px solid #5d6d7e;
+    transition: border-color 0.3s;
+}
+
+input[required]:focus {
+    border-color: #0077cc;
+}
+
+/* 6. SELECTOR HERMANO ADYACENTE */
+/* Estilo para el primer párrafo que sigue a un h2, haciéndolo más notorio. */
+h2 + p {
+    font-style: italic;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+/* 7. SELECTOR DE HERMANO GENERAL */
+/* Estilo para todos los párrafos que siguen a un h2. */
+h2 ~ p {
+    text-indent: 20px;
+    /* sangría en el primer parrafo */
+}
+
+/* 8. SELECTOR DESCENDIENTE */
+/* Estilo para todos los enlaces dentro de un menú de navegación. */
+nav a {
+    text-transform: uppercase;
+}
+
+/* 9. SELECTOR HIJO DIRECTO */
+/* Estilo solo a los elementos li que son hijos directos de un ul. */
+ul > li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* 10. SELECTOR DE LISTA */
+/* Aplica estilos a varios elementos a la vez, manteniendo la consistencia de fuente. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
