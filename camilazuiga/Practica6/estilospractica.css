@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #2a0a37, #1b0129);
+    color: #fce4ec;
+}
+
+.galeria {
+    padding: 40px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.galeria h2 {
+    margin-bottom: 35px;
+    font-size: 2.2rem;
+    color: #e1bee7; /* morado suave */
+    letter-spacing: 1px;
+}
+
+.lista-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-tarjeta {
+    background: #4a154b; /* morado oscuro */
+    border-radius: 12px;
+    width: 185px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 12px rgba(255, 105, 180, 0.2); /* rosa neón */
+    transition: transform 0.22s cubic-bezier(.4,2,.6,1), box-shadow 0.22s;
+    cursor: pointer;
+    padding: 28px 0 18px 0;
+}
+
+.item-tarjeta figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-tarjeta img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 18px;
+}
+
+.item-tarjeta figcaption {
+    font-size: 1.9rem;
+    color: #ff80ab; /* rosa fuerte */
+    font-weight: 600;
+    text-align: center;
+}
+
+.item-tarjeta:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 18px rgba(233, 30, 99, 0.4); /* efecto glow rosa */
+}
