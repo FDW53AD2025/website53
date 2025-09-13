@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #20232a;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 25px;
+    padding: 40px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.tarjeta img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(139, 139, 248);
+}
+
+.tarjeta:hover {
+    transform: scale(1.08);
+}

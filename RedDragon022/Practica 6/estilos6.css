@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #1c1e26;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.marco {
+    background-color: #2a2d38;
+    padding: 20px;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.marco img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.marco p {
+    margin: 0;
+    font-size: 16px;
+    color: skyblue;
+}
