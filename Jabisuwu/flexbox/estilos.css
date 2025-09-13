@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(19, 20, 24);
+}
+
+.contenedor_de_cajas{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cajita {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(45, 47, 59);
+    font-size: medium;
+    width: 400px;
+    height: 500px; 
+    color: #a2cce8;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.cajita img {
+    width: 250px;
+    height: 220px; 
+    object-fit: cover; 
+    padding-top: 30%;
+    
+}
+
+.cajita h1 {
+    margin: 10px;
+    font-size: xx-large;
+    height: 35%;
+}

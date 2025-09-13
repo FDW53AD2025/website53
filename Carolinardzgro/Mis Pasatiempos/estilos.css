@@ -381,10 +381,25 @@ nav a {
 background-color: rgb(74, 58, 224);
 }
 
-/*selector por hijos directos*/
+
 
 div p {
     background-color: cadetblue;
 }
 
+/*selector por hijos directos*/
 
+div > p {
+    background-color: sandybrown;
+}
+
+
+/*selector por hermano adyacente*/
+span + p {
+    background-color: rgb(53, 232, 130);
+}
+
+/*selector por hermano general*/
+span ~ p {
+    background-color: rgb(221, 111, 243);
+}
