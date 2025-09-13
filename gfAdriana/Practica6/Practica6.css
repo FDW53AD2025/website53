@@ -21,10 +21,6 @@ body {
   transition: transform 0.3s;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
-
 .card img {
   width: 70px;
   height: 70px;
