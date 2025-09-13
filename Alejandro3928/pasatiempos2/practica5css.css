@@ -1,0 +1,10 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: black;
+}

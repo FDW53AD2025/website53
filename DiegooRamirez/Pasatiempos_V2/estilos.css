@@ -1,5 +1,6 @@
 *{
     font-family: 'times new roman', Times, serif;
+    font-size: 16px;
 }
 
 h1{
@@ -8,6 +9,7 @@ h1{
     font-size: 40px;
     background-color: rgb(188, 190, 185);
     text-align: center;
+    border-radius: 50px;
 }
 
 .imagenes{
@@ -15,6 +17,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    float: center;
 }
 
 #starwars{
@@ -38,16 +41,45 @@ th, td {
     box-sizing: border-box;
 }
 
-#a34 {
-    font-family: 'Comic Sans MS', cursive;
-    color: green;
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
     font-weight: bold;
-    background-color: rgb(5, 248, 127);
-    animation: slide 1s infinite backwards;
-    font-size: 1.2em;
+    font-size: 12px;
 }
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  50%  { transform: translateX(10px); }
-  100% { transform: translateX(0); }
+
+#p1 ol>li{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+    width: 12%;
+    background-color: rgba(221, 192, 229, 0.589);
+    border-radius: 45px;
+}
+
+#p2 p ~ p{
+    font-family: 'Comic Sans MS', cursive;
+}
+
+#p3 hr + p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: dotted;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 45px;
+}
+
+#p4 p:first-child{
+    font-family: 'yellowtail', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#p4 p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
 }

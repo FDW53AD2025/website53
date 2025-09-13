@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica 6 - Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #111827; 
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #1f2937;
+      border-radius: 12px;
+      padding: 40px 25px;
+      width: 200px;  
+      height: 250px;  
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100px; 
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+    .card p {
+      color: #60a5fa;
+      font-weight: bold;
+      font-size: 20px; 
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img width="900px" src="imagenes flexbox/react.png" alt="React">
+      <p>React</p>
+    </div>
+    <div class="card">
+      <img width="900px" src="imagenes flexbox/Vue.png" alt="Vue">
+      <p>Vue</p>
+    </div>
+    <div class="card">
+      <img width="900px" src="imagenes flexbox/Tailwind.png" alt="Tailwind">
+      <p>Tailwind</p>
+    </div>
+    <div class="card">
+      <img width="900px" src="imagenes flexbox/sass.png" alt="Sass">
+      <p>Sass</p>
+    </div>
+    <div class="card">
+      <img width="900px" src="imagenes flexbox/Gsap.png" alt="GSAP">
+      <p>GSAP</p>
+    </div>
+  </div>
+</body>
+</html>
