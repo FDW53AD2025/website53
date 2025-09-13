@@ -5,7 +5,7 @@ body {
     color: #fff;
 }
 
-.contenedor {
+.tarjeta {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     padding: 50px;
 }
 
-.marco {
+.caja {
     background-color: #2a2d38;
     padding: 20px;
     border-radius: 8px;
@@ -22,14 +22,14 @@ body {
     transition: transform 0.3s;
 }
 
-.marco img {
+.caja img {
     width: 70px;
     height: 70px;
     object-fit: contain;
     margin-bottom: 10px;
 }
 
-.marco p {
+.caja p {
     margin: 0;
     font-size: 16px;
     color: skyblue;
