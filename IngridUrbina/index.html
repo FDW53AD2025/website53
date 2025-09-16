@@ -4,6 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evidencias</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a0033, #0a0a2a, #220033);
+            color: #f4f4f4;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(90deg, #7b2ff7, #f107a3);
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.3rem;
+            letter-spacing: 2px;
+            color: #fff;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+
+        main.contenido {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .practica {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid transparent;
+            border-radius: 16px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            backdrop-filter: blur(6px);
+        }
+
+        .practica:hover {
+            border-color: #ff66cc;
+            transform: translateY(-8px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+        }
+
+        .practica h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #ff99ff;
+            border-bottom: 2px solid #7b2ff7;
+            padding-bottom: 5px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #c2a6ff;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(123,47,247,0.1);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        a:hover {
+            background: linear-gradient(90deg, #7b2ff7, #f107a3);
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #0a0a2a;
+            color: #c2a6ff;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            border-top: 1px solid rgba(255, 102, 204, 0.3);
+        }
+
+        footer p {
+            background: linear-gradient(90deg, #7b2ff7, #f107a3, #00cfff);
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+            font-weight: bold;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,10 +120,11 @@
   <main class="contenido">
     <section id="pr1" class="practica">
       <h2>Práctica 1</h2>
-     <li><a href="https://github.com/IngridUrbina/Prueba53" >Link repositorio</a></li>
-     <li><a href="https://ingridurbina.github.io/Prueba53/">Link sitio publicado</a></li>
-     <li><a href="https://github.com/IngridUrbina/Prueba53/commits/main/?author=IngridUrbina&since=2025-08-13&until=2025-08-15">Link commits</a></li>
-      </ol>
+      <ul>
+        <li><a href="https://github.com/IngridUrbina/Prueba53" >Link repositorio</a></li>
+        <li><a href="https://ingridurbina.github.io/Prueba53/">Link sitio publicado</a></li>
+        <li><a href="https://github.com/IngridUrbina/Prueba53/commits/main/?author=IngridUrbina&since=2025-08-13&until=2025-08-15">Link commits</a></li>
+      </ul>
     </section>
 
     <section id="pr2" class="practica">
@@ -36,6 +142,34 @@
         <li><a href="https://github.com/FDW53AD2025/website53/commits/main/?author=IngridUrbina&since=2025-08-27&until=2025-08-29">Link commits</a></li>
       </ul>
     </section>
+
+    <section id="pr4" class="practica">
+      <h2>Práctica 4</h2>
+      <ul>
+        <li><a href="https://github.com/FDW53AD2025/website53/commits/main/?author=IngridUrbina&since=2025-09-01&until=2025-09-04">Link commits</a></li>
+      </ul>
+    </section>
+
+    <section id="pr5" class="practica">
+      <h2>Práctica 5</h2>
+      <ul>
+        <li><a href="https://fdw53ad2025.github.io/website53/IngridUrbina/selectores/practica5.html">Link página selectores</a></li>  
+        <li><a href="https://github.com/FDW53AD2025/website53/commits/main/?author=IngridUrbina&since=2025-09-08&until=2025-09-10">Link commits</a></li>
+      </ul>
+    </section>
+
+    <section id="pr6" class="practica">
+      <h2>Práctica 6</h2>
+      <ul>
+        <li><a href="https://fdw53ad2025.github.io/website53/IngridUrbina/flexbox/practica6.html">Link página diseño solicitado</a></li>  
+        <li><a href="https://github.com/FDW53AD2025/website53/commits/main/?author=IngridUrbina&since=2025-09-10&until=2025-09-12">Link commits</a></li>
+      </ul>
+    </section>
+
   </main>
+
+  <footer>
+      <p>Sitio web desarrollado por Ingrid Urbina · FDW 2025</p>
+  </footer>
 </body>
 </html>

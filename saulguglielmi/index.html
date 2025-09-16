@@ -3,42 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saul Guglielmi</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Saul Guglielmi - Evidencias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f2f2f2;
+            color: #111;
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            padding: 1.25rem;
+        }
+
+        h1 {
+            color: #ffe600;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888;
+            text-align: center;
+            margin-bottom: 1.25rem;
+        }
+
+        h2 {
+            color: #2a3a4f;
+            margin-bottom: 0.9375rem;
+        }
+
+        h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .main-content {
+            background-color: #fafafa;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .evidence-item {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .evidence-item:last-child {
+            border-bottom: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .evidence-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        a {
+            color: #723d00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+        }
+        
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0.75rem;
+            margin-top: 1.875rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Saul Guglielmi</h1>
     </header>
     <main>
-        <h2>Evidencias</h2>
+        <section class="main-content">
+            <h2>Evidencias</h2>
 
-        <h3>Evidencia 1: </h3>
-        <ul>
-            <li>Practica 1: "Pasa tiempos"</li>
-            <p>Se hizo una pagina sencilla ya que es la primera practica web, se hizo con html y css</p>
-            <a href="https://github.com/saulguglielmi/Sobre-Mi">Repositorio</a>
-            <a href="https://saulguglielmi.github.io/Sobre-Mi/">Pagina</a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Comit</a>
-            <a href="https://github.com/saulguglielmi/Sobre-Mi/commits/main/">Commits</a>
+            <div class="evidence-item">
+                <h3>Práctica 1: "Pasatiempos"</h3>
+                <p>Se hizo una página sencilla ya que es la primera práctica web, se usó HTML y CSS.</p>
+                <div class="evidence-links">
+                    <a href="https://github.com/saulguglielmi/Sobre-Mi" target="_blank">Repositorio</a>
+                    <a href="https://saulguglielmi.github.io/Sobre-Mi/" target="_blank">Página</a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Commit</a>
+                    <a href="https://github.com/saulguglielmi/Sobre-Mi/commits/main/" target="_blank">Commits</a>
+                </div>
+            </div>
 
-            <li>Practica 2: "Carpeta Personal En Organizacion"</li>
-            <p>Se hizo una carpeta con un menu principal para poner las evidencias de la materia, y basicamente es esta pagina</p>
-            <a href="https://github.com/FDW53AD2025/website53/blob/main/saulguglielmi/index.html">Repositorio</a>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi">Commits</a>
-            
-            <li>Practica 3: "PasatiemposV2"</li>
-            <p>Se hizo una pagina con un menu principal y submenus, en los submenus se habla de mis pasatiempos</p>
-            <a href="Pasatiempos2/index.html">Pagina</a>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/saulguglielmi/Pasatiempos2">Commits</a>
-            <a href="https://github.com/FDW53AD2025/website53/tree/main/saulguglielmi/Pasatiempos2">Repositorio</a>
+            <div class="evidence-item">
+                <h3>Práctica 2: "Carpeta Personal en Organización"</h3>
+                <p>Se hizo una carpeta con un menú principal para poner las evidencias de la materia, básicamente es esta página.</p>
+                <div class="evidence-links">
+                    <a href="javascript:void(0);" onclick="alert('Ya estás en esta página'); return false;">Pagina</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi&since=2025-08-20&until=2025-08-22" target="_blank">Commits</a>
+                </div>
+            </div>
 
-            <li>Practica 4: "Cambio De Fuente de texto"</li>
-            <p>Se hizo un cambio de fuente de texto en el menu del codigo</p>
-            <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi">Commits</a>
-            
-        </ul>
-        <p>(con el tiempo se actualizara este menu)</p>
+            <div class="evidence-item">
+                <h3>Práctica 3: "Pasatiempos V2"</h3>
+                <p>Se hizo una página con un menú principal y submenús, en los submenús se habla de mis pasatiempos.</p>
+                <div class="evidence-links">
+                    <a href="Pasatiempos2/menu.html" target="_blank">Página</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi&since=2025-08-27&until=2025-08-29" target="_blank">Commits</a>
+                    <a href="https://github.com/FDW53AD2025/website53/tree/main/saulguglielmi/Pasatiempos2" target="_blank">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="evidence-item">
+                <h3>Práctica 4: "Cambio de Fuente de Texto"</h3>
+                <p>Se hizo un cambio de fuente de texto en el menú del código.</p>
+                <div class="evidence-links">
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi&since=2025-09-01&until=2025-09-03" target="_blank">Commits</a>
+                </div>
+            </div>
+
+            <div class="evidence-item">
+                <h3>Práctica 5: "Cambios en la Página V3"</h3>
+                <p>Se hicieron cambios en las páginas de los pasatiempos.</p>
+                <div class="evidence-links">
+                    <a href="Pasatiempos2/menu.html" target="_blank">Página</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi&since=2025-09-08&until=2025-09-10" target="_blank">Commits</a>
+                    <a href="Practica5/practica5.html" target="_blank">Pagina ScreenShots y Evidencia</a>
+                </div>
+            </div>
+
+            <div class="evidence-item">
+                
+                <h3>Práctica 6: "Uso De Flexbox"</h3>
+                <p>Se hizo una página con Flexbox, usando imágenes de logos de una pagina.</p>
+                <div class="evidence-links">
+                    <a href="Practica6/practicasaul.html" target="_blank">Página</a>
+                    <a href="https://github.com/FDW53AD2025/website53/commits/main/?author=saulguglielmi&since=2025-09-10&until=2025-09-11" target="_blank">Commits</a>
+
+            </div>
+
+        </div>
+
+            <p>(Con el tiempo se actualizará este menú)</p>
+        </section>
     </main>
+
+    <footer>
+        <small>Página creada por Saul Guglielmi Marin &copy; <time datetime="2025-09">Septiembre 2025</time>.</small>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,241 @@
+/*ESTILOS ORIGINALES DE LA PÁGINA*/
+
+body.deportes {
+  background: #f9f9f9; 
+  color: #222;         
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+body.deportes header.deportes-header {
+  background-color: #0077b6;
+  padding: 20px;
+  text-align: center;
+}
+
+body.deportes header.deportes-header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navbar */
+body.deportes nav {
+  background-color: #222;
+  padding: 12px 0;
+}
+
+body.deportes nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+body.deportes nav ul li {
+  margin: 0 15px;
+}
+
+body.deportes nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.deportes nav ul li a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* Main */
+body.deportes main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+body.deportes main h2,
+body.deportes main h3 {
+  text-align: center;
+  color: #0077b6;
+}
+
+body.deportes main p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Imagen */
+body.deportes main figure {
+  text-align: center;
+  margin: 30px auto;
+}
+
+body.deportes main figure img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+body.deportes main figure figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Lista */
+body.deportes main ul {
+  margin: 20px;
+  padding: 10px 40px;
+}
+
+/* Blockquote */
+body.deportes blockquote {
+  font-style: italic;
+  background: #e3f2fd;
+  border-left: 5px solid #0077b6;
+  padding: 15px;
+  margin: 30px auto;
+  width: 80%;
+  color: #333;
+}
+
+/* Video */
+body.deportes iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Tabla */
+body.deportes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+body.deportes table th {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+body.deportes table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+body.deportes table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+body.deportes footer.deportes-footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+body.deportes footer.deportes-footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+body.deportes footer.deportes-footer a img {
+  width: 50px;
+  height: 50px;
+}
+
+body.deportes footer.deportes-footer a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* EJEMPLOS DE SELECTORES CSS */
+
+/* 1. Selector universal */
+* {
+  box-sizing: border-box;
+}
+
+/* 2. Selector de tipo */
+h2 {
+  text-decoration: underline;
+  color: blue;
+  padding: 10px; 
+  background-color: beige;
+  border-radius: 5px;
+}
+
+
+/* 3. Selector por ID */
+#titulo {
+  background-color: darkslateblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 4. Selector por clase */
+.subtitulo {
+  color: darkred;
+  font-style: italic;
+}
+
+/* 5. Selector de atributo */
+a[data-importante] {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* 6. Selector de lista (agrupación) */
+h2, h3, blockquote {
+  font-family: Verdana, sans-serif;
+  color: darkgreen;
+}
+
+/* 7. Selector de descendientes */
+ul.beneficios li {
+  list-style-type: square;
+  color: purple;
+}
+
+/* 8. Selector hijos directos */
+nav > ul > li {
+  border: 2px dashed red;
+  padding: 3px;
+}
+
+/* 9. Selector hermano adyacente */
+#hermano1 + p {
+  color: orange;
+  font-weight: bold;
+}
+
+/* 10. Selector hermano general */
+#hermano1 ~ p {
+  background-color: #f0f0a0;
+}
+
+.nota-selector {
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}

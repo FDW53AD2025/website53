@@ -847,7 +847,7 @@ body.contacto {
 /* Header y Footer Contacto */
 header.contacto-header,
 footer.contacto-footer {
-  background-color: #8B4513; /* café claro */
+  background-color: #8B4513; 
   color: white;
   text-align: center;
   padding: 20px;
@@ -878,7 +878,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #D2691E; /* color naranja-café al pasar */
+  background-color: #D2691E; 
   color: black;
 }
 
