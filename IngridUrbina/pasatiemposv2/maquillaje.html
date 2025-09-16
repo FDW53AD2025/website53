@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquillaje</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff; 
+            margin: 0;
+            padding: 0;
+            color: #222; 
+        }
+
+        header {
+            background-color: #5a3d6d; 
+            text-align: center;
+            padding: 20px 10px;
+            color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #dcdcdc; 
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #7e5da3; 
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff; 
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        main h2, main h3 {
+            color: #5a3d6d; 
+        }
+
+        img {
+            max-width: 300px;
+            display: block;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 2px solid #bfbfbf; 
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #888; 
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #dcdcdc; 
+            color: #222;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: #5a3d6d; 
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #7e5da3; 
+        }
+
+        aside {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ececec; 
+            border-left: 5px solid #5a3d6d; 
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        mark {
+            background-color: #c5a3ff; 
+            font-weight: bold;
+        }
+
+        span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        sub {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #3b3b6d;
+            color: #fff;
+            font-size: 0.9rem;
+            box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi pasatiempo de Maquillaje</h1>
+        <nav>
+            <a href="index.html">Página principal</a>
+            <a href="../index.html">Mi página de Evidencias</a>
+            <a href="maquillaje.html">Maquillaje</a>
+            <a href="series.html">Series</a>
+            <a href="videojuegos.html">Videojuegos</a>
+            <a href="musica.html">Música</a>
+            <a href="cocina.html">Cocinar</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Mi pasión por el maquillaje</h2>
+        <p>Me encanta el maquillaje porque me permite expresar <span style="color:purple"><em>creatividad</em></span>, experimentar con colores y estilos, y sentirme segura de mí misma.</p>
+
+        <img src="https://images.pexels.com/photos/1115128/pexels-photo-1115128.jpeg" alt="Imagen de maquillaje" />
+
+        <p>Algunos consejos rápidos: <b>Siempre</b> desmaquíllate antes de dormir y aplica crema hidratante.  
+        Es importante no usar productos vencidos y revisar la fecha de caducidad (<time datetime="2025-08-28">28 de agosto de 2025</time>).</p>
+
+        <p>Mis productos favoritos incluyen base, labiales y sombras. Algunos expertos mencionan: <cite>Revista Belleza Actual</cite>.</p>
+
+        <p>Mi técnica favorita es <mark>contorno y resaltado</mark> y siempre aplico la base con cuidado.<br>Recuerda también probar distintos <i>estilos vintage</i> y modernos.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SgpaViyE-HA?si=aU2XkT4MYN8i9ske" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h3>Tabla de mis productos</h3>
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Marca</th>
+                <th colspan="2">Usos</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Base</td>
+                <td>Maybelline</td>
+                <td>Rostro</td>
+                <td>Dia/Noche</td>
+            </tr>
+            <tr>
+                <td>L'Oréal</td>
+                <td>Rostro</td>
+                <td>Dia</td>
+            </tr>
+            <tr>
+                <td>Labial</td>
+                <td>MAC</td>
+                <td colspan="2">Labios</td>
+            </tr>
+        </table>
+
+        <h3>¿Te gusta este pasatiempo?</h3>
+        <form>
+            <label><input type="radio" name="gustomaquillaje" value="sí"> Sí</label>
+            <label><input type="radio" name="gustomaquillaje" value="no"> No</label>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <aside>
+        <h3>Dato curioso</h3>
+        <p>El maquillaje no solo realza la apariencia, también puede aumentar la confianza y la creatividad de quien lo usa.  
+        Por ejemplo, el agua (<sub>H<sub>2</sub>O</sub>) es importante para mantener la piel hidratada antes de maquillar.</p>
+    </aside>
+
+    <footer>
+         <address>
+            <p>Sitio web desarrollado por Ingrid Urbina</p>
+            <p>Al 28 de agosto del 2025</p>
+        </address>
+    </footer>
+</body>
+</html>

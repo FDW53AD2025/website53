@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0;
+            background: linear-gradient(135deg, #d8cfff, #c2f0f0); 
+            color: #222;
+        }
+        header {
+            background-color: #3b3b6d; 
+            color: #fff;
+            text-align: center;
+            padding: 30px 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        main h2 {
+            color: #3b3b6d;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        main ol {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-left: 40px;
+        }
+        main ol li {
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #f0e6ff; 
+            border-left: 5px solid #3b3b6d;
+            border-radius: 5px;
+        }
+        nav a {
+            display: inline-block;
+            margin: 8px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #6a5acd; 
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #8470ff; 
+            transform: scale(1.1);
+        }
+        aside {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 6px solid #3b3b6d;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #3b3b6d;
+            color: #fff;
+            font-size: 0.9rem;
+            box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        article header h2 {
+            color: #6a5acd; 
+            font-size: 1.5rem;
+        }
+        aside img {
+            max-width: 200px;
+            display: block;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: 2px solid #6a5acd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>"MIS PASATIEMPOS"</h1>
+        <nav>
+            <a href="../index.html">Mi página de Evidencias</a>
+            <a href="maquillaje.html">Maquillaje</a>
+            <a href="series.html">Series</a>
+            <a href="videojuegos.html">Videojuegos</a>
+            <a href="musica.html">Música</a>
+            <a href="cocina.html">Cocinar</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Algunos de mis pasatiempos favoritos son:</h2>
+            </header>
+            <ol>
+                <li><strong>Maquillaje:</strong> Me gusta experimentar con estilos, colores y técnicas para resaltar la creatividad.</li>
+                <li><strong>Series:</strong> Disfruto maratonear series de distintos géneros, en especial drama y ciencia ficción.</li>
+                <li><strong>Videojuegos:</strong> Una forma divertida de entretenerme y desarrollar habilidades estratégicas.</li>
+                <li><strong>Música:</strong> Escuchar música me relaja y me acompaña en diferentes momentos de mi día.</li>
+                <li><strong>Cocina:</strong> Preparar recetas nuevas me permite experimentar sabores y compartir con los demás.</li>
+            </ol>
+        </article>
+    </main>
+    <aside>
+        <h3>Sobre mí</h3>
+        <div class="perfil">
+            <img src="../pasatiemposv2/img/gatito.jpg" alt="">
+            <p>Hola, soy <strong>Ingrid Urbina</strong>, estudiante de Fundamentos de Desarrollo Web.  
+            Me encanta aprender cosas nuevas y expresar mi creatividad en diferentes pasatiempos.</p>
+            <ul>
+                <li>📍 Ciudad: Santa Catarina.</li>
+                <li>🎂 Edad: 21 años.</li>
+                <li>🎵 Géneros favoritos: Rock y metal.</li>
+                <li>🎮 Mi juego favorito de la infancia: The sims.</li>
+            </ul>
+        </div>
+    </aside>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por Ingrid Urbina</p>
+            <p>Al 28 de agosto del 2025</p>
+        </address>
+    </footer>
+</body>
+</html>

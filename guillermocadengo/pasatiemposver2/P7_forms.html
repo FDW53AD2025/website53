@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="estilos2.css">
+</head>
+<body class="contacto">
+
+  <!-- Header -->
+  <header class="contacto-header">
+    <h1>Contacto</h1>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="pagina_principal.html">Volver al inicio</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+<main>
+  <h2>Formulario de Contacto</h2>
+  <hr>
+
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="select">Semestre:</label><br>
+    <select id="select" name="select">
+      <option value="Primero y segundo semestre">1° - 2°</option>
+      <option value="Tercero y cuarto semestre">3° - 4°</option>
+      <option value="Quinto y sexto">5° - 6°</option>
+      <option value="Septimo a noveno semestre">7° - 9°</option>
+    </select><br><br>
+
+    <label for="selectMultiple">Carrera:</label><br>
+    <select id="selectMultiple" name="selectMultiple" multiple size="4">
+      <option value="LTI">LTI</option>
+      <option value="LA">LA</option>
+      <option value="CP">CP</option>
+      <option value="LNI">LNI</option>
+    </select><br><br>
+
+    <label>Género:</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">Femenino</label><br><br>
+
+    <label for="fecha">Fecha:</label><br>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="comentarios">Comentarios:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+   <!-- Footer -->
+  <footer class="contacto-footer">
+    <address>
+      Sitio desarrollado por guillermocadengo <br>
+      Contacto: 
+      <a href="https://www.instagram.com/gael.cadengo/" target="_blank">
+        Instagram
+        <img src="img/ig_logo.webp" alt="Instagram" width="50" height="50">
+      </a>
+    </address>
+  </footer>
+  
+
+</main>
