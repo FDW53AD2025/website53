@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgba(0, 255, 255, 0.829);
+    font-family: Arial, sans-serif;
+}
+.cajas {
+  display: flex;
+  gap: 20px;
+}
+.caja {
+  padding: 20px;
+  width: 120px;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 69, 69);
+}
+.caja img{
+    height: 100px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin-bottom: 15px;
+}
+.caja p{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align:center;
+}
