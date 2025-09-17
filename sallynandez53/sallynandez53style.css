@@ -1,6 +1,6 @@
 .custom-star-link {
-  color: #6a0dad;              /* texto morado */
-  background-color: #ffe6f0;   /* fondo rosa pastel */
+  color: #6a0dad;
+  background-color: #ffe6f0;
   font-weight: bold;
   text-decoration: none;
   padding: 10px 15px;
@@ -8,9 +8,8 @@
   display: inline-block;
 }
 
-/* Estrellita antes del texto */
 .custom-star-link::before {
   content: "★";
   margin-right: 6px;
-  color: #ffcf40;  /* color dorado */
+  color: #ffcf40;
 }
