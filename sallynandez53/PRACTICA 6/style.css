@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contenedor_de_cajas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.caja {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  width: 180px;   /* tamaño mediano */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.caja img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.caja h2 {
+  font-size: 18px;
+  margin: 0;
+}
