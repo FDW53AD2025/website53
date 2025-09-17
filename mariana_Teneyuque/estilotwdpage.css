@@ -1,0 +1,40 @@
+.flexbox-practica {
+  display: flex;
+  flex-wrap: wrap;        /* para que bajen a otra fila si no caben */
+  justify-content: center; /* centra horizontalmente */
+  gap: 20px;               /* espacio entre cartas */
+  padding: 40px;
+}
+
+.card img {
+  width: 100%;     /* ocupa todo el ancho disponible */
+  height: 150px;   /* alto que tú quieras */
+  object-fit: cover;
+}
+
+.card {
+  background-color: #ff6b6b;   /* color de fondo (puedes cambiarlo) */
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s, background-color 0.3s;
+  color: #fff; /* texto en blanco */
+}
+
+.card:nth-child(2) {
+  background-color: #4ecdc4; /* carta 2 otro color */
+}
+
+.card:nth-child(3) {
+  background-color: #1a535c; /* carta 3 otro color */
+}
+
+.card:nth-child(4) {
+  background-color: #ffa600; /* carta 4 otro color */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* efecto flotante al pasar el mouse */
+}
