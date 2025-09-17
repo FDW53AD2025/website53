@@ -1,0 +1,51 @@
+:root {
+  --morado-pastel: #e6ccf2;
+  --rosa-pastel: #fbd6e3;
+  --texto: #5a3e6b;
+  --fondo: #fff8fc;
+}
+
+body {
+  background-color: var(--fondo);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--morado-pastel);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+.practicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+.practica {
+  background-color: var(--rosa-pastel);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(90, 62, 107, 0.2);
+}
+
+footer {
+  background-color: var(--morado-pastel);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
