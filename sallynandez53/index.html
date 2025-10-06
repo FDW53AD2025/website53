@@ -1,16 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evidencias</title>
+    <style>
+ 
+        :root {
+            --rosa-pastel: #FFC0CB;
+            --verde-pastel: #B8E0D2;
+            --texto-principal: #4B4B4B;
+            --fondo-principal: #FFF5F7;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--fondo-principal);
+            color: var(--texto-principal);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--rosa-pastel);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--verde-pastel);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        section {
+            background-color: var(--verde-pastel);
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            color: var(--texto-principal);
+            text-align: center;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 8px 0;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--rosa-pastel);
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: var(--texto-principal);
+        }
+
+        aside {
+            background-color: var(--rosa-pastel);
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: var(--verde-pastel);
+            text-align: center;
+            padding: 10px;
+            border-top: 3px solid var(--rosa-pastel);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Evidencias de Fundamentos Desarrollo Web</h1>
+        <h1>Evidencias fundamentos desarrollo web</h1>
     </header>
-    <main></main>
-    <aside></aside>
-    <footer></footer>
-    
+
+    <main>
+        <section>
+            <h2>Práctica 1</h2>
+            <ul>
+                <li><a href="https://github.com/sallynandez53/segdemo">Link Repositorio</a></li>
+                <li><a href="https://sallynandez53.github.io/segdemo/">Link Sitio Publicado</a></li>
+                <li><a href="https://github.com/sallynandez53/segdemo/commit/98a76134c8330309867c97ec845d5888f575aba7">Link Commits</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Práctica 2</h2>
+            <ul>
+                <li><a href="https://fdw53ad2025.github.io/website53/sallynandez53/index.html">Link página personal</a></li>
+                <li><a href="https://github.com/sallynandez53/segdemo/commit/98a76134c8330309867c97ec845d5888f575aba7">Link Commits</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Práctica 3</h2>
+            <ul>
+                <li><a href="https://github.com/FDW53AD2025/website53/blob/main/sallynandez53/pasatiempoV2/pagina5.html">Link página pasatiempos versión 2</a></li>
+                <li><a href="https://github.com/FDW53AD2025/website53/commit/d02f3e00315924df52b4792eca657974748b23f4">Links Commits</a></li>
+                <li><a href="https://github.com/FDW53AD2025/website53/commit/d02f3e00315924df52b4792eca657974748b23f4">Link Commits</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Práctica 4</h2>
+            <ul>
+                <li><a href="https://github.com/FDW53AD2025/website53/commit/7ec08d52a966569b618fd3ca0d91f1145bceda42">Link Commits</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Práctica 5</h2>
+            <ul>
+                <li><a href="">Link página selectores</a></li>
+                <li><a href="">Link Commits</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Práctica 6</h2>
+            <ul>
+                <li><a href="https://github.com/FDW53AD2025/website53/blob/main/sallynandez53/PRACTICA%206/index.html">Link página diseño solicitado</a></li>
+                <li><a href="https://github.com/FDW53AD2025/website53/commit/0fb94eaea5d4034ca64e3c4063caca187d44a27a">Link commits</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Evidencias</h3>
+    </aside>
+
+    <footer>
+        <p>Semestre Agosto-Diciembre 2025</p>
+    </footer>
+</body>
 </html>

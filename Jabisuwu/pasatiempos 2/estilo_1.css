@@ -78,7 +78,7 @@ h2 {
 }
 
 #favorita {
-  background-color: #fdf6e3;
+  background-color: #ffe5ec;
   padding: 20px;
   border-left: 5px solid #ffb6c1;
 }
@@ -86,7 +86,7 @@ h2 {
 .detalle {
   font-style: italic;
   color: #ff69b4;
-  background-color: #fff0f5;
+  background-color: #ffd2e2;
   padding: 10px;
 }
 
@@ -96,9 +96,9 @@ img[alt] {
 }
 
 li {
-  list-style-type: square;
+  list-style-type: disc;
   margin-bottom: 5px;
-  color: #d78191;
+  color: #f1439a;
 }
 
 section p {
@@ -107,7 +107,7 @@ section p {
 }
 
 nav > ul {
-  background-color: #ffc0ef;
+  background-color: #f87fbb;
   padding: 10px;
   border-radius: 8px;
 }
