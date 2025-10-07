@@ -4,6 +4,11 @@ function calcular() {
   const operador = document.getElementById("operador").value;
   let resultado;
 
+  if (isNaN(num1) || isNaN(num2)) {
+    document.getElementById("resultado").innerText = "Ingresa ambos números.";
+    return;
+  }
+
   switch (operador) {
     case ">":
       resultado = num1 > num2;
@@ -26,7 +31,9 @@ function calcular() {
       break;
     default:
       resultado = "Operador no válido";
+      break;
   }
 
-  document.getElementById("resultado").innerText = `Resultado: ${resultado}`;
+  document.getElementById("resultado").innerText =
+    `Resultado: ${resultado ? "Verdadero" : "Falso"}`;
 }
