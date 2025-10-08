@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Formulario de Contacto</h1>
+    <p>Déjame tu mensaje o comparte tu pasatiempo favorito.</p>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="pasatiempo-deporte.html">Deporte</a></li>
+      <li><a href="pasatiempo-serie.html">Serie</a></li>
+      <li><a href="pasatiempo-comics.html">Cómics</a></li>
+      <li><a href="pasatiempo-videojuegos.html">Videojuegos</a></li>
+      <li><a href="pasatiempo-formulario.html">Formulario</a></li>
+    </ul>
+  </nav>
+  <hr>
+
+  <main>
+    <section>
+      <form action="#" method="post">
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <!-- Correo electrónico -->
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <!-- Selección de pasatiempo -->
+        <label for="pasatiempo">Pasatiempo favorito:</label><br>
+        <select id="pasatiempo" name="pasatiempo" required>
+          <option value="">--Selecciona uno--</option>
+          <option value="deporte">Deporte</option>
+          <option value="serie">Serie</option>
+          <option value="comics">Cómics</option>
+          <option value="videojuegos">Videojuegos</option>
+        </select><br><br>
+
+        <!-- Mensaje -->
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mariana Cobos Teneyuque</p>
+  </footer>
+</body>
+</html>

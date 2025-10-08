@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime y Series</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* selector Universal (todos los elementos) */
+        * {
+            box-sizing: border-box; 
+            margin: 0;
+            padding: 0;
+        }
+
+        /* selector de Tipo*/
+        body {
+            background-color: #f0f4f8; 
+            color: #334e68;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6rem; /* Se cambió de `1.6` a `1.6rem`. */
+            padding: 1.25rem; /* Se cambió de `20px` a `1.25rem`. */
+        }
+        h1 {
+            color: #122a40;
+            text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Se cambió de `px` a `rem`. */
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        legend {
+            color: #ceaf00; 
+            font-weight: bold;
+            text-shadow: 0.0625rem 0.0625rem 0.125rem #888; /* Se cambió de `px` a `rem`. */
+            font-size: 1.5rem; /* Se cambió de `em` a `rem`. */
+        }
+        fieldset {
+            border: 1px solid #dcdfe6;
+            background: #ffffff; 
+            margin-bottom: 1.5625rem; /* Se cambió de `25px` a `1.5625rem`. */
+            padding: 1.25rem; /* Se cambió de `20px` a `1.25rem`. */
+            border-radius: 0.75rem; /* Se cambió de `12px` a `0.75rem`. */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        hr {
+            border: none;
+            margin: 1.875rem 0;
+        }
+
+        /* Nueva regla para todas las secciones */
+        section {
+            padding: 1.5rem;
+        }
+        
+        /* selector de ID "series-container". */
+        #series-container {
+            background-color: #e6f7ff;
+            border: 2px solid #b3e0ff;
+        }
+        
+        /* selector de clase "destacado". */
+        .destacado {
+            font-weight: bold;
+            color: #ffcf33;
+        }
+
+        /* selector de atributo */
+        img[width="180"] {
+            border: 3px solid #ffe600;
+            border-radius: 0.5rem; /* Se cambió de `8px` a `0.5rem`. */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
+
+        /* selector de lista estilo a múltiples selectores. */
+        h3, h2 {
+            margin-bottom: 0.9375rem; /* Se cambió de `15px` a `0.9375rem`. */
+            color: #2a3a4f;
+        }
+       
+        /* selector de descendientes*/
+        article p {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* selector de hijos directos: estiliza solo los <li> */
+        ul > li {
+            list-style-type: none; 
+            position: relative;
+            padding-left: 1.5625rem; /* Se cambió de `25px` a `1.5625rem`. */
+        }
+        ul > li:before {
+            content: '⭐'; 
+            position: absolute;
+            left: 0;
+        }
+
+        /*hermano adyacente estiliza la <p> que esta despues del <nav>. */
+        nav + hr {
+            border-top: 3px dashed #ffe600;
+        }
+        
+        /* selector hermano general: estiliza todas las <p> que siguen al <h2>. */
+        h2 ~ p {
+            color: #777;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0.75rem;
+            margin-top: 1.875rem;
+        }
+
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+        a {
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+            margin-top: 0.625rem;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Me gusta ver Series Y Anime</h1>
+    </header>
+
+    <main>
+        <nav>
+            <p><a href="menu.html">Volver a la página principal</a></p>
+        </nav>
+
+        <hr>
+
+        <section>
+            <fieldset>
+                <legend>Animes que me gustan</legend>
+                <article>
+                    <h3>JoJo's</h3>
+                    <p>me gusta <b class="destacado">Jojo's</b>, pero luego a veces se siente pesado de ver, o para mi que soy niño tiktok.</p>
+                    <figure>
+                        <img src="https://static.wikia.nocookie.net/allficcion/images/6/6a/JoJo%27s_Bizarre_Adventure.jpg/revision/latest?cb=20160604170824&path-prefix=es" alt="Imagen de JoJo's" width="180" height="100">
+                        <figcaption>Joseph besto jojo</figcaption>
+                    </figure>
+                    <br>
+                    <p>Otros animes que me gustan incluyen:</p>
+                    <ul>
+                        <li><strong>Evangelion</strong></li>
+                        <li><strong>Erased</strong></li>
+                        <li><strong>Attack on Titan</strong></li>
+                    </ul>
+                </article>
+            </fieldset>
+        </section>
+
+        <hr>
+        
+        <section>
+            <fieldset id="series-container">
+                <legend>Series</legend>
+                <p>Tambien me gustan las series, ultimamente he visto un poco de kdramas.</p>
+                <br>
+                <h2>Este es mi top o mas bien, de los que me acuerdo XD</h2>
+                <ul>
+                    <li><strong>Si la vida te da mandarinas</strong></li>
+                    <li><strong>La Buena Mala Madre</strong></li>
+                    <li><strong>Kpop demon hunters????????</strong></li>
+                    <li><strong>2521</strong></li>
+                    <li><strong>Stranger things</strong></li>
+                </ul>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <p>Espero que te este gustando saber de mi! :D</p>
+    </footer>
+
+</body>
+</html>

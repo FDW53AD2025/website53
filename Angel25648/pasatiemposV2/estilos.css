@@ -1,0 +1,97 @@
+body {
+  font-family: 'Century Gothic';
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background: #0011ff;
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li a {
+  padding: 8px 15px;
+  text-decoration: none;
+  background: white;
+  color: #000000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background: #1d1db5;
+  color: white;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+.bienvenida {
+  text-align: center;
+  background: linear-gradient(135deg, #dbeafe, #f3e8ff);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
+  color: #000000;
+}
+
+.info-box {
+  background: linear-gradient(135deg, #fce7f3, #e0f2fe);
+  padding: 25px;
+  border-radius: 15px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.info-box h2 {
+  font-size: 28px;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  font-size: 18px;
+  color: #000000;
+}
+
+img {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.juego-img,
+.musica-img,
+.series-img,
+.videojuego-img {
+  width: 260px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+footer {
+  background: #222222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 25px;
+}

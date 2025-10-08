@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Contactame</h1>
+    </header>
+    <main>
+         <section>
+            <h2>Envíame un mensaje</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+        </section>
+    </main>
+    <aside>
+        <nav>
+            <h3>Pasatiempos</h3>
+            <ul>
+                <li><a href="Deportes.html">Deportes</a></li>
+                <li><a href="Musica.html">Musica</a></li>
+                <li><a href="Videojuegos.html">Videojuegos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+                <li><a href="Pagina1.html">Inicio</a></li>
+            </ul>  
+        </nav>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Luis Antonio Escobedo - Pasatiempos Contacto</p>
+    </footer>
+</body>
+</html>

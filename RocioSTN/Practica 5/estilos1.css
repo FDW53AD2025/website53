@@ -1,0 +1,71 @@
+/**1.- Universal**/
+*{
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: rgb(195, 194, 194);
+}
+
+/**2.- Tipo**/
+
+h1, h2 {
+  font-family: Arial, sans-serif; 
+  text-align: center;
+}
+p, ul{
+  text-decoration: none; 
+  text-align: center;
+}
+
+/**3.- ID**/
+
+#titulo-principal {
+  text-align: center; 
+}
+
+/**4.- clase**/
+
+.INTRO {
+  font-style: italic; 
+}
+.MisPasatiemposVersión2 {
+  color: rgb(6, 3, 3);
+}
+
+/**5.- Atributo**/
+
+img[alt] {
+    border: 5px solid rgb(128, 0, 109);
+    border-radius: 8px;
+}
+
+/**6.- Lista**/
+
+h2, p {
+    font-family: 'Arial', serif;
+}
+
+/**7.- Decendientes**/
+
+section p {
+    color: #070707;
+    font-size: 0.95em;
+}
+
+/**7.- Hijos directos**/
+
+ul > li {
+    list-style-type: square;
+    margin-bottom: 8PX;
+}
+
+/**8.- Hermano adyacente**/
+
+li + img {
+    margin-top: 33px;
+}
+
+/**9.- Hermano General**/
+
+h1 ~ p {
+    font-weight: bold;
+}

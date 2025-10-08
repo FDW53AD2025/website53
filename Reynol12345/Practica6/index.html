@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica 6 </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #1e1e2e;
+      color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 150px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Práctica 6</h1>
+  <div class="container">
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+      <p>React</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue">
+      <p>Vue</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" alt="Tailwind">
+      <p>Tailwind</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass">
+      <p>Sass</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg" alt="GSAP">
+      <p>GSAP</p>
+    </div>
+  </div>
+</body>
+</html>

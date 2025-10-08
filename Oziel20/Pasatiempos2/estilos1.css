@@ -1,0 +1,44 @@
+body{
+    background-color: gray; /* color de fondo suave */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+nav {
+  background: linear-gradient(90deg, #1f1c2c, #928dab);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;                /* Espacio entre enlaces */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.caja {
+    color: white;                 
+    background-color: purple;     
+    border: 11px solid black;     
+    padding: 15px;
+    margin-top: 10px;
+}
+
+
+h2 {
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+

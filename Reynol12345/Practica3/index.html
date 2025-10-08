@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Pasatiempos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #06264b;
+      color: rgb(235, 230, 230);
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      background-color: #07362e;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      margin: 1rem auto;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #d1d4d8;
+      color: #5f5b5b;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mis Pasatiempos</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Pagina1.html" onclick="cargarPagina(event, 'Pagina1.html')">Futbol</a></li>
+      <li><a href="Pagina2.html" onclick="cargarPagina(event, 'Pagina2.html')">Videouegos</a></li>
+      <li><a href="Pagina3.html" onclick="cargarPagina(event, 'Pagina3.html')">Ajedrez</a></li>
+      <li><a href="Pagina4.html" onclick="cargarPagina(event, 'Pagina4.html')">Series</a></li>
+      <li><a href="Pagina5.html" onclick="cargarPagina(event, 'Pagina5.html')">Correr</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <p>&copy; 2025 Mis Pasatiempos</p>
+  </footer>
+</body>
+</html>

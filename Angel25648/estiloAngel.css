@@ -1,0 +1,14 @@
+#a05 {
+    color: white;
+    text-decoration: underline;
+    border: 5px double rgb(255, 0, 0);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+#a05:hover {
+    background-color: orange;
+    color: red;
+    cursor: pointer;
+}

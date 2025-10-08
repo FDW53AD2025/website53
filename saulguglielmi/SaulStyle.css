@@ -1,0 +1,25 @@
+.a18 {
+  color: #b0bfff;
+  text-decoration: none;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1.5em; 
+  font-weight: bold;
+  letter-spacing: 2px;
+ 
+  text-shadow:
+    -1px -1px 0 #3134ff,
+     1px -1px 0 #2e5fff,
+    -1px  1px 0 #2e5fff,
+    2px 2px 0 #002ec5,
+    3px 3px 0 #002ec5,
+    4px 4px 6px #000000;
+  transition: transform 0.2s;
+  display: inline-block;
+  animation: wave 2s infinite linear; /* Se mantiene la animación de movimiento */
+}
+
+@keyframes wave {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(20px); }
+  100% { transform: translateX(0); }
+}

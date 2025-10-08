@@ -1,0 +1,28 @@
+#a10 {
+    box-shadow: -5px -5px 20px rgba(120, 60, 200, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px rgba(60, 0, 100, 0.3);
+    background-color: rgb(210, 180, 255);
+    border: 3px solid rgb(150, 100, 220); 
+    padding: 0.6em 1em;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+#a10:hover {
+    transform: scale(1.05);
+    background-color: rgb(190, 160, 250);
+}
+
+#a10 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+  position: relative;
+  font-weight: bold;
+}
+
+#a10 a:hover {
+  color: rgb(200, 160, 255); 
+}
+

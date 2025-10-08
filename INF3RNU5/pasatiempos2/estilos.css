@@ -1,0 +1,56 @@
+body{
+    background-color: mediumorchid;
+}
+
+h1 {
+    color: lightpink;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+p, .t3{
+    color: rgb(130, 19, 75);
+}
+
+img{
+    border: 20px solid lightcoral;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#descripcion{
+    background-color: lightpink;
+}
+
+.t2{
+    padding: 35px;
+    border: 2px dashed pink;
+}
+
+h2[title="titulo"] {
+    background-color: rgba(248, 158, 248, 0.845);
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer p{
+    color: rgb(252, 152, 201);
+}
+
+nav >a{ 
+    background-color: rgba(199, 110, 240, 0.55);
+    color: salmon;
+}
+
+#metal h2 + p{
+    background-color: rgba(235, 166, 246, 0.703);
+    color: darkmagenta;
+}
+
+h2 ~ figure{
+border: 10px dashed rgba(255, 154, 245, 0.568);
+}

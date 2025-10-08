@@ -1,0 +1,196 @@
+nav div {
+    margin-right: 20px; 
+}
+
+nav li {
+    display: inline-block; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #0066cc; 
+}
+.con {
+    position: relative;
+    top: 25%;
+    left: 35%;
+    width: 80%; 
+    height: 300px;
+}
+ 
+.imagen-centrada {
+    max-width: 40%; 
+     height: auto;
+}        
+
+.parrafo {
+    position: relative;
+    top: 150px; 
+    place-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}        
+
+main ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+main ul li {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.contenedor-aside {
+    display: flex;
+    align-items: flex-start;
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #726d6d;
+    border-left: 2px solid #523333;
+    min-width: 220px;
+}
+
+
+.layout-izquierda {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.aside-izquierda {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #726d6d;
+    border-right: 2px solid #523333;
+}
+
+.main-derecha {
+    flex: 3;
+    padding: 20px;
+}
+.tabla-perfumes {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tabla-perfumes th,
+
+.tabla-perfumes td {
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #222;
+}
+
+.tabla-perfumes th {
+    background-color: #444;
+    font-size: 20px;
+}
+
+.tabla-perfumes .fila-info {
+    background-color: #555;
+}
+
+.video-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.video-container {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-derecha {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 2px solid #ccc;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+* {
+    font-family: Arial, sans-serif;      /*Selector universal*/
+
+
+}
+body {
+    background: url('cont/fondo1.jpg');
+    background-repeat: no-repeat;         /*Selector de tipo*/
+    background-size: cover;
+    background-position: center;
+}
+
+
+#main1 { color: rgb(242, 245, 226);     /*Selector de ID*/
+
+}
+
+.titulos {
+    text-align: center;
+    font-size: 32px;     /*Selector de clase*/
+    color: aliceblueS;
+     
+}
+
+
+[href*="https"] {
+    background-color: #c284e5;        /*Selector de atributo*/
+}
+
+
+.titulos, h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;              /*Selector de lista*/
+    border: solid 4px black;
+    background-color: #ccc;
+
+ }                                      
+
+nav ul {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    list-style: none;   /*Selector de descendiente*/
+    padding: 0; 
+    margin: 0; 
+    gap: 30px; 
+    font-size: 26px; 
+}
+
+footer > p {position: relative; top: 5px; 
+    color: aliceblue; text-align: center;      /*Selector hijos directos*/
+
+}
+
+h2 + video {width: 1200px; height: 800px; 
+           margin: auto; display: block;   /*Selector de hermano adyacente*/
+
+}   
+
+#main3 h1 ~ p {
+    color: #fce8cc;
+    font-size: 24px;
+    font-style: italic;
+    border:solid 8px black;      /*Selector de hermanos generales*/
+    background-color: #333;
+    
+}                                       

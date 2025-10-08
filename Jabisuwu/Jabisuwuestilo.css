@@ -1,0 +1,39 @@
+#a10 {
+    color: rgb(255, 54, 121);
+    box-shadow: -5px -5px 20px rgba(255, 0, 136, 0.6);
+    font-family: 'Lucida Handwriting', 'Comic Sans MS', 'Segoe Script', cursive;
+    text-shadow: 2px 2px 4px rgba(189, 0, 66, 0.5);
+    background-color: rgb(255, 159, 220);
+    color: rgb(255, 171, 202);
+    border: 50px hidden rgb(233, 83, 150);
+    padding: 0.10em;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+#a10:hover {
+    transform: scale(1.05);
+}
+
+#a10 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+}
+
+#a10 a:hover {
+  color: rgb(219, 24, 118); 
+}
+#a10 a::after {
+  content: '🥶👻🙀';
+  position: absolute;
+  margin-left: 8px;
+  animation: floatConfetti 3s infinite ease-in-out;
+  font-size: 1.2em;
+}
+@keyframes floatConfetti {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

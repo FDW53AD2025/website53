@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion Operadores</title>
+    <link rel="stylesheet" href="Practica1.css">
+</head>
+<body>
+    <h1>Aplicacion operadores de comparacion</h1>
+
+    <form>
+        <label for="num1">Numero 1</label>
+        <input type="text" id="num1">
+
+        <label for="num2">Numero 2</label>
+        <input type="text" id="num2">
+
+        <label for="operador">Operador</label>
+        <select id="operador">
+            <option value="==">Igual a</option>
+            <option value=">">Mayor que</option>
+            <option value="<">Menor que</option>
+            <option value=">=">Mayor o igual que</option>
+            <option value="<=">Menor o igual que</option>
+            <option value="!=">Distinto de</option>
+        </select>
+
+        <label for="resultado">Resultado</label>
+        <input type="text" id="resultado" readonly>
+
+        <button id="calcular" type="button">Calcular</button>
+    </form>
+
+    <script src="Practica1.js"></script>
+</body>
+</html>

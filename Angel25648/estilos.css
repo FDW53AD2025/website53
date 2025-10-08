@@ -1,0 +1,64 @@
+body {
+    font-family: century gothic;
+    background-color: #f4f4f4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #3434db;
+    color: white;
+    padding: 15px;
+}
+
+.sub-header {
+    background: rgb(224, 152, 29);
+    border: 1px solid #ccc;
+    margin: 15px auto;
+    padding: 10px;
+    width: 78%;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.practica {
+    font-weight: bold;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+section a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3434db;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #34db69;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+}

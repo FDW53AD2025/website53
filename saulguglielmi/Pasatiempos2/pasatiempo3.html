@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuegos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Selector Universal*/
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* selector de Tipo*/
+        body {
+            background-color: #f2f2f2;
+            color: #111;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            padding: 1.25rem;
+        }
+        h1 {
+            color: #ffcc00; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+            text-align: center;
+        }
+        legend {
+            color: #ffcc00; 
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            font-size: 1.5rem; /* Se cambió de `em` a `rem`. */
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            background: #fafafa;
+            margin-bottom: 1.5625rem;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        hr {
+            border: none;
+            border-top: 3px solid #ffcc00; 
+            margin: 1.875rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1.25rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Nueva regla de sección */
+        section {
+            padding: 1.5rem;
+        }
+
+        /* selector de id */
+        #minecraft-section {
+            background-color: #fcfcfc;
+            border: 2px solid #ffcc00;
+            border-radius: 0.75rem; /* Se añadió `border-radius` para consistencia. */
+        }
+
+        /* selector de clase */
+        .game-description {
+            font-style: italic;
+            color: #555;
+        }
+        
+        /* selector de atributo */
+        a[target="_blank"] {
+            color: #ffcc00; 
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+        }
+        
+        /* selector de lista estilo a múltiples selectores. */
+        h2, h3 {
+            color: #333;
+        }
+
+        /* selector de descendientes*/
+        section p {
+            margin-bottom: 0.625rem;
+        }
+
+        /* selector de hijos directos: estiliza solo los <li> */
+        ol > li {
+            font-weight: bold;
+            margin-bottom: 0.3125rem;
+            color: #ffcc00;
+        }
+        
+        /* selector adyasente */
+        h2 + p {
+            font-size: 1.1rem; /* Se cambió de `em` a `rem`. */
+            color: #777;
+        }
+
+        /*selector hermano general: estiliza todas las <p> que siguen al <h2>. */
+        li ~ p {
+            font-style: italic;
+            font-size: 0.9rem; /* Se cambió de `em` a `rem`. */
+            margin-left: 1.25rem;
+            border-left: 2px solid #ffcc00;
+            padding-left: 0.625rem;
+        }
+
+        a:hover {
+            color: #2e2900;
+            transform: scale(1.05);
+        }
+        a {
+            transition: transform 0.3s ease-in-out;
+            display: inline-block;
+            margin-top: 0.625rem;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Mis Videojuegos Favoritos 🎮</h1>
+    </header>
+
+    <main>
+        <nav>
+            <p><a href="menu.html">Volver a la página principal</a></p>
+        </nav>
+
+        <hr>
+
+        <section id="minecraft-section">
+            <h2>Juegos que me gustan</h2>
+
+            <article>
+                <h3>Minecraft</h3>
+                <p class="game-description">Minecraft es un videojuego de construcción de tipo "mundo abierto".</p>
+                <p>Este juego tiene <sup>millones</sup> de jugadores en todo el mundo y es increíblemente popular.</p>
+                <p>Puedes jugar en un mundo con gravedad <sub>cero</sub> si usas ciertos trucos.</p>
+                <p>También me encanta su banda sonora. Puedes escucharla a través de este link: <a href="https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D841E23" target="_blank">Música de Minecraft</a></p>
+                <br>
+                <img src="https://images.icon-icons.com/2699/PNG/512/minecraft_logo_icon_168974.png" alt="Captura de pantalla de Minecraft" width="50" height="50">
+            </article>
+
+            <hr>
+            
+            <h2>Otros Videojuegos</h2>
+            <p>Aquí hay una lista ordenada de otros títulos que me gustan:</p>
+            <ol>
+                <li>Valorant</li>
+                <p class="game-description">Juego fps de 5vs5</p>
+                <li>Geometry Dash</li>
+                <p class="game-description">Juego de plataformas</p>
+                <li><cite>Fortnite</cite></li>
+                <p class="game-description">Juego shoter</p>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gracias por la paciencia de leerme :D</p>
+    </footer>
+
+</body>
+</html>
