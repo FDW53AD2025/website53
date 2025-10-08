@@ -1,33 +1,28 @@
-a {
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+#a10 {
+    box-shadow: -5px -5px 20px rgba(120, 60, 200, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px rgba(60, 0, 100, 0.3);
+    background-color: rgb(210, 180, 255);
+    border: 3px solid rgb(150, 100, 220); 
+    padding: 0.6em 1em;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
 }
 
-.link-rojo {
-  color: purple;
-  border: 2px solid blueviolet;
-  padding: 5px;
-  display: inline-block;
-  border-radius: 10px;
+#a10:hover {
+    transform: scale(1.05);
+    background-color: rgb(190, 160, 250);
 }
 
-.link-rosa {
-  background-color: pink;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 8px;
+#a10 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+  position: relative;
   font-weight: bold;
 }
 
-.link-subrayado {
-  color: violet;
-  text-decoration: underline wavy orange;
-  font-style: italic;
+#a10 a:hover {
+  color: rgb(200, 160, 255); 
 }
 
-.link-sombra {
-  color: darkblue;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px lightblue;
-}
