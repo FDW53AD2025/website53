@@ -14,7 +14,7 @@ async function buscarInfoPokemon(){
    infoPokemon.held_items.forEach(i => {
     const itemLi = document.createElement("li");
     itemLi.innerText = i.item.name;
-    
+    listaItems.appendChild(itemLi);
    });
 
 }
