@@ -1,27 +1,30 @@
+const formulario = document.getElementById("formulario");
 const tabla = document.getElementById("tabla");
 
-const encabezado = document.createElement("tr");
-const esquina = document.createElement("th");
-esquina.innerText = "X";
-encabezado.appendChild(esquina);
+formulario.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const tamaño = parseInt(document.getElementById("tamaño").value);
+    tabla.innerHTML = "";
 
-for (let j = 1; j <= 5; j++) {
-    const th = document.createElement("th");
-    th.innerText = j;
-    encabezado.appendChild(th);
-}
-tabla.appendChild(encabezado);
+    for (let fila = 0; fila <= tamaño; fila++) {
+        const filaElemento = document.createElement("tr");
 
-for (let i = 1; i <= 5; i++) {
-    const fila = document.createElement("tr");
-    const th = document.createElement("th");
-    th.innerText = i;
-    fila.appendChild(th);
+        for (let col = 0; col <= tamaño; col++) {
+            const celda = document.createElement("td");
 
-    for (let j = 1; j <= 5; j++) {
-        const columna = document.createElement("td");
-        columna.innerText = i * j;
-        fila.appendChild(columna);
+            if (fila === 0 && col === 0) {
+                celda.textContent = "X";
+            } else if (fila === 0) {
+                celda.textContent = col;
+            } else if (col === 0) {
+                celda.textContent = fila;
+            } else {
+                celda.textContent = fila * col;
+            }
+
+            filaElemento.appendChild(celda);
+        }
+
+        tabla.appendChild(filaElemento);
     }
-    tabla.appendChild(fila);
-}
+});
