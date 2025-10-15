@@ -1,27 +1,45 @@
-  table {
-    width: 100%; /* La tabla ocupará todo el ancho disponible */
-    border-collapse: collapse; /* Para que los bordes de las celdas se fusionen */
-    margin-bottom: 20px; /* Un poco de espacio debajo de la tabla */
-  }
+#S1 * {
+    color: rgb(115, 0, 255);
+}
 
-  th, td {
-    border: 1px solid #ccc; /* Borde de 1px sólido y color gris claro */
-    padding: 8px; /* Espacio interno dentro de cada celda */
-    text-align: left; /* Alineación del texto a la izquierda */
-  }
+/*Selector de tipo*/
+header *{
+border: 5px inset greenyellow;
+}
 
-  th {
-    background-color: #f2f2f2; /* Color de fondo para los encabezados */
-  }
+/* Selector de clase*/
+.resaltado {
+    border-bottom: 3px double green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-  /* Si quieres estilos específicos para tus colgroup, puedes añadirlos aquí */
-  .saga {
-    /* Por ejemplo, un ancho diferente o un color de fondo si lo deseas */
-    /* width: 30%; */
-  }
-  .libro {
-    /* width: 50%; */
-  }
-  .orden {
-    /* width: 20%; */
-  }
+#ide *{
+  background-color: blueviolet;
+}
+
+nav a[href="Anime.html"]{
+  background-color: chocolate;
+  border: 4px solid black;
+
+}
+
+li{
+  background-color: blue;
+  border: 10px solid salmon;
+}
+
+div p {
+  background-color: rgb(242, 255, 0);
+}
+
+div > p {
+  background-color: rgb(43, 0, 255);
+}
+
+span + p {
+background-color: coral;
+}
+
+span ~ p {
+  background-color: pink;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: #111827;
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabla{
+    background-color: #1f2937;
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabla img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+.tabla p{
+    color: #60a5fa;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}

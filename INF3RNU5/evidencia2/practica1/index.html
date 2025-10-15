@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación operadores de comparación</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Aplicación operadores de comparación</h1>
+
+    <form id="formulario">
+      <label for="numero1">Número 1</label>
+      <input type="number" id="numero1">
+
+      <label for="numero2">Número 2</label>
+      <input type="number" id="numero2">
+
+      <label for="operadores">Operador</label>
+      <select id="operadores">
+        <option value=">">mayor (>)</option>
+        <option value=">=">igual o mayor (>=)</option>
+        <option value="<">menor (<)</option>
+        <option value="<=">igual o menor (<=)</option>
+        <option value="==">igual (==)</option>
+        <option value="!=">diferente (!=)</option>
+      </select>
+
+      <label for="resultado">Resultado</label>
+      <input type="text" id="resultado" readonly>
+
+      <button id="calcular">Calcular</button>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

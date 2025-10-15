@@ -79,3 +79,16 @@ main {
 .boton-practica:hover {
     background-color: #0056b3; 
 }
+
+.titulo-evidencia {
+  text-align: center;           /* Centra el texto */
+  font-size: 2.2em;             /* Tamaño grande */
+  background-color: #273c75;    /* Fondo azul (puedes cambiarlo) */
+  color: white;                 /* Texto blanco */
+  padding: 15px auto;              /* Espaciado interno */
+  border-radius: 12px;          /* Bordes redondeados */
+  margin: 40px auto 30px;       /* Espacio arriba y abajo */
+  width: 88%;                   /* Ancho del cartel */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombrita elegante */
+  font-weight: bold;
+}

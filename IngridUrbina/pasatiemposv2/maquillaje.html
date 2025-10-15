@@ -124,6 +124,7 @@
         sub {
             color: #555;
         }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -132,9 +133,22 @@
             font-size: 0.9rem;
             box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
         }
+
         footer p {
             margin: 5px 0;
         }
+
+        .resaltado {
+            background-color: #f3e6ff; 
+            border-left: 4px solid #663399; 
+            padding: 8px;
+            font-style: italic;
+        }
+
+        #parrafo-consejos {
+            color: rgb(201, 78, 119);
+        }
+
     </style>
 </head>
 <body>
@@ -157,11 +171,12 @@
 
         <img src="https://images.pexels.com/photos/1115128/pexels-photo-1115128.jpeg" alt="Imagen de maquillaje" />
 
-        <p>Algunos consejos rápidos: <b>Siempre</b> desmaquíllate antes de dormir y aplica crema hidratante.  
+        <p id="parrafo-consejos">Algunos consejos rápidos: <b>Siempre</b> desmaquíllate antes de dormir y aplica crema hidratante.  
         Es importante no usar productos vencidos y revisar la fecha de caducidad (<time datetime="2025-08-28">28 de agosto de 2025</time>).</p>
 
         <p>Mis productos favoritos incluyen base, labiales y sombras. Algunos expertos mencionan: <cite>Revista Belleza Actual</cite>.</p>
-
+        <p class="resaltado">Mi estilo favorito es el maquillaje artístico porque combina <i>color</i>, <strong>texturas</strong> y <em>originalidad</em>.</p>
+        </section>
         <p>Mi técnica favorita es <mark>contorno y resaltado</mark> y siempre aplico la base con cuidado.<br>Recuerda también probar distintos <i>estilos vintage</i> y modernos.</p>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SgpaViyE-HA?si=aU2XkT4MYN8i9ske" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

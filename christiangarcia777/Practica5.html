@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5: Selectores CSS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0077cc;
+            border-bottom: 3px solid #0077cc;
+            padding-bottom: 15px;
+            font-size: 2.5rem;
+        }
+
+        .selector-section {
+            background-color: #e6f7ff;
+            border-left: 5px solid #005fa3;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 5px 0 15px;
+        }
+
+        .codigo {
+            background-color: #e8e8e8;
+            padding: 15px;
+            border-left: 4px solid #0056b3;
+            overflow-x: auto;
+            margin-top: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+        }
+        
+        .location {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .captura-container {
+            margin-top: 20px;
+            text-align: center;
+            border: 2px dashed #0077cc;
+            padding: 30px;
+            background-color: #fafafa;
+            border-radius: 5px;
+        }
+
+        .placeholder-text {
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Práctica 5: Selectores CSS</h1>
+        <p>Utiliza esta página como guía para tomar las capturas de pantalla de los selectores aplicados a tu sitio web de pasatiempos. Cada sección te indica el código CSS, la ubicación del selector en tu sitio y un espacio para la captura.</p>
+        
+        <div class="selector-section">
+            <h2>1. Selector Universal (`*`)</h2>
+            <p><strong>Descripción:</strong> Aplica un estilo a **todos** los elementos de la página.</p>
+            <div class="codigo">
+<pre><code>* {
+    border: 1px dotted #ff0000;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> Visible en **todas tus páginas** HTML. Fíjate en el borde punteado que rodea a cada elemento.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image1.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>2. Selector de Tipo</h2>
+            <p><strong>Descripción:</strong> Aplica estilos a todos los elementos de un tipo específico (ej. <code>h2</code>, <code>p</code>).</p>
+            <div class="codigo">
+<pre><code>h2, p {
+    background-color: #f0f8ff;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> Revisa cualquier página de tu sitio (ej. `inicio.html`). Los títulos `<h2>` y párrafos `p` deberían tener un fondo de color claro.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image2.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>3. Selector por ID</h2>
+            <p><strong>Descripción:</strong> Se usa para dar estilo a un **único** elemento con un ID específico.</p>
+            <div class="codigo">
+<pre><code>#bienvenida {
+    background-color: #e6f7ff;
+    padding: 15px;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> Se aplica al `div` con el `id="bienvenida"` en el archivo **`inicio.html`**. Debería tener un fondo y un borde especial.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image3.png" alt="">
+            </div>
+        </div>
+        
+        <div class="selector-section">
+            <h2>4. Selector por Clase</h2>
+            <p><strong>Descripción:</strong> Aplica estilos a todos los elementos que tienen la misma clase.</p>
+            <div class="codigo">
+<pre><code>.enlace-nav {
+    font-weight: bold;
+    color: #ffd700;
+    text-decoration: underline;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> Revisa la barra de navegación en **`inicio.html`**. Los enlaces con la clase `.enlace-nav` tienen un color y estilo de fuente distintos.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image2.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>5. Selector de Atributo</h2>
+            <p><strong>Descripción:</strong> Selecciona elementos basándose en la presencia o el valor de un atributo.</p>
+            <div class="codigo">
+<pre><code>input[required] {
+    border: 2px solid #4CAF50;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En el formulario de contacto en **`inicio.html`**. Los campos con el atributo `required` tienen un borde específico.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image5.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>6. Selector Hermano Adyacente (`+`)</h2>
+            <p><strong>Descripción:</strong> Selecciona un elemento que sigue **inmediatamente** a otro.</p>
+            <div class="codigo">
+<pre><code>h2 + p.resaltado {
+    background-color: #ffd700;
+    padding: 5px;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En la página de **`VideoJuegos.html`**. El párrafo con la clase `.resaltado` que está justo después de un `<h2>` tiene un fondo diferente.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image6.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>7. Selector de Hermano General (`~`)</h2>
+            <p><strong>Descripción:</strong> Selecciona todos los elementos que son hermanos y que siguen a otro elemento.</p>
+            <div class="codigo">
+<pre><code>h2 ~ p {
+    font-style: italic;
+    color: #555;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 10px;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En la página de **`VideoJuegos.html`**. Todos los párrafos que siguen a un `<h2>` tienen un estilo de fuente cursiva y borde.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image7.png" alt="">
+            </div>
+        </div>
+
+        <div class="selector-section">
+            <h2>8. Selector Descendiente (` `)</h2>
+            <p><strong>Descripción:</strong> Aplica estilos a un elemento que es descendiente de otro, sin importar el nivel de anidación.</p>
+            <div class="codigo">
+<pre><code>.padre span {
+    background-color: #90ee90;
+    padding: 2px 5px;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En la página de **`SeriesYPeliculas.html`**. Fíjate en el `<span>` dentro de la lista de curiosidades; tiene un fondo resaltado.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image8.png" alt="">
+            </div>
+        </div>
+        
+        <div class="selector-section">
+            <h2>9. Selector Hijo Directo (`>`)</h2>
+            <p><strong>Descripción:</strong> Selecciona solo los elementos que son hijos **directos** de otro.</p>
+            <div class="codigo">
+<pre><code>ul > li {
+    list-style-type: square;
+    color: #008080;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En la lista de curiosidades en **`SeriesYPeliculas.html`**. Solo los elementos de la lista principal tienen un estilo diferente de viñeta.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image8.png" alt="">
+            </div>
+        </div>
+        
+        <div class="selector-section">
+            <h2>10. Selector de Lista (`,`)</h2>
+            <p><strong>Descripción:</strong> Permite agrupar varios selectores para aplicar el mismo estilo a todos ellos.</p>
+            <div class="codigo">
+<pre><code>h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}</code></pre>
+            </div>
+            <p class="location"><strong>Ubicación:</strong> En **todas tus páginas**. Los títulos `<h1>`, `<h2>` y `<h3>` comparten la misma fuente, `Georgia`.</p>
+            <div class="captura-container">
+                <img width="500x400" src="imagenes practica 5/image10.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

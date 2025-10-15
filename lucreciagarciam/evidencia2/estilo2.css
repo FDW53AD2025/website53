@@ -1,0 +1,12 @@
+td { 
+    border: 1px solid green; 
+    padding: 6px; 
+    text-align: center; 
+}
+
+h1 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: antiquewhite;
+}

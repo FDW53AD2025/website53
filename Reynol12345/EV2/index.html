@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Operadores de Comparación</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Aplicación de Operadores de Comparación</h1>
+    <form>
+        <label for="num1">Número 1:</label>
+        <input type="text" id="num1" name="num1">
+
+        <label for="num2">Número 2:</label>
+        <input type="text" id="num2" name="num2">
+
+        <label for="operador">Operador de comparación:</label>
+        <select id="operador" name="operador">
+            <option value="==">== (Igual a)</option>
+            <option value="!=">!= (Distinto de)</option>
+            <option value=">">&gt; (Mayor que)</option>
+            <option value="<">&lt; (Menor que)</option>
+            <option value=">=">&gt;= (Mayor o igual que)</option>
+            <option value="<=">&lt;= (Menor o igual que)</option>
+        </select>
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly>
+
+        <button id="calcular">Calcular</button>
+    </form>
+
+    <script src="cosigo.js"></script>
+</body>
+</html>
