@@ -1,0 +1,79 @@
+/* Botón elegante y minimalista */
+#a08 a {
+  font-family: "Segoe UI", "Candara", "Calibri", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 1rem; /* más pequeño */
+  color: #ffffff; /* letras blancas */
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+  padding: 8px 16px; /* espacio interno del botón */
+  background-color: #f5e6d3; /* beige */
+  border-radius: 8px; /* bordes redondeados */
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+
+/* Hover: sube y cambia ligeramente de color */
+#a08 a:hover {
+  transform: translateY(-2px);
+  background-color: #ecd8b8; /* beige más intenso al pasar el mouse */
+  color: #ffffff;
+}
+
+/* Emoji antes del texto */
+#a08 a::before {
+  content: "💖 ";
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Emoji después del texto */
+#a08 a::after {
+  content: " 💖";
+  font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Animación de los emojis al hover */
+#a08 a:hover::before,
+#a08 a:hover::after {
+  transform: translateY(-1px) scale(1.1);
+  color: #ffffff;
+}
+
+.flexbox-practica {
+  display: flex;
+  flex-wrap: wrap;        /* para que bajen a otra fila si no caben */
+  justify-content: center; /* centra horizontalmente */
+  gap: 20px;               /* espacio entre cartas */
+  padding: 40px;
+}
+
+.card {
+  background-color: #ff6b6b;   /* color de fondo (puedes cambiarlo) */
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s, background-color 0.3s;
+  color: #fff; /* texto en blanco */
+}
+
+.card:nth-child(2) {
+  background-color: #4ecdc4; /* carta 2 otro color */
+}
+
+.card:nth-child(3) {
+  background-color: #1a535c; /* carta 3 otro color */
+}
+
+.card:nth-child(4) {
+  background-color: #ffa600; /* carta 4 otro color */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* efecto flotante al pasar el mouse */
+}
