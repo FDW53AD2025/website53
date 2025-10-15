@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación Operadores de Comparación</title>
+  <link rel="stylesheet" href="EstiloAppOperadores.css">
+</head>
+<body>
+  <h1>Aplicación Operadores de Comparación</h1>
+  <form id="form">
+    <label for="num1">Número uno</label>
+    <input type="text" name="num1" id="num1">
+    <label for="num2">Número dos</label>
+    <input type="text" name="num2" id="num2">
+    <label for="operadores">Operadores</label>
+    <select name="operadores" id="operadores">
+      <option value="1">Mayor que</option>
+      <option value="2">Menor que</option>
+      <option value="3">Desigualdad</option>
+      <option value="4">Igualdad</option>
+      <option value="5">Mayor o igual que</option>
+      <option value="6">Menor o igual que</option>
+    </select>
+
+    <label for="resultado">Resultado</label>
+    <input type="text" name="resultado" id="resultado" readonly>
+
+    <button id="boton">Calcular</button>
+  </form>
+  <script src="AppOperadores.js"></script>
+</body>
+</html>
