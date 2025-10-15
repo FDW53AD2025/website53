@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-header {
+header, h1 {
     background-color: #004080;
     color: #fff;
     text-align: center;

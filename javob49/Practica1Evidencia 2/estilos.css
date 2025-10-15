@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30vw;
+    margin: 0 auto;
+    
+}
