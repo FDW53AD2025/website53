@@ -1,5 +1,5 @@
-// //Desarrollar una pagina web que permita generas la siguiente tabla de numeros, Esta tabla, permite aprender las tablas de mmultiplicar.La aplicacion utilizara una caja de texto en donde el usuario podra capturar la altura de la tabla.
-//Ejemplo 1: Altura 3 
+/* Tablas de multiplicar */
+
 const boton = document.getElementById("boton");
 const tabla = document.createElement("tabla");
 const contenedor = document.getElementById("contenedor");
