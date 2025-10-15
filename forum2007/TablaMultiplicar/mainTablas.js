@@ -12,9 +12,8 @@ btnGenerar.addEventListener("click", e => {
     }
 
     let tabla = document.createElement("table");
-    tabla.setAttribute("border", "1");
-    tabla.setAttribute("cellpadding", "5");
-    tabla.setAttribute("cellspacing", "0");
+    tabla.border = "1";
+   
 
     let filaEncabezado = document.createElement("tr");
     let celdaX = document.createElement("td");
